@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DC Comics — Linha do Tempo</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">A História do Universo</p>
+      <h1 class="hero-title">DC COMICS</h1>
+      <p class="hero-subtitle">Das Origens à Guerra Total — As Sagas que Definiram um Universo</p>
+      <div class="hero-bolt"></div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Role para explorar</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M5 9l7 7 7-7"/>
+      </svg>
+    </div>
+  </header>
+
+  <!-- ERAS LEGEND -->
+  <nav class="eras-nav">
+    <div class="eras-nav-inner">
+      <button class="era-pill active" data-filter="all">Todas as Eras</button>
+      <button class="era-pill" data-filter="golden">Era de Ouro</button>
+      <button class="era-pill" data-filter="silver">Era de Prata</button>
+      <button class="era-pill" data-filter="bronze">Era de Bronze</button>
+      <button class="era-pill" data-filter="modern">Era Moderna</button>
+      <button class="era-pill" data-filter="new52">New 52</button>
+      <button class="era-pill" data-filter="rebirth">Rebirth / Dawn</button>
+    </div>
+  </nav>
+
+  <!-- TIMELINE -->
+  <main class="timeline-section">
+    <div class="timeline-track-wrapper">
+      <div class="timeline-line"></div>
+      <div class="timeline-cards" id="timelineCards">
+        <!-- Cards inseridos via JS -->
+      </div>
+    </div>
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" id="modal">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+      <div class="modal-era-badge" id="modalEraBadge"></div>
+      <div class="modal-year" id="modalYear"></div>
+      <h2 class="modal-title" id="modalTitle"></h2>
+      <div class="modal-cover-wrapper">
+        <div class="modal-cover-placeholder" id="modalCoverPlaceholder">
+          <div class="cover-icon" id="coverIcon"></div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <section class="modal-section">
+          <h3 class="modal-section-title">A História</h3>
+          <p class="modal-text" id="modalSummary"></p>
+        </section>
+        <section class="modal-section">
+          <h3 class="modal-section-title">Principais Eventos</h3>
+          <ul class="modal-events" id="modalEvents"></ul>
+        </section>
+        <section class="modal-section">
+          <h3 class="modal-section-title">Consequências no Universo DC</h3>
+          <p class="modal-text" id="modalConsequences"></p>
+        </section>
+        <div class="modal-writers" id="modalWriters"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Todos os personagens e histórias são propriedade da <strong>DC Comics / Warner Bros. Discovery</strong>.</p>
+    <p class="footer-sub">Site criado para fins educacionais e culturais.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
