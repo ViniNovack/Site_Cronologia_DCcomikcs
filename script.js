@@ -785,38 +785,31 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeModal();
 });
 
-// --- PLAYER DE ÁUDIO (música de fundo) ---
+// --- ÁUDIO DE FUNDO (autoplay a partir da 1ª interação) ---
+// Navegadores bloqueiam áudio com som antes de qualquer interação do
+// usuário na página. Por isso, assim que a pessoa clicar ou tocar em
+// QUALQUER lugar do site pela primeira vez, a música começa a tocar
+// sozinha em loop, sem precisar de um botão de play.
 function setupAudioPlayer() {
-  const audio       = document.getElementById("bgAudio");
-  const toggleBtn   = document.getElementById("audioToggle");
-  const playerEl    = document.getElementById("audioPlayer");
-  const iconPlay    = toggleBtn.querySelector(".icon-play");
-  const iconPause   = toggleBtn.querySelector(".icon-pause");
-
-  if (!audio || !toggleBtn) return;
+  const audio = document.getElementById("bgAudio");
+  if (!audio) return;
 
   audio.volume = 0.35;
+  let started = false;
 
-  toggleBtn.addEventListener("click", () => {
-    if (audio.paused) {
-      audio.play().catch(() => {
-        // Se o arquivo theme.mp3 não existir ou o navegador bloquear,
-        // falha silenciosamente sem quebrar o site.
-        console.warn("Não foi possível tocar o áudio. Verifique se o arquivo theme.mp3 está na mesma pasta.");
-      });
-      iconPlay.style.display = "none";
-      iconPause.style.display = "block";
-      toggleBtn.setAttribute("aria-pressed", "true");
-      toggleBtn.setAttribute("aria-label", "Pausar música de fundo");
-      playerEl.classList.add("playing");
-    } else {
-      audio.pause();
-      iconPlay.style.display = "block";
-      iconPause.style.display = "none";
-      toggleBtn.setAttribute("aria-pressed", "false");
-      toggleBtn.setAttribute("aria-label", "Tocar música de fundo");
-      playerEl.classList.remove("playing");
-    }
+  function startMusic() {
+    if (started) return;
+    started = true;
+    audio.play().catch(() => {
+      // Se falhar (ex: arquivo theme.mp3 ausente), tenta de novo no
+      // próximo clique sem quebrar a navegação.
+      started = false;
+    });
+  }
+
+  // Qualquer clique, toque ou tecla no documento dispara a música uma vez.
+  ["click", "touchstart", "keydown"].forEach(evt => {
+    document.addEventListener(evt, startMusic, { once: true, passive: true });
   });
 }
 
