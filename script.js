@@ -6,7 +6,7 @@ const sagas = [
   {
     id: 1, year: "1938", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem do Superman",
-    wikiSlug: "Action_Comics_1",
+    wikiSlugs: ["Action_Comics_1"],
     fallbackIcon: "🦸",
     summary: "Em 1938, Jerry Siegel e Joe Shuster apresentaram ao mundo o primeiro super-herói moderno: Superman. Publicado na Action Comics #1, Kal-El chega à Terra como bebê, enviado por seu pai Jor-El antes da destruição de Krypton. Criado pelos Kent em Smallville, Clark descobre seus poderes e decide proteger a humanidade como o Homem de Aço, estabelecendo o arquétipo do herói em quadrinhos que influenciaria toda a indústria.",
     events: [
@@ -22,7 +22,7 @@ const sagas = [
   {
     id: 2, year: "1939", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem do Batman",
-    wikiSlug: "Detective_Comics_27",
+    wikiSlugs: ["Detective_Comics_27"],
     fallbackIcon: "🦇",
     summary: "Um ano após o Superman, Bob Kane e Bill Finger criaram o Cavaleiro das Trevas. Bruce Wayne assiste à morte de seus pais Thomas e Martha em um assalto num beco de Gotham City. O trauma molda sua vida inteira: ele treina corpo e mente ao máximo para se tornar o Batman, o maior detetive e vigilante do mundo. Diferente de Superman, Batman não tem poderes — apenas inteligência, riqueza, técnica e determinação inabalável.",
     events: [
@@ -38,7 +38,7 @@ const sagas = [
   {
     id: 3, year: "1941", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem da Mulher-Maravilha",
-    wikiSlug: "Wonder_Woman",
+    wikiSlugs: ["Wonder_Woman"],
     fallbackIcon: "⚔️",
     summary: "William Moulton Marston criou Diana, princesa das Amazonas de Themyscira, com a intenção explícita de criar um herói feminino que fosse um modelo de poder, bondade e justiça. Filha da rainha Hipólita, Diana deixa seu paraíso isolado para trazer paz ao mundo dos homens durante a Segunda Guerra Mundial, portando a Tiara, as Pulseiras Inquebráveis e o Laço da Verdade.",
     events: [
@@ -54,7 +54,7 @@ const sagas = [
   {
     id: 4, year: "1956", era: "silver", eraLabel: "Era de Prata",
     title: "O Surgimento do Flash",
-    wikiSlug: "Showcase_(comics)",
+    wikiSlugs: ["Showcase_(comics)"],
     fallbackIcon: "⚡",
     summary: "Em Showcase #4, Julius Schwartz reinventou o Flash, substituindo Jay Garrick pelo policial Barry Allen. Um acidente de laboratório envolve Allen em produtos químicos e raios, concedendo-lhe a capacidade de correr mais rápido do que a luz. Este evento inaugurou oficialmente a Era de Prata dos quadrinhos, um renascimento do gênero após anos de declínio.",
     events: [
@@ -70,7 +70,7 @@ const sagas = [
   {
     id: 5, year: "1960", era: "silver", eraLabel: "Era de Prata",
     title: "Surgimento da Liga da Justiça",
-    wikiSlug: "Justice_League_of_America",
+    wikiSlugs: ["The_Brave_and_the_Bold_(comic_book)", "Justice_League", "Justice_League_of_America"],
     fallbackIcon: "🌟",
     summary: "A Liga da Justiça da América reuniu pela primeira vez os maiores heróis da DC em uma equipe. Superman, Batman, Mulher-Maravilha, Flash, Lanterna Verde, Aquaman e Marciano Caçador de Homens passaram a enfrentar ameaças que nenhum herói poderia enfrentar sozinho. A formação de um time de super-heróis foi uma ideia revolucionária que logo inspiraria a Marvel a criar os X-Men e os Vingadores.",
     events: [
@@ -86,7 +86,7 @@ const sagas = [
   {
     id: 6, year: "1971", era: "bronze", eraLabel: "Era de Bronze",
     title: "O Quarto Mundo de Jack Kirby",
-    wikiSlug: "New_Gods",
+    wikiSlugs: ["New_Gods", "Fourth_World_(comics)", "Mister_Miracle"],
     fallbackIcon: "🌌",
     summary: "Jack Kirby migrou para a DC e criou o Quarto Mundo, uma saga épica sobre a guerra entre Nova Gênese e Apokolips. Darkseid surge como um tirano divino em busca da Anti-Vida Equação — uma fórmula matemática capaz de subjugar toda forma de vida à sua vontade. As histórias de Kirby exploraram mitologia cósmica de escala nunca vista, redefinindo o escopo dos quadrinhos.",
     events: [
@@ -102,7 +102,7 @@ const sagas = [
   {
     id: 7, year: "1970", era: "bronze", eraLabel: "Era de Bronze",
     title: "GL/GA: O Espantalho de Deus",
-    wikiSlug: "Green_Lantern/Green_Arrow",
+    wikiSlugs: ["Green_Lantern/Green_Arrow"],
     fallbackIcon: "💊",
     summary: "Dennis O'Neil e Neal Adams criaram uma das séries mais politicamente corajosas dos quadrinhos, abordando drogas, racismo e pobreza. Hal Jordan enfrenta um dilema ao ver seu companheiro Roy Harper (Speedy) viciado em heroína — até então um tema impensável nos quadrinhos americanos, publicada sem a aprovação do Comics Code Authority.",
     events: [
@@ -118,7 +118,7 @@ const sagas = [
   {
     id: 8, year: "1985", era: "modern", eraLabel: "Era Moderna",
     title: "Crise nas Infinitas Terras",
-    wikiSlug: "Crisis_on_Infinite_Earths",
+    wikiSlugs: ["Crisis_on_Infinite_Earths"],
     fallbackIcon: "🌀",
     summary: "O Anti-Monitor inicia uma guerra para destruir todo o Multiverso DC com ondas de antimatéria. Ao longo de 12 edições, incontáveis universos paralelos são eliminados. Supergirl dá sua vida para salvar Superman. Barry Allen (Flash) corre mais rápido do que qualquer coisa para destruir o canhão de antimatéria, desintegrando-se no processo.",
     events: [
@@ -134,7 +134,7 @@ const sagas = [
   {
     id: 9, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: O Cavaleiro das Trevas",
-    wikiSlug: "Batman:_The_Dark_Knight_Returns",
+    wikiSlugs: ["Batman:_The_Dark_Knight_Returns"],
     fallbackIcon: "🌑",
     summary: "Frank Miller imaginou um futuro distópico onde um Bruce Wayne de 55 anos retorna como Batman diante de um Gotham dominado pelo crime. Com o corpo debilitado mas a mente afiada, ele enfrenta os Mutantes e tem um confronto épico e ideológico com um Superman controlado pelo governo americano, redefinindo o que Batman poderia ser.",
     events: [
@@ -150,7 +150,7 @@ const sagas = [
   {
     id: 10, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Watchmen",
-    wikiSlug: "Watchmen",
+    wikiSlugs: ["Watchmen"],
     fallbackIcon: "🕐",
     summary: "Alan Moore e Dave Gibbons desconstruíram o arquétipo do super-herói em doze edições que mudaram os quadrinhos para sempre. Em uma América alternativa à beira da guerra nuclear, um grupo de vigilantes aposentados investiga o assassinato de um colega, revelando uma conspiração macabra que questiona fundamentalmente o que significa ser herói.",
     events: [
@@ -166,7 +166,7 @@ const sagas = [
   {
     id: 11, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: A Piada Mortal",
-    wikiSlug: "Batman:_The_Killing_Joke",
+    wikiSlugs: ["Batman:_The_Killing_Joke"],
     fallbackIcon: "🃏",
     summary: "Alan Moore apresentou a origem definitiva do Coringa — um comediante fracassado que vive 'um dia ruim' e enlouquece completamente. O Coringa atira e paralisa Barbara Gordon e rapta o comissário James Gordon para provar que qualquer pessoa pode quebrar, explorando o paralelo psicológico entre Batman e Coringa.",
     events: [
@@ -182,7 +182,7 @@ const sagas = [
   {
     id: 12, year: "1989", era: "modern", eraLabel: "Era Moderna",
     title: "Arkham Asylum",
-    wikiSlug: "Arkham_Asylum:_A_Serious_House_on_Serious_Earth",
+    wikiSlugs: ["Arkham_Asylum:_A_Serious_House_on_Serious_Earth"],
     fallbackIcon: "🏚️",
     summary: "Grant Morrison desceu às profundezas psicológicas do Hospício Arkham quando todos os vilões de Batman tomam o prédio como reféns. A obra é narrada em paralelo com a história de Amadeus Arkham, fundador do asilo, revelando que o próprio prédio é uma arquitetura de loucura. Batman enfrenta seus maiores medos enquanto caminha pelos corredores sombrios.",
     events: [
@@ -198,7 +198,7 @@ const sagas = [
   {
     id: 13, year: "1992", era: "modern", eraLabel: "Era Moderna",
     title: "A Morte do Superman",
-    wikiSlug: "The_Death_of_Superman",
+    wikiSlugs: ["The_Death_of_Superman"],
     fallbackIcon: "🪦",
     summary: "Doomsday, uma criatura de destruição pura criada em Krypton, avança destruindo tudo em seu caminho. A Liga da Justiça tenta detê-lo e falha miseravelmente. Superman enfrenta Doomsday em Metrópolis em um confronto brutal que culmina com ambos caindo mortos. A notícia chocou o mundo real, com reportagens em telejornais e filas em bancas.",
     events: [
@@ -214,7 +214,7 @@ const sagas = [
   {
     id: 14, year: "1993", era: "modern", eraLabel: "Era Moderna",
     title: "Knightfall: A Queda do Batman",
-    wikiSlug: "Batman:_Knightfall",
+    wikiSlugs: ["Batman:_Knightfall"],
     fallbackIcon: "🦴",
     summary: "Bane elabora um plano brilhante: liberar todos os prisioneiros de Arkham para exaurir o Cavaleiro das Trevas antes do confronto final. O plano funciona. Em sua mansão, Bane quebra a coluna de Bruce Wayne sobre seu joelho, em uma das cenas mais icônicas da história dos quadrinhos.",
     events: [
@@ -230,7 +230,7 @@ const sagas = [
   {
     id: 15, year: "1994", era: "modern", eraLabel: "Era Moderna",
     title: "Zero Hour: Crise no Tempo",
-    wikiSlug: "Zero_Hour:_Crisis_in_Time!",
+    wikiSlugs: ["Zero_Hour:_Crisis_in_Time!"],
     fallbackIcon: "⏳",
     summary: "Hal Jordan enlouquece após a destruição de Coast City, massacra quase todos os membros do Corpo das Lanternas Verdes e absorve todo o poder de Oa. Renomeando-se Parallax, ele decide refazer o tempo para salvar sua cidade — custando a estabilidade de toda a linha do tempo do universo DC.",
     events: [
@@ -246,7 +246,7 @@ const sagas = [
   {
     id: 16, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Kingdom Come",
-    wikiSlug: "Kingdom_Come_(comics)",
+    wikiSlugs: ["Kingdom_Come_(comics)"],
     fallbackIcon: "👑",
     summary: "Mark Waid e Alex Ross criaram uma visão do futuro da DC onde a geração clássica de heróis foi substituída por uma nova geração violenta e irresponsável. Superman saiu da aposentadoria para restaurar a ordem. O conflito entre gerações, entre ideais e pragmatismo, leva a uma conclusão cataclísmica onde a humanidade e os deuses devem decidir o futuro da Terra.",
     events: [
@@ -262,7 +262,7 @@ const sagas = [
   {
     id: 17, year: "2000", era: "modern", eraLabel: "Era Moderna",
     title: "JLA: Torre de Babel",
-    wikiSlug: "JLA:_Tower_of_Babel",
+    wikiSlugs: ["JLA:_Tower_of_Babel"],
     fallbackIcon: "📖",
     summary: "Ra's al Ghul rouba os planos secretos de Batman com as fraquezas e formas de neutralizar cada membro da Liga da Justiça. Usando esses planos, ele incapacita toda a JLA ao mesmo tempo: Superman é exposto a kriptonita sintética, Flash é preso num estado de aceleração infinita, Aquaman desenvolve hidrofobia. A Liga quase é destruída por dentro.",
     events: [
@@ -278,7 +278,7 @@ const sagas = [
   {
     id: 18, year: "2003", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: Hush",
-    wikiSlug: "Batman:_Hush",
+    wikiSlugs: ["Batman:_Hush"],
     fallbackIcon: "🤫",
     summary: "Jeph Loeb e Jim Lee criaram uma das histórias mais visualmente deslumbrantes do Batman: um vilão misterioso chamado Hush orquestra praticamente cada inimigo do Batman em sequência, enquanto Bruce Wayne vive um raro romance com Selina Kyle (Mulher-Gato). A identidade de Hush, revelada gradualmente, conecta o passado de Bruce Wayne de forma surpreendente.",
     events: [
@@ -294,7 +294,7 @@ const sagas = [
   {
     id: 19, year: "2004", era: "modern", eraLabel: "Era Moderna",
     title: "Identidade Secreta",
-    wikiSlug: "Identity_Crisis_(DC_Comics)",
+    wikiSlugs: ["Identity_Crisis_(DC_Comics)"],
     fallbackIcon: "🔍",
     summary: "Brad Meltzer escreveu uma das histórias mais emocionalmente pesadas da DC: a esposa do Arqueiro Esmeralda é assassinada brutalmente. A investigação revela que no passado, membros da Liga da Justiça usaram o apagamento de memórias do Dr. Destino para encobrir um crime grave, questionando a moralidade de heróis que manipulam mentes.",
     events: [
@@ -310,7 +310,7 @@ const sagas = [
   {
     id: 20, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Crise Infinita",
-    wikiSlug: "Infinite_Crisis",
+    wikiSlugs: ["Infinite_Crisis"],
     fallbackIcon: "🌌",
     summary: "Os sobreviventes da Crise nas Infinitas Terras — Superboy-Prime, Alexander Luthor Jr. e o casal Superman e Lois Lane da Terra-2 — concluíram que este era o 'universo errado'. Superboy-Prime começa a socar a barreira entre dimensões, alterando a realidade. Alexander Luthor constrói uma máquina para restaurar o Multiverso com intenções ocultas e destrutivas.",
     events: [
@@ -326,7 +326,7 @@ const sagas = [
   {
     id: 21, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Filho Vermelho",
-    wikiSlug: "Superman:_Red_Son",
+    wikiSlugs: ["Superman:_Red_Son"],
     fallbackIcon: "☭",
     summary: "Mark Millar imaginou: e se a nave de Kal-El tivesse caído na União Soviética em vez dos EUA? Nessa história, Superman cresce como o maior campeão do socialismo soviético, tornando-se a ferramenta mais poderosa da Guerra Fria. Enquanto isso, Lex Luthor trabalha para os EUA tentando encontrar uma forma de derrotá-lo, e a Mulher-Maravilha e o Batman russo surgem como peças no tabuleiro geopolítico.",
     events: [
@@ -342,7 +342,7 @@ const sagas = [
   {
     id: 22, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "All-Star Superman",
-    wikiSlug: "All-Star_Superman",
+    wikiSlugs: ["All-Star_Superman"],
     fallbackIcon: "☀️",
     summary: "Grant Morrison e Frank Quitely criaram a celebração definitiva do Superman: exposto a uma dose letal de energia solar por Lex Luthor, Superman descobre que está morrendo e decide dedicar seus últimos dias completando doze trabalhos hercúleos. A história é ao mesmo tempo o maior conto de Superman e uma meditação sobre mortalidade, legado e o que significa ser um deus entre humanos.",
     events: [
@@ -358,7 +358,7 @@ const sagas = [
   {
     id: 23, year: "2007", era: "modern", eraLabel: "Era Moderna",
     title: "A Guerra dos Sinestro Corps",
-    wikiSlug: "Sinestro_Corps_War",
+    wikiSlugs: ["Sinestro_Corps_War"],
     fallbackIcon: "🟡",
     summary: "Sinestro recruta os seres mais aterrorizantes do universo — incluindo o Anti-Monitor e Superboy-Prime — para formar um exército de anéis amarelos baseados no medo. O Corpo das Lanternas Verdes enfrenta sua maior guerra, com Hal Jordan, Kyle Rayner, John Stewart e Guy Gardner na linha de frente. A batalha decisiva acontece nas ruas de Nova York.",
     events: [
@@ -374,7 +374,7 @@ const sagas = [
   {
     id: 24, year: "2008", era: "modern", eraLabel: "Era Moderna",
     title: "Final Crisis",
-    wikiSlug: "Final_Crisis",
+    wikiSlugs: ["Final_Crisis"],
     fallbackIcon: "🔴",
     summary: "Grant Morrison escreveu o maior pesadelo da DC: Darkseid finalmente encontrou a Anti-Vida Equação e a transmitiu pela internet, subjugando a mente de praticamente toda a humanidade. Batman viola seu único código ao atirar em Darkseid. Superman usa a Máquina de Montagem para recriar a realidade e destruir Darkseid.",
     events: [
@@ -390,7 +390,7 @@ const sagas = [
   {
     id: 25, year: "2009", era: "modern", eraLabel: "Era Moderna",
     title: "Lanterna Verde: Blackest Night",
-    wikiSlug: "Blackest_Night",
+    wikiSlugs: ["Blackest_Night"],
     fallbackIcon: "💍",
     summary: "Nekron, o senhor da morte, desencadeia a Blackest Night: anéis pretos ressuscitam os mortos de todo o universo DC como Lanternas Negras. Lanterna Verde Hal Jordan precisa unir os representantes de todos os espectros emocionais — de Atrocitus (vermelho/raiva) a Larfleeze (laranja/ganância) — numa Lanterna Branca para combater a morte personificada.",
     events: [
@@ -406,7 +406,7 @@ const sagas = [
   {
     id: 26, year: "2010", era: "modern", eraLabel: "Era Moderna",
     title: "O Dia Mais Claro",
-    wikiSlug: "Brightest_Day",
+    wikiSlugs: ["Brightest_Day"],
     fallbackIcon: "🌟",
     summary: "Após os eventos de Blackest Night, doze heróis e vilões são misteriosamente ressuscitados pela Lanterna Branca — entre eles Aquaman, Martian Manhunter, Hawkman, Hawkgirl e o Espectro Branco. Cada ressuscitado tem uma missão específica que deve cumprir. Por trás de tudo está o Entidade, o ser de vida primordial, e uma ameaça que pode consumir toda a vida na Terra.",
     events: [
@@ -422,7 +422,7 @@ const sagas = [
   {
     id: 27, year: "2011", era: "modern", eraLabel: "Era Moderna",
     title: "Flashpoint",
-    wikiSlug: "Flashpoint_(comics)",
+    wikiSlugs: ["Flashpoint_(comics)"],
     fallbackIcon: "🌩️",
     summary: "Barry Allen acorda em um mundo completamente diferente: sem poderes, sem Liga da Justiça, com Thomas Wayne como Batman e o mundo destruído pela guerra entre Aquaman e a Mulher-Maravilha. Barry descobre que sua mãe Nora, que deveria ter morrido assassinada, está viva — porque ele mesmo voltou no tempo para salvá-la, alterando toda a linha do tempo.",
     events: [
@@ -438,7 +438,7 @@ const sagas = [
   {
     id: 28, year: "2011", era: "new52", eraLabel: "New 52",
     title: "New 52: Reinício do Universo DC",
-    wikiSlug: "The_New_52",
+    wikiSlugs: ["The_New_52"],
     fallbackIcon: "🔁",
     summary: "Em setembro de 2011, a DC Comics relançou todos os seus títulos a partir do número 1 simultaneamente — o New 52. O universo foi reiniciado: origens foram reescritas, continuidades apagadas, relacionamentos alterados. Superman voltou a ser jovem e inexperiente em calças jeans. Mulher-Maravilha ganhou nova origem como filha literal de Zeus.",
     events: [
@@ -454,7 +454,7 @@ const sagas = [
   {
     id: 29, year: "2012", era: "new52", eraLabel: "New 52",
     title: "Batman: Corte da Coruja",
-    wikiSlug: "Court_of_Owls",
+    wikiSlugs: ["Batman_(comic_book)", "Court_of_Owls", "Scott_Snyder"],
     fallbackIcon: "🦉",
     summary: "Scott Snyder e Greg Capullo criaram a melhor história do Batman do New 52: a Corte das Corujas, uma sociedade secreta que controla Gotham City desde sua fundação, direciona sua atenção ao Batman. Os Talon — assassinos imortais e ressuscitados — atacam Gotham em massa. Bruce Wayne descobre que a própria Corte influenciou cada aspecto da história de Gotham.",
     events: [
@@ -470,7 +470,7 @@ const sagas = [
   {
     id: 30, year: "2015", era: "new52", eraLabel: "New 52",
     title: "A Guerra de Darkseid",
-    wikiSlug: "Darkseid_War",
+    wikiSlugs: ["Darkseid_War"],
     fallbackIcon: "🔥",
     summary: "Geoff Johns criou o maior evento do New 52: a Liga da Justiça fica presa no meio de uma guerra entre Darkseid e o Anti-Monitor. A filha de Darkseid, Grail, manipula ambos os lados. No caos, membros da Liga absorvem poderes de deuses — Batman senta no Mobius Chair e se torna onisciente, Flash funde-se com a Speed Force e Superman é exposto à Anti-Vida Equação.",
     events: [
@@ -486,7 +486,7 @@ const sagas = [
   {
     id: 31, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC Rebirth: O Universo Volta",
-    wikiSlug: "DC_Rebirth",
+    wikiSlugs: ["DC_Rebirth"],
     fallbackIcon: "🌅",
     summary: "Wally West, o Flash original do universo pré-New 52, estava preso na Speed Force, esquecido por todos porque sua existência havia sido apagada pela manipulação de Dr. Manhattan. Nessa edição especial de 80 páginas, Wally usa suas últimas forças tentando que alguém o lembre. Batman encontra o botão amarelo do sorriso do Comediante na Batcaverna, conectando o mundo de Watchmen ao DCU.",
     events: [
@@ -502,7 +502,7 @@ const sagas = [
   {
     id: 32, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Batman: A Maldição do Barão Branco",
-    wikiSlug: "Batman:_White_Knight",
+    wikiSlugs: ["Batman:_White_Knight"],
     fallbackIcon: "🎭",
     summary: "Sean Murphy criou uma história alternativa onde o Coringa, após tratamento psiquiátrico, fica curado de sua insanidade e se torna Jack Napier. Ele usa meios legais e políticos para expor as falhas sistêmicas do sistema de justiça de Gotham, argumentando que Batman é a causa do crime em Gotham, não a solução.",
     events: [
@@ -518,7 +518,7 @@ const sagas = [
   {
     id: 33, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Doomsday Clock",
-    wikiSlug: "Doomsday_Clock_(comics)",
+    wikiSlugs: ["Doomsday_Clock_(comics)"],
     fallbackIcon: "⏰",
     summary: "A continuação direta de Watchmen e de DC Rebirth. No mundo de Rorschach, o plano de Ozymandias foi revelado e o mundo entrou em colapso. O novo Rorschach e Ozymandias cruzam para o universo DC em busca do Dr. Manhattan, que está secretamente presente há décadas moldando a realidade da DC e removendo a esperança do universo.",
     events: [
@@ -534,7 +534,7 @@ const sagas = [
   {
     id: 34, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Metal",
-    wikiSlug: "Dark_Nights:_Metal",
+    wikiSlugs: ["Dark_Nights:_Metal"],
     fallbackIcon: "🎸",
     summary: "Scott Snyder revelou que existe um Multiverso das Trevas abaixo do Multiverso normal, feito de matéria escura e pesadelos. O Deus-Corvo Barbatos usa Batman como portal de entrada, liberando versões sombrias de Batman de universos onde ele caiu em desgraça — incluindo o Batman que Ri, a fusão entre Batman e Coringa.",
     events: [
@@ -550,7 +550,7 @@ const sagas = [
   {
     id: 35, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Death Metal",
-    wikiSlug: "Dark_Nights:_Death_Metal",
+    wikiSlugs: ["Dark_Nights:_Death_Metal"],
     fallbackIcon: "🤘",
     summary: "A conclusão da saga do Batman que Ri: o mundo foi recriado como uma escultura de horror, com versões corrompidas de todos os heróis. Wonder Woman lidera a resistência. O Darkfather — um Darkseid infundido com energia Anti-Vida — ameaça o Multiverso inteiro. A resolução usa a própria Crise como ferramenta para expandir o Multiverso, criando o Omniverso.",
     events: [
@@ -566,7 +566,7 @@ const sagas = [
   {
     id: 36, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC K.O.: Absolute Power",
-    wikiSlug: "DC_K.O.",
+    wikiSlugs: ["DC_K.O.", "Absolute_Power_(comics)", "Amanda_Waller"],
     fallbackIcon: "💥",
     summary: "Amanda Waller usa tecnologia Brainiac para eliminar temporariamente os poderes de todos os heróis. Em resposta, a DC lança o DC All In e o Absolute Universe — um universo paralelo com versões mais sombrias e radicais de Superman, Batman e Mulher-Maravilha, sem os códigos morais das versões clássicas. O confronto entre os dois universos define o futuro da DC.",
     events: [
@@ -594,22 +594,60 @@ const eraColors = {
 // --- CACHE DE IMAGENS ---
 const imageCache = {};
 
-async function fetchWikiImage(slug) {
-  if (imageCache[slug] !== undefined) return imageCache[slug];
+// Tenta buscar o thumbnail de UM slug específico via Wikipedia REST API
+async function fetchSingleWikiImage(slug) {
   try {
     const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(slug)}`;
     const res = await fetch(url);
     if (!res.ok) throw new Error("no data");
     const data = await res.json();
-    const img = data?.thumbnail?.source || null;
-    // Pede resolução maior substituindo o tamanho no URL
-    const highRes = img ? img.replace(/\/\d+px-/, '/400px-') : null;
-    imageCache[slug] = highRes;
-    return highRes;
+    const img = data?.thumbnail?.source || data?.originalimage?.source || null;
+    return img ? img.replace(/\/\d+px-/, '/500px-') : null;
   } catch {
-    imageCache[slug] = null;
     return null;
   }
+}
+
+// Fallback extra: usa a API de pageimages do MediaWiki, que costuma achar
+// imagens mesmo quando o REST summary não tem thumbnail (ex: páginas de
+// organizações, conceitos ou personagens em vez de uma HQ específica).
+async function fetchWikiPageImageFallback(slug) {
+  try {
+    const title = slug.replace(/_/g, ' ');
+    const url = `https://en.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(title)}&prop=pageimages&format=json&pithumbsize=500&origin=*`;
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("no data");
+    const data = await res.json();
+    const pages = data?.query?.pages || {};
+    for (const key in pages) {
+      const thumb = pages[key]?.thumbnail?.source;
+      if (thumb) return thumb;
+    }
+    return null;
+  } catch {
+    return null;
+  }
+}
+
+// Recebe um array de slugs candidatos (em ordem de preferência) e tenta
+// cada um, primeiro via REST summary, depois via pageimages, até achar
+// uma imagem válida. Resultado fica em cache pela chave do primeiro slug.
+async function fetchWikiImage(slugs) {
+  const slugList = Array.isArray(slugs) ? slugs : [slugs];
+  const cacheKey = slugList[0];
+  if (imageCache[cacheKey] !== undefined) return imageCache[cacheKey];
+
+  for (const slug of slugList) {
+    let img = await fetchSingleWikiImage(slug);
+    if (!img) img = await fetchWikiPageImageFallback(slug);
+    if (img) {
+      imageCache[cacheKey] = img;
+      return img;
+    }
+  }
+
+  imageCache[cacheKey] = null;
+  return null;
 }
 
 // --- RENDERIZAR CARDS ---
@@ -655,7 +693,7 @@ async function renderCards(filter = "all") {
 
   // Carrega imagens em segundo plano
   for (const { saga, card } of cards) {
-    fetchWikiImage(saga.wikiSlug).then(imgUrl => {
+    fetchWikiImage(saga.wikiSlugs).then(imgUrl => {
       if (!imgUrl) return;
       const coverEl = document.getElementById(`cover-card-${saga.id}`);
       if (coverEl) {
@@ -705,7 +743,7 @@ async function openModal(saga) {
   setTimeout(() => document.getElementById("modalClose").focus(), 350);
 
   // Carrega imagem real para o modal
-  const imgUrl = await fetchWikiImage(saga.wikiSlug);
+  const imgUrl = await fetchWikiImage(saga.wikiSlugs);
   if (imgUrl) {
     coverPlaceholder.innerHTML = `
       <img
@@ -747,6 +785,42 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeModal();
 });
 
+// --- PLAYER DE ÁUDIO (música de fundo) ---
+function setupAudioPlayer() {
+  const audio       = document.getElementById("bgAudio");
+  const toggleBtn   = document.getElementById("audioToggle");
+  const playerEl    = document.getElementById("audioPlayer");
+  const iconPlay    = toggleBtn.querySelector(".icon-play");
+  const iconPause   = toggleBtn.querySelector(".icon-pause");
+
+  if (!audio || !toggleBtn) return;
+
+  audio.volume = 0.35;
+
+  toggleBtn.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play().catch(() => {
+        // Se o arquivo theme.mp3 não existir ou o navegador bloquear,
+        // falha silenciosamente sem quebrar o site.
+        console.warn("Não foi possível tocar o áudio. Verifique se o arquivo theme.mp3 está na mesma pasta.");
+      });
+      iconPlay.style.display = "none";
+      iconPause.style.display = "block";
+      toggleBtn.setAttribute("aria-pressed", "true");
+      toggleBtn.setAttribute("aria-label", "Pausar música de fundo");
+      playerEl.classList.add("playing");
+    } else {
+      audio.pause();
+      iconPlay.style.display = "block";
+      iconPause.style.display = "none";
+      toggleBtn.setAttribute("aria-pressed", "false");
+      toggleBtn.setAttribute("aria-label", "Tocar música de fundo");
+      playerEl.classList.remove("playing");
+    }
+  });
+}
+
 // --- INIT ---
 renderCards();
 setupFilters();
+setupAudioPlayer();

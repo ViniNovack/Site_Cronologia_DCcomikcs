@@ -13,7 +13,9 @@
 
   <!-- HERO -->
   <header class="hero">
-    <div class="hero-bg"></div>
+    <div class="hero-bg">
+      <img src="hero-bg.svg" alt="" class="hero-bg-art" />
+    </div>
     <div class="hero-content">
       <p class="hero-eyebrow">A História do Universo</p>
       <h1 class="hero-title">DC COMICS</h1>
@@ -27,6 +29,22 @@
       </svg>
     </div>
   </header>
+
+  <!-- AUDIO PLAYER (música de fundo) -->
+  <div class="audio-player" id="audioPlayer">
+    <audio id="bgAudio" loop preload="none">
+      <source src="theme.mp3" type="audio/mpeg" />
+    </audio>
+    <button class="audio-toggle" id="audioToggle" aria-label="Tocar música de fundo" aria-pressed="false">
+      <svg class="icon-play" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M8 5v14l11-7z"/>
+      </svg>
+      <svg class="icon-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+        <path d="M6 5h4v14H6zM14 5h4v14h-4z"/>
+      </svg>
+    </button>
+    <span class="audio-label">Trilha sonora</span>
+  </div>
 
   <!-- ERAS LEGEND -->
   <nav class="eras-nav">
