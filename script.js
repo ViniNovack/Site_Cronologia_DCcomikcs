@@ -160,7 +160,108 @@ const sagas = [
     consequences: "A queda de Atlântida estabeleceu a civilização submarina que séculos depois daria origem a Aquaman e ao seu reino, sendo uma das origens mitológicas mais ricas e centrais da geografia fantástica do Universo DC."
   },
   {
-    id: 12, year: "1938", era: "golden", eraLabel: "Era de Ouro",
+    id: 12, year: "4000 a.C.", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "As Eras Antigas do Egito e a Chegada de Khufu",
+    isCosmic: true,
+    fallbackIcon: "🏺",
+    summary: "No Egito Antigo, civilizações às margens do Nilo desenvolvem uma das culturas mais avançadas e duradouras da história humana. É nesse período que nasce Khufu, faraó que mais tarde seria associado a sucessivas reencarnações ao longo dos milênios — incluindo o herói da Idade Média conhecido como Cavaleiro Silencioso. Vandal Savage, já imortal há milênios, frequentemente posa como nobres e governantes egípcios, manipulando a política da região por trás dos bastidores.",
+    events: [
+      "Civilizações às margens do Nilo desenvolvem uma das culturas mais avançadas da Antiguidade",
+      "Nascimento de Khufu, figura que reencarnaria ao longo de diferentes eras da história DC",
+      "Vandal Savage usa sua imortalidade para se infiltrar na nobreza e política egípcia",
+      "Primeiros registros de magia e misticismo que mais tarde se conectariam à Liga da Justiça Sombria"
+    ],
+    consequences: "O Egito Antigo se tornou um dos cenários históricos mais recorrentes do Universo DC, berço de reencarnações, artefatos místicos e da longa história de manipulação política de Vandal Savage — elementos que reapareceriam em incontáveis histórias modernas envolvendo magia e imortalidade."
+  },
+  {
+    id: 13, year: "1004 a.C.", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Liga dos Antigos",
+    isCosmic: true,
+    fallbackIcon: "🏛️",
+    summary: "Rama Khan, nobre protetor de Jarhanpur, forma a Liga dos Antigos — os maiores super-heróis da Idade Antiga — após a Alta Sacerdotisa de Atlântida, Gamemnae, profetizar a chegada de uma 'hidra de sete cabeças' que devastaria a Terra. Em vez disso, os Antigos travam um confronto trágico: enfrentam e matam a própria Liga da Justiça da América, que havia viajado ao passado distante em busca de seu companheiro perdido, Aquaman — tudo parte de um plano da própria Gamemnae para impedir que Atlântida afundasse no futuro.",
+    events: [
+      "Gamemnae, Alta Sacerdotisa de Atlântida, profetiza a chegada de uma ameaça devastadora",
+      "Rama Khan forma a Liga dos Antigos para proteger a Terra da profecia",
+      "A Liga da Justiça da América viaja ao passado distante em busca de Aquaman",
+      "Enganados por Gamemnae, os Antigos enfrentam e matam a Liga da Justiça vinda do futuro",
+      "Atlântida é mantida fora do oceano por Gamemnae, alterando o curso da história"
+    ],
+    consequences: "Esse confronto trágico entre duas das maiores equipes de heróis de eras diferentes revelou a profundidade da manipulação de Gamemnae através dos milênios, e se tornou uma das histórias mais sombrias sobre paradoxos temporais e sacrifício heroico em toda a mitologia da Liga da Justiça."
+  },
+  {
+    id: 14, year: "Idade Média", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "Camelot e os Cavaleiros da Mesa Redonda",
+    isCosmic: true,
+    fallbackIcon: "⚔️",
+    summary: "Na época do Rei Arthur e seus Cavaleiros da Mesa Redonda, o feiticeiro da corte Merlin e seu protetor demoníaco Etrigan defendem Camelot contra as forças da bruxa Morgaine le Fey. Entre os aliados de Merlin está Sir Justin, o Cavaleiro Brilhante, que recebe uma armadura mágica invulnerável. Eventualmente, Camelot cai quando o Monstro do Pântano — deslocado no tempo — se enraíza sob suas terras e faz o castelo desabar, encerrando uma era de heroísmo lendário.",
+    events: [
+      "Merlin e Etrigan defendem Camelot contra a bruxa malvada Morgaine le Fey",
+      "Sir Justin Arthur recebe de Merlin uma armadura mágica invulnerável, tornando-se o Cavaleiro Brilhante",
+      "O Cavaleiro Silencioso, uma encarnação de Khufu, luta ao lado dos heróis de Camelot",
+      "O Monstro do Pântano, deslocado no tempo, se enraíza sob o castelo e o derruba",
+      "Camelot cai, encerrando a era lendária do Rei Arthur"
+    ],
+    consequences: "A queda de Camelot conectou diretamente personagens místicos modernos — Etrigan, Monstro do Pântano e o Cavaleiro Brilhante — a uma das lendas mais antigas e influentes da cultura ocidental, estabelecendo um fio narrativo que atravessa toda a mitologia mística do Universo DC até os dias atuais."
+  },
+  {
+    id: 15, year: "Idade Média", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "Genghis Khan e o Primeiro Lanterna Verde da Terra",
+    isCosmic: true,
+    fallbackIcon: "🐉",
+    summary: "Dispersado no tempo após batalhar o Nebula Man, o Cavaleiro Brilhante perde a memória e serve sob Genghis Khan por um período, antes de ser resgatado por Sandman, Superman e Metamorfo viajando através das eras. No mesmo período histórico, vikings cruzam o oceano rumo à América sete séculos antes de Colombo, trazendo consigo Arak, guerreiro nativo que mais tarde serviria a Carlos Magno na corte europeia.",
+    events: [
+      "O Cavaleiro Brilhante, com a memória perdida, serve sob o comando de Genghis Khan",
+      "Sandman, Superman e Metamorfo viajam no tempo para resgatar o herói perdido",
+      "Vikings cruzam o Atlântico rumo à América, sete séculos antes da chegada de Colombo",
+      "Arak, guerreiro da tribo Quontauka, é trazido à Europa e passa a servir Carlos Magno",
+      "Jong Li, monge chinês, torna-se o primeiro representante terrestre da Tropa dos Lanternas Verdes"
+    ],
+    consequences: "Esse período estabeleceu a primeira conexão da Terra com a Tropa dos Lanternas Verdes através de Jong Li, séculos antes de Hal Jordan, além de expandir a presença de heróis deslocados no tempo por diferentes impérios e culturas históricas ao redor do mundo."
+  },
+  {
+    id: 16, year: "Séc. XVI-XVII", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Era das Grandes Navegações e Primeiros Encontros",
+    isCosmic: true,
+    fallbackIcon: "🧭",
+    summary: "Durante a era das grandes navegações europeias, exploradores cruzam oceanos em busca de novos territórios, riquezas e rotas comerciais. Vandal Savage, sempre presente nos bastidores do poder ao longo dos séculos, continua manipulando eventos históricos de civilizações distantes, garantindo influência sobre o desenvolvimento das nações emergentes — sementes que décadas depois floresceriam nos conflitos que moldariam a Era Moderna.",
+    events: [
+      "Exploradores europeus cruzam oceanos em busca de novas rotas e territórios",
+      "Vandal Savage continua sua influência secreta sobre cortes e governos ao redor do mundo",
+      "Primeiros contatos entre civilizações de diferentes continentes alteram o curso da história global",
+      "Artefatos místicos antigos começam a ser redescobertos por exploradores e estudiosos"
+    ],
+    consequences: "Esse período de expansão e contato entre civilizações lançou as bases políticas e territoriais que, séculos depois, moldariam o cenário onde os primeiros super-heróis modernos surgiriam, particularmente nos Estados Unidos em formação."
+  },
+  {
+    id: 17, year: "1776", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Independência Americana e os Primeiros Heróis Patrióticos",
+    isCosmic: true,
+    fallbackIcon: "🦅",
+    summary: "A formação dos Estados Unidos da América durante a Revolução Americana planta as raízes culturais e patrióticas que séculos depois dariam origem a heróis explicitamente vinculados à identidade nacional americana, como o Capitão América de outras editoras e, no Universo DC, figuras como Stripesy, Major Victory e outros símbolos patrióticos que apareceriam durante a Era de Ouro e a Segunda Guerra Mundial.",
+    events: [
+      "Assinatura da Declaração de Independência dos Estados Unidos em 1776",
+      "Formação da identidade nacional americana que influenciaria gerações futuras",
+      "Sementes culturais do patriotismo americano que ecoariam em heróis futuros da Era de Ouro",
+      "Vandal Savage observa e influencia secretamente os eventos da Revolução Americana"
+    ],
+    consequences: "A formação dos Estados Unidos estabeleceu o pano de fundo cultural e geográfico onde, mais de 150 anos depois, surgiriam os primeiros super-heróis mascarados da Era de Ouro, com fortes elementos de patriotismo e identidade nacional refletidos em personagens como o Vingador Escarlate e a futura Sociedade da Justiça da América."
+  },
+  {
+    id: 18, year: "Séc. XIX", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Guerra Civil Americana e o Século da Industrialização",
+    isCosmic: true,
+    fallbackIcon: "🏭",
+    summary: "Ao longo do século XIX, os Estados Unidos atravessam a Guerra Civil Americana (1861-1865) e entram em uma era de rápida industrialização. Esses eventos moldam profundamente a sociedade americana que, décadas depois, veria o surgimento dos primeiros super-heróis mascarados. Jonah Hex, pistoleiro lendário do Velho Oeste, atua durante esse período, tornando-se uma das figuras mais icônicas e atemporais da mitologia DC ambientada no século XIX.",
+    events: [
+      "A Guerra Civil Americana (1861-1865) divide e reconfigura os Estados Unidos",
+      "Início da era de rápida industrialização e urbanização nos Estados Unidos",
+      "Jonah Hex atua como pistoleiro e caçador de recompensas no Velho Oeste americano",
+      "Vandal Savage continua manipulando eventos políticos e econômicos ao longo do século"
+    ],
+    consequences: "A industrialização e urbanização do século XIX criaram as condições sociais — grandes cidades, jornais de grande circulação, criminalidade organizada — que se tornariam o cenário perfeito para o surgimento dos primeiros super-heróis mascarados nas décadas de 1930, conectando o Velho Oeste de Jonah Hex diretamente à Era de Ouro dos heróis."
+  },
+  {
+    id: 19, year: "1938", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem do Superman",
     wikiSlugs: ["Action_Comics_1"],
     fallbackIcon: "🦸",
@@ -176,7 +277,7 @@ const sagas = [
     writers: "Criação: Jerry Siegel (roteiro) & Joe Shuster (arte) — Action Comics #1, 1938"
   },
   {
-    id: 13, year: "1939", era: "golden", eraLabel: "Era de Ouro",
+    id: 20, year: "1939", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem do Batman",
     wikiSlugs: ["Detective_Comics_27"],
     fallbackIcon: "🦇",
@@ -192,7 +293,23 @@ const sagas = [
     writers: "Criação: Bob Kane & Bill Finger — Detective Comics #27, 1939"
   },
   {
-    id: 14, year: "1941", era: "golden", eraLabel: "Era de Ouro",
+    id: 21, year: "1940", era: "golden", eraLabel: "Era de Ouro",
+    title: "A Formação da Sociedade da Justiça da América",
+    wikiSlugs: ["Justice_Society_of_America"],
+    fallbackIcon: "🏛️",
+    summary: "Em 22 de novembro de 1940, oito dos maiores heróis mascarados da época se reúnem em um hotel secreto para o primeiro encontro oficial da Sociedade da Justiça da América — a primeira equipe de super-heróis da história dos quadrinhos. Formada a pedido do Presidente Franklin Delano Roosevelt, que buscava apoiar os Aliados na Europa sem envolver oficialmente o povo americano, a equipe reunia Flash (Jay Garrick), Lanterna Verde (Alan Scott), Gavião Negro, Sr. Destino, Sandman, Homem-Hora, Átomo e o Espectro.",
+    events: [
+      "Oito heróis se reúnem secretamente a pedido do Presidente Franklin D. Roosevelt",
+      "Formação oficial da Sociedade da Justiça da América, primeira equipe de heróis da história",
+      "Johnny Trovoada invade a reunião acidentalmente usando seu raio mágico",
+      "Estabelecimento da sede da SJA em Civic City, subúrbio de Filadélfia",
+      "Mulher-Maravilha se junta à equipe um ano depois, em dezembro de 1941"
+    ],
+    consequences: "A Sociedade da Justiça da América pavimentou o caminho para toda futura equipe de super-heróis nos quadrinhos, sendo a precursora direta da Liga da Justiça décadas depois. A SJA estabeleceu Civic City e, mais tarde, Gotham e Nova York como sedes simbólicas do legado heroico americano, e seus membros se tornariam a base da mitologia da Terra-2 no Multiverso DC.",
+    writers: "Criação: Gardner Fox (roteiro) & Sheldon Mayer (editor) — All-Star Comics #3, 1940"
+  },
+  {
+    id: 22, year: "1941", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem da Mulher-Maravilha",
     wikiSlugs: ["Wonder_Woman"],
     fallbackIcon: "⚔️",
@@ -208,7 +325,53 @@ const sagas = [
     writers: "Criação: William Moulton Marston & H.G. Peter — All Star Comics #8, 1941"
   },
   {
-    id: 15, year: "1956", era: "silver", eraLabel: "Era de Prata",
+    id: 23, year: "1941", era: "golden", eraLabel: "Era de Ouro",
+    title: "A Barreira Mística e o Comando Invencível",
+    isCosmic: true,
+    fallbackIcon: "🪖",
+    summary: "Com a entrada dos Estados Unidos na Segunda Guerra Mundial, todos os heróis americanos se unem sob o nome de Comando Invencível para proteger o país das potências do Eixo. Mas um mistério intrigava os leitores há décadas: por que heróis tão poderosos como o Espectro e o Sr. Destino simplesmente não invadiram a Alemanha e encerraram a guerra em minutos? A resposta veio anos depois — o ocultista Rei Dragão, a serviço de Hitler, criara uma barreira mística usando o Santo Graal e a Lança do Destino, que cancelava poderes de meta-humanos e dominava seres místicos dentro do território do Eixo.",
+    events: [
+      "Os EUA entram na Segunda Guerra Mundial e os heróis se unem como o Comando Invencível",
+      "Hitler obtém a Lança do Destino e o Santo Graal através do ocultista Rei Dragão",
+      "Uma barreira mística é erguida sobre toda a Europa controlada pelo Eixo",
+      "Heróis místicos ficam sob domínio do Führer; meta-humanos comuns perdem seus poderes na região",
+      "A guerra passa a ser travada principalmente por soldados comuns, como o Sargento Rock"
+    ],
+    consequences: "Essa explicação retroativa, criada pelo escritor Roy Thomas nos anos 80, resolveu uma das maiores inconsistências da Era de Ouro: por que heróis onipotentes não encerraram a Segunda Guerra Mundial instantaneamente. O conceito também estabeleceu o Rei Dragão como um dos vilões místicos fundamentais ligados à Sociedade da Justiça, e reforçou o herói humano comum como peça central do esforço de guerra real."
+  },
+  {
+    id: 24, year: "1941", era: "golden", eraLabel: "Era de Ouro",
+    title: "Sete Soldados da Vitória (Legionários da Lei)",
+    wikiSlugs: ["Seven_Soldiers_of_Victory"],
+    fallbackIcon: "🗡️",
+    summary: "Reunidos pelo Presidente Roosevelt para combater o crime em solo americano enquanto a Sociedade da Justiça lidava com ameaças maiores, os Sete Soldados da Vitória — Arqueiro Verde, Speedy, Cavaleiro Brilhante, Vigilante, Garoto Estrelado, Stripesy e o Vingador Escarlate (com seu parceiro Wing) — se tornam a segunda grande equipe de heróis da Era de Ouro. Seu primeiro grande desafio os leva a enfrentar o vilão Doutor Doome, que os dispersa através do tempo, espalhando-os por diferentes épocas da história.",
+    events: [
+      "Formação dos Sete Soldados da Vitória a pedido do Presidente Roosevelt",
+      "A equipe enfrenta o Mão de Ferro (Hand) e seus criminosos reunidos em 'Blueprint for Crime'",
+      "O Doutor Doome dispersa os Soldados através de diferentes eras da história",
+      "Cada Soldado precisa sobreviver isolado em uma época diferente até ser resgatado",
+      "Superman, Sandman e Metamorfo resgatam o Cavaleiro Brilhante das hordas de Genghis Khan"
+    ],
+    consequences: "Os Sete Soldados da Vitória se tornaram a segunda equipe de super-heróis da história dos quadrinhos, consolidando o conceito de times heroicos paralelos à Sociedade da Justiça. A saga de dispersão temporal conectou diretamente a Era de Ouro a praticamente todos os períodos históricos do Universo DC, de Camelot ao Egito Antigo, e o conceito seria revisitado décadas depois por Grant Morrison.",
+    writers: "Mort Weisinger & Mort Meskin (roteiro e arte) — Leading Comics #1, 1941"
+  },
+  {
+    id: 25, year: "1951", era: "golden", eraLabel: "Era de Ouro",
+    title: "O Fim da Sociedade da Justiça e a Caça às Bruxas",
+    isCosmic: true,
+    fallbackIcon: "📜",
+    summary: "Com o fim da Segunda Guerra Mundial e o início da Guerra Fria, um clima de paranoia toma conta dos Estados Unidos. Sob pressão do Comitê sobre Atividades Antiamericanas do Congresso, que exigia que os heróis mascarados revelassem suas identidades secretas para provar lealdade ao país, a Sociedade da Justiça da América se recusa a comprometer seus princípios e se dissolve oficialmente em 1951. Apenas os membros com identidades já públicas ou imunes a essa pressão — como Superman, Batman, Robin, Mulher-Maravilha e Sr. Destino — continuam atuando abertamente.",
+    events: [
+      "O Comitê sobre Atividades Antiamericanas pressiona heróis a revelarem identidades secretas",
+      "A maioria dos membros da SJA se recusa a comprometer suas identidades e princípios",
+      "A Sociedade da Justiça da América se dissolve oficialmente em 1951",
+      "Superman, Batman, Robin, Mulher-Maravilha e Sr. Destino continuam atuando individualmente",
+      "Encerramento simbólico da Era de Ouro dos super-heróis nos quadrinhos"
+    ],
+    consequences: "A dissolução da SJA encerrou a Era de Ouro dos quadrinhos e separou definitivamente os heróis remanescentes que se tornariam ícones atemporais (Superman, Batman, Mulher-Maravilha) dos heróis que ficariam adormecidos por uma década, até retornarem reformulados na Era de Prata. Esse hiato de silêncio se tornaria crucial para explicar décadas depois por que a SJA passou a ser associada à Terra-2, separada da Liga da Justiça moderna."
+  },
+  {
+    id: 26, year: "1956", era: "silver", eraLabel: "Era de Prata",
     title: "O Surgimento do Flash",
     wikiSlugs: ["Showcase_(comics)"],
     fallbackIcon: "⚡",
@@ -224,7 +387,23 @@ const sagas = [
     writers: "Escrito por Robert Kanigher, arte de Carmine Infantino — Showcase #4, 1956"
   },
   {
-    id: 16, year: "1960", era: "silver", eraLabel: "Era de Prata",
+    id: 27, year: "1959", era: "silver", eraLabel: "Era de Prata",
+    title: "Hal Jordan se Torna o Lanterna Verde",
+    wikiSlugs: ["Hal_Jordan", "Showcase_(comics)"],
+    fallbackIcon: "💚",
+    summary: "O alienígena Abin Sur, policial intergaláctico da Tropa dos Lanternas Verdes, cai com sua nave no deserto da Califórnia. Moribundo, ele ordena que seu anel de poder busque um sucessor digno — corajoso e de vontade inabalável. O escolhido é Hal Jordan, piloto de testes da Ferris Aircraft, que é transportado até o local do acidente e recebe o anel, o traje e a bateria de poder de Abin Sur antes de sua morte, tornando-se o novo Lanterna Verde do Setor 2814.",
+    events: [
+      "Abin Sur, da Tropa dos Lanternas Verdes, cai com sua nave no deserto da Califórnia",
+      "O anel de poder de Abin Sur busca um sucessor corajoso e de vontade forte",
+      "Hal Jordan, piloto de testes, é escolhido e transportado até o local da queda",
+      "Abin Sur transmite o anel, o traje e a bateria de poder a Hal antes de morrer",
+      "Hal Jordan aceita a responsabilidade e se torna o novo Lanterna Verde da Terra"
+    ],
+    consequences: "A origem de Hal Jordan reinventou completamente o conceito do Lanterna Verde, substituindo o misticismo da Era de Ouro por uma mitologia de ficção científica com uma força policial intergaláctica inteira. Hal se tornaria membro fundador da Liga da Justiça e um dos pilares mais duradouros da Era de Prata, embora décadas depois sua história tomasse rumos trágicos com sua queda como Parallax.",
+    writers: "John Broome (roteiro) & Gil Kane (arte) — Showcase #22, 1959"
+  },
+  {
+    id: 28, year: "1960", era: "silver", eraLabel: "Era de Prata",
     title: "Surgimento da Liga da Justiça",
     wikiSlugs: ["The_Brave_and_the_Bold_(comic_book)", "Justice_League", "Justice_League_of_America"],
     fallbackIcon: "🌟",
@@ -240,7 +419,54 @@ const sagas = [
     writers: "Criação: Gardner Fox & Mike Sekowsky — The Brave and the Bold #28, 1960"
   },
   {
-    id: 17, year: "1970", era: "bronze", eraLabel: "Era de Bronze",
+    id: 29, year: "1961", era: "silver", eraLabel: "Era de Prata",
+    title: "Flash de Dois Mundos: O Nascimento do Multiverso",
+    wikiSlugs: ["Flash_of_Two_Worlds"],
+    fallbackIcon: "🌐",
+    summary: "Em uma aventura que mudaria para sempre a estrutura do Universo DC, Barry Allen (o Flash da Era de Prata) descobre que pode vibrar sua molécula em uma frequência específica e atravessar para uma realidade paralela — onde encontra Jay Garrick, o Flash original da Era de Ouro, ainda em atividade. A revelação de que Jay não era fictício, mas sim um herói real vivendo em uma Terra paralela, introduziu oficialmente o conceito de Multiverso nos quadrinhos da DC.",
+    events: [
+      "Barry Allen descobre como vibrar sua frequência molecular para cruzar entre realidades",
+      "Barry encontra Jay Garrick, o Flash da Era de Ouro, vivendo em uma Terra paralela",
+      "Revelação de que os heróis da Era de Ouro são reais e vivem na Terra-2",
+      "Estabelecimento de Terra-1 (heróis modernos) e Terra-2 (heróis da Era de Ouro) como realidades distintas",
+      "Os dois Flashes se unem para deter o vilão Pintor Risonho, que também havia cruzado dimensões"
+    ],
+    consequences: "Esta história introduziu formalmente o conceito de Multiverso na DC Comics, uma das ideias mais influentes e duradouras de toda a editora. Ela permitiu reunir gerações de heróis em encontros anuais entre a Liga da Justiça e a Sociedade da Justiça, e décadas depois forneceria a base conceitual para a Crise nas Infinitas Terras, que big-banged toda essa estrutura multiversal.",
+    writers: "Gardner Fox (roteiro) & Carmine Infantino (arte) — The Flash #123, 1961"
+  },
+  {
+    id: 30, year: "1963", era: "silver", eraLabel: "Era de Prata",
+    title: "Crise nas Terras Gêmeas: Os Primeiros Encontros JLA/SJA",
+    isCosmic: true,
+    fallbackIcon: "🔄",
+    summary: "Após a descoberta do Multiverso, a Liga da Justiça da Terra-1 e a Sociedade da Justiça da Terra-2 começam a se reunir anualmente para enfrentar ameaças que atravessam dimensões. Esses encontros multiversais se tornam uma tradição amada dos quadrinhos, com as duas maiores equipes de heróis da história combinando forças contra vilões interdimensionais, ao mesmo tempo em que humanizam a ideia de Terras paralelas existindo lado a lado, separadas apenas por vibrações moleculares distintas.",
+    events: [
+      "Liga da Justiça e Sociedade da Justiça começam reuniões anuais entre Terra-1 e Terra-2",
+      "Estabelecimento de uma tradição de crossovers entre as duas maiores equipes de heróis da DC",
+      "Vilões interdimensionais como o Cristal Rei começam a explorar as fendas entre as Terras",
+      "Expansão do conceito de Multiverso para incluir dezenas de Terras paralelas ao longo dos anos",
+      "Os encontros se tornam um evento anual aguardado pelos leitores da época"
+    ],
+    consequences: "Essa tradição de crossovers anuais consolidou o Multiverso como elemento permanente e querido da mitologia DC, e estabeleceu o precedente narrativo que décadas depois seria usado e subvertido pela Crise nas Infinitas Terras — que reuniria essas mesmas Terras paralelas pela última vez antes de fundi-las em uma só."
+  },
+  {
+    id: 31, year: "1958", era: "bronze", eraLabel: "Era de Bronze",
+    title: "A Legião dos Super-Heróis do Futuro",
+    isCosmic: true,
+    fallbackIcon: "🚀",
+    summary: "No século 30, três adolescentes superpoderosos — Menino Cósmico, Rapaz Relâmpago e Garota Saturno — viajam no tempo até o presente para recrutar um jovem Superboy para seu 'clube de super-heróis'. Nascia assim a Legião dos Super-Heróis, uma equipe ambientada num futuro utópico interestelar que cresceria para incluir dezenas de membros com poderes únicos vindos de mundos alienígenas. Embora tenha estreado na Era de Prata, foi ao longo da década de 1970 que a Legião atingiu seu auge de popularidade e complexidade narrativa.",
+    events: [
+      "Cosmic Boy, Lightning Lad e Saturn Girl viajam do século 30 até o presente",
+      "Os três recrutam Superboy para seu clube de super-heróis do futuro",
+      "Superboy é aprovado em uma série de testes e se torna membro honorário",
+      "A Legião cresce ao longo dos anos 60 e 70, incorporando dezenas de heróis alienígenas",
+      "A equipe se torna uma das mais complexas e queridas mitologias futuristas da DC"
+    ],
+    consequences: "A Legião dos Super-Heróis estabeleceu um dos primeiros grandes futuros utópicos dos quadrinhos americanos, com uma mitologia interestelar rica que perdura até hoje. A equipe passaria por múltiplas reformulações ao longo das décadas, mas seu conceito central — jovens heróis de mundos diferentes unidos por um ideal comum — continuaria influenciando equipes futuras como os Novos Titãs e a Liga da Justiça Jovem.",
+    writers: "Criação: Otto Binder (roteiro) & Al Plastino (arte) — Adventure Comics #247, 1958"
+  },
+  {
+    id: 32, year: "1970", era: "bronze", eraLabel: "Era de Bronze",
     title: "GL/GA: O Espantalho de Deus",
     wikiSlugs: ["Green_Lantern/Green_Arrow"],
     fallbackIcon: "💊",
@@ -256,7 +482,7 @@ const sagas = [
     writers: "Dennis O'Neil (roteiro) & Neal Adams (arte) — Green Lantern #76–89, 1970–1972"
   },
   {
-    id: 18, year: "1971", era: "bronze", eraLabel: "Era de Bronze",
+    id: 33, year: "1971", era: "bronze", eraLabel: "Era de Bronze",
     title: "O Quarto Mundo de Jack Kirby",
     wikiSlugs: ["New_Gods", "Fourth_World_(comics)", "Mister_Miracle"],
     fallbackIcon: "🌌",
@@ -272,7 +498,55 @@ const sagas = [
     writers: "Criação de Jack Kirby — New Gods, Forever People, Mister Miracle (1971)"
   },
   {
-    id: 19, year: "1985", era: "modern", eraLabel: "Era Moderna",
+    id: 34, year: "1971", era: "bronze", eraLabel: "Era de Bronze",
+    title: "A Filha do Demônio: A Origem de Ra's al Ghul",
+    wikiSlugs: ["Ra's_al_Ghul"],
+    fallbackIcon: "🗡️",
+    summary: "Dennis O'Neil e Neal Adams apresentam um dos maiores e mais duradouros vilões de Batman: Ra's al Ghul, 'A Cabeça do Demônio', líder imortal da Liga dos Assassinos. Mantido vivo há séculos pelo poder regenerativo das Poços de Lázaro, Ra's vê em Batman não apenas um inimigo, mas um potencial herdeiro digno de seu império criminoso — e de sua filha, Talia al Ghul, que se torna uma das parceiras românticas mais complexas e perigosas da vida de Bruce Wayne.",
+    events: [
+      "Batman investiga a misteriosa Liga dos Assassinos e seu líder enigmático",
+      "Primeira aparição de Ra's al Ghul, revelando sua longevidade extraordinária via Poços de Lázaro",
+      "Apresentação de Talia al Ghul, filha de Ra's, e o início de seu complexo relacionamento com Batman",
+      "Ra's revela seu plano ecoterrorista de reduzir drasticamente a população mundial",
+      "Estabelecimento da rivalidade entre Batman e Ra's como um xadrez intelectual e moral contínuo"
+    ],
+    consequences: "Ra's al Ghul se tornou um dos antagonistas mais icônicos e intelectualmente complexos do Batman, rivalizando em importância com o Coringa. O conceito dos Poços de Lázaro introduziu a possibilidade de ressurreição na mitologia do Batman, e o relacionamento entre Bruce e Talia geraria, décadas depois, um dos elementos mais importantes da Era Moderna: o nascimento de Damian Wayne.",
+    writers: "Dennis O'Neil (roteiro) & Neal Adams (arte) — Batman #232, 1971"
+  },
+  {
+    id: 35, year: "1980", era: "bronze", eraLabel: "Era de Bronze",
+    title: "Os Novos Titãs",
+    wikiSlugs: ["New_Teen_Titans"],
+    fallbackIcon: "🌟",
+    summary: "Marv Wolfman e George Pérez reinventam completamente a Turma Titã, unindo veteranos como Robin, Moça-Maravilha e Kid Flash a três personagens totalmente novos que se tornariam ícones: Estelar, uma princesa alienígena fugitiva de Tamaran; Ciborgue, um jovem reconstruído com tecnologia avançada após um acidente trágico; e Ravena, uma híbrida demoníaca em busca de ajuda para deter seu pai, o terrível Trigon, antes que ele destrua toda a existência.",
+    events: [
+      "Ravena recruta os ex-Titãs e novos heróis para ajudá-la a deter seu pai, Trigon",
+      "Apresentação de Estelar, princesa tamaraneana fugindo de seu mundo natal",
+      "Apresentação de Ciborgue, jovem de Detroit reconstruído com tecnologia alienígena após acidente",
+      "A nova equipe derrota Trigon e decide permanecer unida como os Novos Titãs",
+      "Estabelecimento da Torre dos Titãs como sede permanente da equipe"
+    ],
+    consequences: "Os Novos Titãs se tornaram um dos maiores sucessos comerciais e críticos da DC nos anos 80, rivalizando em popularidade com os X-Men da Marvel na mesma época. A saga 'O Contrato Judas', envolvendo o mercenário Exterminador, é considerada uma obra-prima dos quadrinhos. A química entre o elenco definiu o molde de equipes jovens de heróis para gerações seguintes.",
+    writers: "Marv Wolfman (roteiro) & George Pérez (arte) — DC Comics Presents #26 / The New Teen Titans #1, 1980"
+  },
+  {
+    id: 36, year: "1982", era: "bronze", eraLabel: "Era de Bronze",
+    title: "A Grande Saga das Trevas",
+    wikiSlugs: ["The_Great_Darkness_Saga"],
+    fallbackIcon: "🌑",
+    summary: "Artefatos místicos começam a desaparecer ao redor da galáxia, roubados por misteriosos 'Servos das Trevas'. Quando a Legião dos Super-Heróis investiga, descobre que por trás de tudo está Darkseid, ressurgido no século 30 com um plano genial: usar os artefatos para obter controle mental sobre uma raça de três bilhões de seres todo-poderosos. Para enfrentar essa ameaça cósmica, a Legião precisa reunir praticamente todos os Legionários vivos e mortos da história da equipe numa última batalha desesperada — cuja salvação repousa nas mãos de um misterioso bebê que envelhece instantaneamente até a vida adulta.",
+    events: [
+      "Artefatos místicos de toda a galáxia começam a desaparecer, roubados pelos Servos das Trevas",
+      "A Legião descobre que Darkseid ressurgiu no século 30 com um plano de dominação total",
+      "Darkseid busca controle mental sobre uma raça de três bilhões de seres todo-poderosos",
+      "A Legião reúne praticamente todos os Legionários vivos para a batalha final",
+      "Um misterioso bebê que envelhece instantaneamente se revela a chave para deter Darkseid"
+    ],
+    consequences: "A Grande Saga das Trevas é amplamente considerada a melhor história da Legião dos Super-Heróis e uma das mais importantes da DC, cimentando Darkseid como uma ameaça verdadeiramente imortal e atemporal — capaz de aterrorizar heróis em qualquer século. A saga se tornou referência obrigatória para o uso de Darkseid em histórias futuras, da Crise Final ao Dark Nights: Metal.",
+    writers: "Paul Levitz (roteiro) & Keith Giffen (arte) — Legion of Super-Heroes vol. 2 #290–294, 1982"
+  },
+  {
+    id: 37, year: "1985", era: "modern", eraLabel: "Era Moderna",
     title: "Crise nas Infinitas Terras",
     wikiSlugs: ["Crisis_on_Infinite_Earths"],
     fallbackIcon: "🌀",
@@ -288,7 +562,7 @@ const sagas = [
     writers: "Marv Wolfman (roteiro) & George Pérez (arte) — Crisis on Infinite Earths #1–12, 1985–1986"
   },
   {
-    id: 20, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 38, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: O Cavaleiro das Trevas",
     wikiSlugs: ["Batman:_The_Dark_Knight_Returns"],
     fallbackIcon: "🌑",
@@ -304,7 +578,7 @@ const sagas = [
     writers: "Frank Miller (roteiro e arte) com Lynn Varley (cores) — Batman: The Dark Knight Returns #1–4, 1986"
   },
   {
-    id: 21, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 39, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Watchmen",
     wikiSlugs: ["Watchmen"],
     fallbackIcon: "🕐",
@@ -320,7 +594,7 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Dave Gibbons (arte) — Watchmen #1–12, 1986–1987"
   },
   {
-    id: 22, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 40, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Lendas",
     wikiSlugs: ["Legends_(comics)"],
     fallbackIcon: "⚡",
@@ -336,7 +610,7 @@ const sagas = [
     writers: "John Ostrander & Len Wein (roteiro), John Byrne (arte) — Legends #1–6, 1986–1987"
   },
   {
-    id: 23, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 41, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: A Piada Mortal",
     wikiSlugs: ["Batman:_The_Killing_Joke"],
     fallbackIcon: "🃏",
@@ -352,7 +626,7 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Brian Bolland (arte) — Batman: The Killing Joke, 1988"
   },
   {
-    id: 24, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 42, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Milênio",
     wikiSlugs: ["Millennium_(comics)"],
     fallbackIcon: "🌠",
@@ -368,7 +642,7 @@ const sagas = [
     writers: "Steve Englehart (roteiro) & Joe Staton (arte) — Millennium #1–8, 1988"
   },
   {
-    id: 25, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 43, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Odisseia Cósmica",
     wikiSlugs: ["Cosmic_Odyssey_(comics)"],
     fallbackIcon: "🪐",
@@ -384,7 +658,23 @@ const sagas = [
     writers: "Jim Starlin (roteiro) & Mike Mignola (arte) — Cosmic Odyssey #1–4, 1988–1989"
   },
   {
-    id: 26, year: "1989", era: "modern", eraLabel: "Era Moderna",
+    id: 44, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    title: "Morte em Família: A Morte de Jason Todd",
+    wikiSlugs: ["A_Death_in_the_Family_(comics)"],
+    fallbackIcon: "🩸",
+    summary: "Jason Todd, o segundo Robin, havia se tornado um personagem impopular entre os fãs por seu temperamento impulsivo e violento. A DC Comics tomou uma decisão sem precedentes na história dos quadrinhos: abrir uma linha telefônica para que os próprios leitores votassem se Jason deveria viver ou morrer. Em busca de sua mãe biológica no Líbano em guerra, Jason é capturado pelo Coringa, que o espanca brutalmente com um pé-de-cabra e o abandona junto a uma bomba prestes a explodir. O resultado da votação dos fãs decidiu seu destino: 5.343 votos a favor da morte contra 5.271 pela vida.",
+    events: [
+      "Jason Todd viaja ao Líbano em guerra em busca de sua mãe biológica",
+      "A DC Comics abre uma linha telefônica para os fãs votarem sobre o destino de Jason",
+      "O Coringa captura Jason e o espanca brutalmente com um pé-de-cabra",
+      "Jason é deixado junto a uma bomba que explode antes que Batman consiga salvá-lo",
+      "Os fãs votam pela morte de Jason Todd por uma margem de apenas 72 votos"
+    ],
+    consequences: "A morte de Jason Todd empurrou definitivamente a mitologia do Batman para um tom mais sombrio, com o fracasso em salvar seu parceiro assombrando o Cavaleiro das Trevas por anos. Tim Drake assumiria o manto de Robin pouco depois, mas a culpa de Batman por essa morte se tornaria um elemento permanente de sua psicologia, revisitado em incontáveis histórias futuras — incluindo o eventual retorno de Jason como o Capuz Vermelho.",
+    writers: "Jim Starlin (roteiro) & Jim Aparo (arte) — Batman #426–429, 1988"
+  },
+  {
+    id: 45, year: "1989", era: "modern", eraLabel: "Era Moderna",
     title: "Arkham Asylum",
     wikiSlugs: ["Arkham_Asylum:_A_Serious_House_on_Serious_Earth"],
     fallbackIcon: "🏚️",
@@ -400,7 +690,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Dave McKean (arte) — Arkham Asylum, 1989"
   },
   {
-    id: 27, year: "1992", era: "modern", eraLabel: "Era Moderna",
+    id: 46, year: "1992", era: "modern", eraLabel: "Era Moderna",
     title: "A Morte do Superman",
     wikiSlugs: ["The_Death_of_Superman"],
     fallbackIcon: "🪦",
@@ -416,7 +706,7 @@ const sagas = [
     writers: "Dan Jurgens, Roger Stern, Karl Kesel, Jerry Ordway, Louise Simonson — Superman #75, 1992"
   },
   {
-    id: 28, year: "1993", era: "modern", eraLabel: "Era Moderna",
+    id: 47, year: "1993", era: "modern", eraLabel: "Era Moderna",
     title: "Knightfall: A Queda do Batman",
     wikiSlugs: ["Batman:_Knightfall"],
     fallbackIcon: "🦴",
@@ -432,7 +722,7 @@ const sagas = [
     writers: "Doug Moench, Chuck Dixon e outros — Batman #492–500 e conexões, 1993"
   },
   {
-    id: 29, year: "1994", era: "modern", eraLabel: "Era Moderna",
+    id: 48, year: "1994", era: "modern", eraLabel: "Era Moderna",
     title: "Zero Hour: Crise no Tempo",
     wikiSlugs: ["Zero_Hour:_Crisis_in_Time!"],
     fallbackIcon: "⏳",
@@ -448,7 +738,7 @@ const sagas = [
     writers: "Dan Jurgens (roteiro e arte), Jerry Ordway — Zero Hour #4–0, 1994"
   },
   {
-    id: 30, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    id: 49, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Kingdom Come",
     wikiSlugs: ["Kingdom_Come_(comics)"],
     fallbackIcon: "👑",
@@ -464,7 +754,7 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Alex Ross (arte aquarelada) — Kingdom Come #1–4, 1996"
   },
   {
-    id: 31, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    id: 50, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Noite Final",
     wikiSlugs: ["The_Final_Night"],
     fallbackIcon: "🌑",
@@ -480,7 +770,7 @@ const sagas = [
     writers: "Karl Kesel (roteiro) & Stuart Immonen (arte) — The Final Night #1–4, 1996"
   },
   {
-    id: 32, year: "1997", era: "modern", eraLabel: "Era Moderna",
+    id: 51, year: "1997", era: "modern", eraLabel: "Era Moderna",
     title: "LJA: Nova Ordem Mundial",
     wikiSlugs: ["JLA:_New_World_Order"],
     fallbackIcon: "🌍",
@@ -496,7 +786,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Howard Porter (arte) — JLA #1–4, 1997"
   },
   {
-    id: 33, year: "1998", era: "modern", eraLabel: "Era Moderna",
+    id: 52, year: "1998", era: "modern", eraLabel: "Era Moderna",
     title: "DC Um Milhão",
     wikiSlugs: ["DC_One_Million"],
     fallbackIcon: "🔢",
@@ -512,7 +802,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Val Semeiks (arte) — DC One Million #1–4, 1998"
   },
   {
-    id: 34, year: "2000", era: "modern", eraLabel: "Era Moderna",
+    id: 53, year: "2000", era: "modern", eraLabel: "Era Moderna",
     title: "JLA: Torre de Babel",
     wikiSlugs: ["JLA:_Tower_of_Babel"],
     fallbackIcon: "📖",
@@ -528,7 +818,7 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Howard Porter (arte) — JLA #43–46, 2000"
   },
   {
-    id: 35, year: "2003", era: "modern", eraLabel: "Era Moderna",
+    id: 54, year: "2003", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: Hush",
     wikiSlugs: ["Batman:_Hush"],
     fallbackIcon: "🤫",
@@ -544,7 +834,7 @@ const sagas = [
     writers: "Jeph Loeb (roteiro) & Jim Lee (arte) — Batman #608–619, 2002–2003"
   },
   {
-    id: 36, year: "2004", era: "modern", eraLabel: "Era Moderna",
+    id: 55, year: "2004", era: "modern", eraLabel: "Era Moderna",
     title: "Identidade Secreta",
     wikiSlugs: ["Identity_Crisis_(DC_Comics)"],
     fallbackIcon: "🔍",
@@ -560,7 +850,7 @@ const sagas = [
     writers: "Brad Meltzer (roteiro) & Rags Morales (arte) — Identity Crisis #1–7, 2004"
   },
   {
-    id: 37, year: "2004", era: "modern", eraLabel: "Era Moderna",
+    id: 56, year: "2004", era: "modern", eraLabel: "Era Moderna",
     title: "Lanterna Verde: Renascimento",
     wikiSlugs: ["Green_Lantern:_Rebirth"],
     fallbackIcon: "💚",
@@ -576,7 +866,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ethan Van Sciver (arte) — Green Lantern: Rebirth #1–6, 2004–2005"
   },
   {
-    id: 38, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 57, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Contagem Regressiva Para Crise Infinita",
     wikiSlugs: ["Countdown_to_Infinite_Crisis"],
     fallbackIcon: "⏱️",
@@ -592,7 +882,7 @@ const sagas = [
     writers: "Geoff Johns, Greg Rucka, Judd Winick (roteiro) — Countdown to Infinite Crisis e minisséries relacionadas, 2005"
   },
   {
-    id: 39, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 58, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Crise Infinita",
     wikiSlugs: ["Infinite_Crisis"],
     fallbackIcon: "🌌",
@@ -608,7 +898,23 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Phil Jimenez, George Pérez e outros — Infinite Crisis #1–7, 2005–2006"
   },
   {
-    id: 40, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 59, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    title: "Sob o Capuz: O Retorno de Jason Todd",
+    wikiSlugs: ["Batman:_Under_the_Hood"],
+    fallbackIcon: "🔴",
+    summary: "Anos após sua morte, um misterioso vigilante violento conhecido como Capuz Vermelho começa a tomar conta do submundo do crime em Gotham, eliminando traficantes com brutalidade calculada. A revelação devastadora: trata-se do próprio Jason Todd, trazido de volta à vida por uma onda de realidade alterada durante a Crise Infinita e posteriormente curado em uma Lacuna de Lázaro por Ra's al Ghul. Furioso por Batman nunca ter vingado sua morte matando o Coringa, Jason adota a identidade que antes pertenceu ao próprio Coringa como forma de zombaria e declaração de guerra contra os métodos de seu antigo mentor.",
+    events: [
+      "Um vigilante brutal conhecido como Capuz Vermelho começa a controlar o crime organizado de Gotham",
+      "Superboy-Prime, durante a Crise Infinita, soca a realidade e inadvertidamente ressuscita Jason Todd",
+      "Ra's al Ghul encontra Jason catatônico e o submerge numa Lacuna de Lázaro, completando sua cura",
+      "Revelação de que o Capuz Vermelho é Jason Todd, agora adulto e brutalmente vingativo",
+      "Jason confronta Batman por nunca ter matado o Coringa em retaliação por sua morte"
+    ],
+    consequences: "O retorno de Jason Todd como o Capuz Vermelho criou um dos antagonistas mais complexos e pessoais do Batman — um ex-aliado que espelha os métodos do herói, mas sem o código de nunca matar. Jason se tornaria um anti-herói recorrente e querido pelos fãs nas décadas seguintes, liderando equipes como os Outlaws e questionando constantemente a moralidade da cruzada de Batman contra o crime.",
+    writers: "Judd Winick (roteiro) & Doug Mahnke (arte) — Batman #635–641, 645–650, 2005–2006"
+  },
+  {
+    id: 60, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Filho Vermelho",
     wikiSlugs: ["Superman:_Red_Son"],
     fallbackIcon: "☭",
@@ -624,7 +930,7 @@ const sagas = [
     writers: "Mark Millar (roteiro) & Dave Johnson e Kilian Plunkett (arte) — Superman: Red Son #1–3, 2003"
   },
   {
-    id: 41, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 61, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "All-Star Superman",
     wikiSlugs: ["All-Star_Superman"],
     fallbackIcon: "☀️",
@@ -640,7 +946,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Frank Quitely (arte) — All-Star Superman #1–12, 2005–2008"
   },
   {
-    id: 42, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 62, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "52 Semanas",
     wikiSlugs: ["52_(comics)"],
     fallbackIcon: "📅",
@@ -656,7 +962,7 @@ const sagas = [
     writers: "Geoff Johns, Grant Morrison, Greg Rucka & Mark Waid (roteiro) — 52 #1–52, 2006–2007"
   },
   {
-    id: 43, year: "2007", era: "modern", eraLabel: "Era Moderna",
+    id: 63, year: "2007", era: "modern", eraLabel: "Era Moderna",
     title: "A Guerra dos Sinestro Corps",
     wikiSlugs: ["Sinestro_Corps_War"],
     fallbackIcon: "🟡",
@@ -672,7 +978,7 @@ const sagas = [
     writers: "Geoff Johns & Dave Gibbons (roteiro), Ivan Reis, Patrick Gleason & Ethan Van Sciver (arte) — 2007"
   },
   {
-    id: 44, year: "2008", era: "modern", eraLabel: "Era Moderna",
+    id: 64, year: "2008", era: "modern", eraLabel: "Era Moderna",
     title: "Final Crisis",
     wikiSlugs: ["Final_Crisis"],
     fallbackIcon: "🔴",
@@ -688,7 +994,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & J.G. Jones, Carlos Pacheco, Doug Mahnke — Final Crisis #1–7, 2008–2009"
   },
   {
-    id: 45, year: "2008", era: "modern", eraLabel: "Era Moderna",
+    id: 65, year: "2008", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Fase Novo Krypton",
     wikiSlugs: ["Superman:_New_Krypton"],
     fallbackIcon: "🏙️",
@@ -704,7 +1010,7 @@ const sagas = [
     writers: "Geoff Johns, James Robinson & Sterling Gates (roteiro), Gary Frank e outros (arte) — Superman: New Krypton, 2008–2009"
   },
   {
-    id: 46, year: "2009", era: "modern", eraLabel: "Era Moderna",
+    id: 66, year: "2009", era: "modern", eraLabel: "Era Moderna",
     title: "Lanterna Verde: Blackest Night",
     wikiSlugs: ["Blackest_Night"],
     fallbackIcon: "💍",
@@ -720,7 +1026,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis (arte) — Blackest Night #0–8 + tie-ins, 2009–2010"
   },
   {
-    id: 47, year: "2009", era: "modern", eraLabel: "Era Moderna",
+    id: 67, year: "2009", era: "modern", eraLabel: "Era Moderna",
     title: "Flash: Renascido",
     wikiSlugs: ["The_Flash:_Rebirth"],
     fallbackIcon: "🔁",
@@ -736,7 +1042,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ethan Van Sciver (arte) — The Flash: Rebirth #1–6, 2009–2010"
   },
   {
-    id: 48, year: "2010", era: "modern", eraLabel: "Era Moderna",
+    id: 68, year: "2010", era: "modern", eraLabel: "Era Moderna",
     title: "O Dia Mais Claro",
     wikiSlugs: ["Brightest_Day"],
     fallbackIcon: "🌟",
@@ -752,7 +1058,7 @@ const sagas = [
     writers: "Geoff Johns & Peter Tomasi (roteiro), Ivan Reis & Patrick Gleason (arte) — Brightest Day #0–24, 2010–2011"
   },
   {
-    id: 49, year: "2011", era: "modern", eraLabel: "Era Moderna",
+    id: 69, year: "2011", era: "modern", eraLabel: "Era Moderna",
     title: "Flashpoint",
     wikiSlugs: ["Flashpoint_(comics)"],
     fallbackIcon: "🌩️",
@@ -768,7 +1074,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Andy Kubert (arte) — Flashpoint #1–5, 2011"
   },
   {
-    id: 50, year: "2011", era: "new52", eraLabel: "New 52",
+    id: 70, year: "2011", era: "new52", eraLabel: "New 52",
     title: "New 52: Reinício do Universo DC",
     wikiSlugs: ["The_New_52"],
     fallbackIcon: "🔁",
@@ -784,7 +1090,7 @@ const sagas = [
     writers: "Múltiplos autores, coordenação de Geoff Johns e Dan DiDio — Setembro de 2011"
   },
   {
-    id: 51, year: "2011", era: "new52", eraLabel: "New 52",
+    id: 71, year: "2011", era: "new52", eraLabel: "New 52",
     title: "Liga da Justiça: Origem (Novos 52)",
     wikiSlugs: ["Justice_League:_Origin", "Justice_League_(2011_comic_book)"],
     fallbackIcon: "🛡️",
@@ -800,7 +1106,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Jim Lee (arte) — Justice League Vol. 2 #1–6, 2011–2012"
   },
   {
-    id: 52, year: "2012", era: "new52", eraLabel: "New 52",
+    id: 72, year: "2012", era: "new52", eraLabel: "New 52",
     title: "Batman: Corte da Coruja",
     wikiSlugs: ["Batman_(comic_book)", "Court_of_Owls", "Scott_Snyder"],
     fallbackIcon: "🦉",
@@ -816,7 +1122,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Batman Vol. 2 #1–11, 2011–2012"
   },
   {
-    id: 53, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 73, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Trono de Atlântida",
     wikiSlugs: ["Throne_of_Atlantis"],
     fallbackIcon: "🔱",
@@ -832,7 +1138,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis (arte) — Justice League #15–17 / Aquaman #15–16, 2012–2013"
   },
   {
-    id: 54, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 74, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Guerra da Trindade",
     wikiSlugs: ["Trinity_War"],
     fallbackIcon: "⚔️",
@@ -848,7 +1154,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis, David Finch (arte) — Justice League #22 / Justice League of America #6 / Justice League Dark #22, 2013"
   },
   {
-    id: 55, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 75, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Vilania Eterna",
     wikiSlugs: ["Forever_Evil"],
     fallbackIcon: "👹",
@@ -864,7 +1170,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & David Finch (arte) — Forever Evil #1–7, 2013–2014"
   },
   {
-    id: 56, year: "2014", era: "new52", eraLabel: "New 52",
+    id: 76, year: "2014", era: "new52", eraLabel: "New 52",
     title: "Fim dos Tempos",
     wikiSlugs: ["The_New_52:_Futures_End"],
     fallbackIcon: "🤖",
@@ -880,7 +1186,7 @@ const sagas = [
     writers: "Brian Azzarello, Keith Giffen, Dan Jurgens & Jeff Lemire (roteiro) — The New 52: Futures End #0–48, 2014–2015"
   },
   {
-    id: 57, year: "2014", era: "new52", eraLabel: "New 52",
+    id: 77, year: "2014", era: "new52", eraLabel: "New 52",
     title: "The Multiversity",
     wikiSlugs: ["The_Multiversity"],
     fallbackIcon: "🌐",
@@ -896,7 +1202,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & múltiplos artistas — The Multiversity #1–2 + one-shots, 2014–2015"
   },
   {
-    id: 58, year: "2015", era: "new52", eraLabel: "New 52",
+    id: 78, year: "2015", era: "new52", eraLabel: "New 52",
     title: "A Guerra de Darkseid",
     wikiSlugs: ["Darkseid_War"],
     fallbackIcon: "🔥",
@@ -912,7 +1218,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Jason Fabok (arte) — Justice League #40–50, 2015–2016"
   },
   {
-    id: 59, year: "2015", era: "new52", eraLabel: "New 52",
+    id: 79, year: "2015", era: "new52", eraLabel: "New 52",
     title: "Convergência",
     wikiSlugs: ["Convergence_(comics)"],
     fallbackIcon: "🏙️",
@@ -928,7 +1234,7 @@ const sagas = [
     writers: "Jeff King, Scott Lobdell & Dan Jurgens (roteiro), múltiplos artistas — Convergence #0–8 + tie-ins, 2015"
   },
   {
-    id: 60, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 80, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC Rebirth: O Universo Volta",
     wikiSlugs: ["DC_Rebirth"],
     fallbackIcon: "🌅",
@@ -944,7 +1250,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Gary Frank, Ethan Van Sciver e outros — DC Universe: Rebirth #1, 2016"
   },
   {
-    id: 61, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 81, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Batman: A Maldição do Barão Branco",
     wikiSlugs: ["Batman:_White_Knight"],
     fallbackIcon: "🎭",
@@ -960,7 +1266,7 @@ const sagas = [
     writers: "Sean Murphy (roteiro e arte) — Batman: White Knight #1–8, 2017–2018"
   },
   {
-    id: 62, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 82, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Doomsday Clock",
     wikiSlugs: ["Doomsday_Clock_(comics)"],
     fallbackIcon: "⏰",
@@ -976,7 +1282,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Gary Frank (arte) — Doomsday Clock #1–12, 2017–2019"
   },
   {
-    id: 63, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 83, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Metal",
     wikiSlugs: ["Dark_Nights:_Metal"],
     fallbackIcon: "🎸",
@@ -992,7 +1298,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Dark Nights: Metal #1–6, 2017–2018"
   },
   {
-    id: 64, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 84, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Death Metal",
     wikiSlugs: ["Dark_Nights:_Death_Metal"],
     fallbackIcon: "🤘",
@@ -1008,7 +1314,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Dark Nights: Death Metal #1–7, 2020–2021"
   },
   {
-    id: 65, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 85, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC K.O.: Absolute Power",
     wikiSlugs: ["DC_K.O.", "Absolute_Power_(comics)", "Amanda_Waller"],
     fallbackIcon: "💥",
