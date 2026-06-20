@@ -4,7 +4,163 @@
 
 const sagas = [
   {
-    id: 1, year: "1938", era: "golden", eraLabel: "Era de Ouro",
+    id: 1, year: "Big Bang", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Fonte Cria o Universo",
+    isCosmic: true,
+    fallbackIcon: "💥",
+    summary: "No alvorecer da criação, uma força primordial conhecida como A Fonte dá origem ao Universo DC. Nesse instante, o Anti-Monitor já tenta destruir tudo que está sendo criado, sendo detido por uma aliança entre os primeiros super-seres e a entidade O Espectro. Ao mesmo tempo, os Lordes da Ordem e do Caos surgem para equilibrar as forças fundamentais da existência, e os Perpétuos — Destino, Morte, Sonho, Destruição, Desejo, Desespero e Delírio — passam a existir como personificações eternas de conceitos universais.",
+    events: [
+      "A Fonte cria o Universo a partir de uma mão cósmica segurando um caldo de estrelas",
+      "O Anti-Monitor surge no alvorecer da criação e tenta destruir tudo, sendo detido por heróis e O Espectro",
+      "Os Lordes da Ordem e do Caos surgem para equilibrar as forças fundamentais da existência",
+      "Os Perpétuos passam a existir em sequência: Destino, Morte, Sonho, Destruição, Desejo, Desespero e Delírio"
+    ],
+    consequences: "Esse momento fundacional estabelece as regras cósmicas que regem todo o Universo DC — a dualidade entre matéria e antimatéria, ordem e caos, vida e os Perpétuos que personificam conceitos eternos. Praticamente toda grande saga cósmica da DC, de Crise nas Infinitas Terras a Dark Nights: Death Metal, remonta a esse instante fundacional."
+  },
+  {
+    id: 2, year: "10 bi. anos atrás", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "O Nascimento do Monitor e do Anti-Monitor",
+    isCosmic: true,
+    fallbackIcon: "⚖️",
+    summary: "Como resultado indireto de experimentos futuros de Krona, o Monitor nasce na lua de Oa, dedicando sua existência à meditação silenciosa e ao aprendizado dos segredos do universo. Simultaneamente, seu equivalente sombrio, o Anti-Monitor, nasce na lua de Qward, no universo de antimatéria, rapidamente assumindo o controle de seu mundo natal e formando um exército de seguidores conhecidos como os Demônios da Sombra.",
+    events: [
+      "O Monitor nasce na lua de Oa e dedica sua existência à meditação e ao conhecimento cósmico",
+      "O Anti-Monitor nasce na lua de Qward, no universo de antimatéria oposto",
+      "O Anti-Monitor assume rapidamente o controle de Qward com um exército de Trovejantes",
+      "Formação dos Demônios da Sombra, guarda pessoal de elite do Anti-Monitor"
+    ],
+    consequences: "O nascimento simultâneo dessas duas entidades opostas estabeleceu o conflito fundamental entre matéria e antimatéria que definiria bilhões de anos de história cósmica, culminando bilhões de anos depois na Crise nas Infinitas Terras."
+  },
+  {
+    id: 3, year: "9 bi. anos atrás", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Guerra entre Monitor e Anti-Monitor",
+    isCosmic: true,
+    fallbackIcon: "🌌",
+    summary: "Krypton e outros planetas se formam a partir de material galático em órbita da estrela Rao. Nesse mesmo período, o Anti-Monitor toma consciência da existência do Monitor, seu equivalente no universo de matéria positiva. Os dois travam uma guerra cósmica que se estende por um milhão de anos, com poder igualmente equilibrado, até que um ataque simultâneo deixa ambos imóveis e inconscientes por mais de nove bilhões de anos.",
+    events: [
+      "Krypton e planetas vizinhos se formam a partir de material galático em órbita de Rao",
+      "O Anti-Monitor toma consciência da existência do Monitor no universo de matéria positiva",
+      "Os dois travam uma guerra cósmica que dura um milhão de anos sem vencedor definido",
+      "Um ataque simultâneo deixa ambos imóveis e inconscientes por mais de nove bilhões de anos"
+    ],
+    consequences: "Esse conflito ancestral entre o Monitor e o Anti-Monitor permaneceu adormecido por eras, até ser reativado nos eventos que levariam à Crise nas Infinitas Terras, quando o despertar do Anti-Monitor ameaçaria destruir todo o Multiverso."
+  },
+  {
+    id: 4, year: "5 bi. anos atrás", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Guerra do Mundo dos Deuses e o Quarto Mundo",
+    isCosmic: true,
+    fallbackIcon: "🔥",
+    summary: "O Mundo dos Deuses, lar dos primeiros seres divinos do universo, é destruído em uma guerra catastrófica pela maior arma viva dos deuses antigos: Mageddon. Os deuses são mortos, mas uma onda de energia cósmica conhecida como Godwave se espalha pelo universo, criando forças fundamentais como a Força da Velocidade e o Metagene, que permitirão o surgimento de superpoderes em gerações futuras. Dos destroços do planeta original, surgem dois novos mundos: Apokolips e Nova Genesis.",
+    events: [
+      "O Mundo dos Deuses é destruído em guerra catastrófica pela arma viva Mageddon",
+      "A Godwave se espalha pelo universo, plantando a semente de futuros superpoderes",
+      "Mageddon é aprisionado em um dissipador de gravidade na borda do espaço-tempo",
+      "Dos destroços do mundo original, surgem os planetas de Apokolips e Nova Genesis"
+    ],
+    consequences: "A criação de Apokolips e Nova Genesis deu origem aos Novos Deuses — incluindo Darkseid — que se tornariam algumas das forças mais influentes de toda a história editorial da DC, moldando eventos desde o Quarto Mundo de Jack Kirby até Death Metal."
+  },
+  {
+    id: 5, year: "4,4 bi. anos atrás", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "O Pecado de Krona e a Criação do Universo de Antimatéria",
+    isCosmic: true,
+    fallbackIcon: "🌀",
+    summary: "Krona, um cientista Maltusiano obcecado em descobrir os segredos da própria criação do Universo, constrói uma máquina capaz de observar o momento exato do Big Bang. Ao testemunhar a mão cósmica segurando o caldo de estrelas, sua máquina explode — um ato de curiosidade que custaria caro a toda a existência, sendo responsável pela criação do Universo de Antimatéria de Qward e por uma onda de mal que corromperia milhares de mundos.",
+    events: [
+      "Krona constrói uma máquina para observar o momento exato da criação do Universo",
+      "A máquina explode ao revelar a mão cósmica segurando o caldo de estrelas primordial",
+      "Esse ato acidental cria o Universo de Antimatéria de Qward",
+      "Uma onda de mal se espalha pelo universo, corrompendo milhares de mundos"
+    ],
+    consequences: "O pecado de Krona é considerado a origem de todo mal cósmico subsequente no Universo DC. Para conter os efeitos de sua transgressão, os Maltusianos se dividiriam — alguns se tornando os Guardiões do Universo, fundadores da Tropa dos Lanternas Verdes, e outros se tornando os Controladores."
+  },
+  {
+    id: 6, year: "4,4 bi. anos atrás", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Fundação da Tropa dos Lanternas Verdes",
+    isCosmic: true,
+    fallbackIcon: "💍",
+    summary: "Sentindo-se culpados pela catástrofe causada por Krona, os Maltusianos se dividem: uma parte se torna os Controladores, enquanto a maioria migra para o planeta Oa e se torna os Guardiões do Universo. Para impedir que o caos se espalhasse, os Guardiões dividem o universo em 3.600 setores, criando um anel de poder para cada um — concedidos aos seres mais corajosos e honestos de cada região, dando origem à lendária Tropa dos Lanternas Verdes.",
+    events: [
+      "Os Maltusianos se dividem entre os Controladores e os futuros Guardiões do Universo",
+      "Os Guardiões migram para o planeta Oa para desenvolver plenamente a ciência",
+      "Criação dos andróides Caçadores Cósmicos, que mais tarde se rebelariam contra seus criadores",
+      "Divisão do universo em 3.600 setores, cada um recebendo um anel de poder próprio",
+      "Fundação oficial da Tropa dos Lanternas Verdes como força policial cósmica"
+    ],
+    consequences: "A fundação da Tropa dos Lanternas Verdes criou uma das instituições mais duradouras e importantes de toda a mitologia DC, servindo de base para incontáveis heróis — de Hal Jordan a John Stewart, Kyle Rayner e Jessica Cruz — ao longo de bilhões de anos de história."
+  },
+  {
+    id: 7, year: "1 bi. anos atrás", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "O Aprisionamento dos Três Demônios",
+    isCosmic: true,
+    fallbackIcon: "👹",
+    summary: "Abnegazar, Rath e Gasth — conhecidos coletivamente como os Três Demônios — governam a Terra primitiva com mãos de ferro. Os Lordes da Ordem finalmente conseguem capturá-los, aprisionando-os em vastas câmaras escondidas sob gelo, areia e água ao redor do mundo. Antes de serem definitivamente subjugados, os demônios criam três artefatos místicos capazes de libertá-los: a Jarra Vermelha de Calythos, o Sino Verde de Uthool e a Roda de Prata de Nyorlath.",
+    events: [
+      "Os Três Demônios — Abnegazar, Rath e Gasth — dominam a Terra primitiva",
+      "Os Lordes da Ordem capturam os demônios após um longo confronto cósmico",
+      "Os demônios são aprisionados em câmaras escondidas sob gelo, areia e água",
+      "Criação de três artefatos místicos capazes de libertar os demônios de seu cativeiro eterno"
+    ],
+    consequences: "Os Três Demônios permaneceriam aprisionados por um bilhão de anos, até que o feiticeiro Felix Fausto tentasse libertá-los na era moderna — uma ameaça que conectaria a pré-história mística da Terra diretamente às histórias contemporâneas de magia no Universo DC."
+  },
+  {
+    id: 8, year: "250 mil a.C.", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "As Eras Antigas de Krypton",
+    isCosmic: true,
+    fallbackIcon: "🔬",
+    summary: "Um cientista chamado Bertron cria, através de clonagem evolutiva, a poderosa criatura Apocalypse no planeta-colônia de Krypton, ensinando aos kryptonianos os segredos da clonagem. Ao longo de eras subsequentes, a civilização kryptoniana desenvolve sua tecnologia de clonagem a tal ponto que cada cidadão chega a possuir três clones próprios mantidos em animação suspensa, servindo como repositório de órgãos para prolongar suas vidas.",
+    events: [
+      "Bertron cria a criatura Apocalypse em Krypton através de clonagem evolutiva avançada",
+      "Os kryptonianos aprendem e aperfeiçoam as técnicas de clonagem ao longo de gerações",
+      "Cada cidadão kryptoniano passa a possuir três clones mantidos em animação suspensa",
+      "O Erradicador, um artefato bélico alienígena, atinge Krypton e é reprogramado por um ancestral de Superman"
+    ],
+    consequences: "Essas eras antigas de Krypton estabeleceram a cultura científica avançada e a obsessão com preservação genética que definiriam o planeta natal de Superman, elementos que ressoariam diretamente em sua origem e nas histórias sobre a destruição final de Krypton."
+  },
+  {
+    id: 9, year: "50.000 a.C.", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Origem de Vandal Savage",
+    isCosmic: true,
+    fallbackIcon: "☄️",
+    summary: "Um homem das cavernas do tipo Cro-Magnon chamado Vandar Adg, líder da Tribo do Sangue, é banhado pela radiação de um misterioso meteorito que cai na Terra. O evento concede a ele intelecto e imortalidade inacreditáveis, transformando-o no ser que viveria por dezenas de milênios sob o nome de Vandal Savage — um dos vilões mais antigos e perigosos de toda a história do Universo DC, manipulando eventos importantes através de incontáveis civilizações ao longo dos séculos.",
+    events: [
+      "Um meteorito misterioso cai na Terra, irradiando o homem das cavernas Vandar Adg",
+      "A radiação concede a Vandar intelecto sobre-humano e imortalidade absoluta",
+      "Vandar Adg se torna conhecido através dos séculos como Vandal Savage",
+      "Início de uma existência imortal que o levaria a influenciar civilizações por toda a história humana"
+    ],
+    consequences: "Vandal Savage se tornaria um dos antagonistas mais persistentes e versáteis da DC, aparecendo em praticamente todas as épocas da história humana e confrontando heróis desde a Sociedade da Justiça da Era de Ouro até a Liga da Justiça moderna."
+  },
+  {
+    id: 10, year: "30.000 a.C.", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Divindade de Nova Genesis e Apokolips",
+    isCosmic: true,
+    fallbackIcon: "⚡",
+    summary: "Anthro, o primeiro homem moderno, começa a se transformar em líder entre os seres humanos recém-evoluídos. No mesmo período cósmico, os cidadãos de Nova Genesis e Apokolips alcançam plena divindade, marcando o verdadeiro início do que ficaria conhecido como o Quarto Mundo — o reino mitológico que mais tarde produziria Darkseid, Orion e toda a guerra eterna entre o bem e o mal cósmicos que moldaria incontáveis histórias da DC.",
+    events: [
+      "Anthro, o primeiro homem moderno, surge como líder entre os humanos pré-históricos",
+      "Cidadãos de Nova Genesis e Apokolips atingem divindade plena, iniciando o Quarto Mundo",
+      "Os Guardiões do Universo realizam alterações genéticas na espécie marciana primitiva",
+      "Uma praga devastadora dizima a maior parte da raça marciana ancestral"
+    ],
+    consequences: "O início do Quarto Mundo nesse período pré-histórico estabeleceu as bases para toda a mitologia de Darkseid e dos Novos Deuses que Jack Kirby formalizaria nos quadrinhos décadas mais tarde, conectando a pré-história cósmica diretamente às sagas modernas envolvendo Apokolips."
+  },
+  {
+    id: 11, year: "9.500 a.C.", era: "cosmic", eraLabel: "Pré-História Cósmica",
+    title: "A Queda de Atlântida",
+    isCosmic: true,
+    fallbackIcon: "🌊",
+    summary: "Durante o reinado do Rei Orin I, o mapa de Atlântida muda para sempre. Um terremoto colossal rasga o continente, matando milhões de pessoas. Cientistas atlantes haviam previsto a catástrofe e alertado o rei, que construiu grandes escudos de força para proteger algumas cidades, incluindo Tritonis e Poseidonis — mas nada poderia impedir que o continente inteiro afundasse permanentemente no oceano. Eventualmente, os cientistas do Rei Orin desenvolvem um soro que permite aos atlantes sobreviverem respirando debaixo d'água.",
+    events: [
+      "Cientistas atlantes preveem uma catástrofe iminente e alertam o Rei Orin I",
+      "Construção de grandes escudos de força para proteger cidades-chave como Tritonis e Poseidonis",
+      "Um terremoto colossal rasga o continente de Atlântida, matando milhões de pessoas",
+      "O continente inteiro afunda permanentemente no oceano, dando origem às lendas perdidas",
+      "Desenvolvimento de um soro que permite aos atlantes sobreviverem respirando debaixo d'água"
+    ],
+    consequences: "A queda de Atlântida estabeleceu a civilização submarina que séculos depois daria origem a Aquaman e ao seu reino, sendo uma das origens mitológicas mais ricas e centrais da geografia fantástica do Universo DC."
+  },
+  {
+    id: 12, year: "1938", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem do Superman",
     wikiSlugs: ["Action_Comics_1"],
     fallbackIcon: "🦸",
@@ -20,7 +176,7 @@ const sagas = [
     writers: "Criação: Jerry Siegel (roteiro) & Joe Shuster (arte) — Action Comics #1, 1938"
   },
   {
-    id: 2, year: "1939", era: "golden", eraLabel: "Era de Ouro",
+    id: 13, year: "1939", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem do Batman",
     wikiSlugs: ["Detective_Comics_27"],
     fallbackIcon: "🦇",
@@ -36,7 +192,7 @@ const sagas = [
     writers: "Criação: Bob Kane & Bill Finger — Detective Comics #27, 1939"
   },
   {
-    id: 3, year: "1941", era: "golden", eraLabel: "Era de Ouro",
+    id: 14, year: "1941", era: "golden", eraLabel: "Era de Ouro",
     title: "A Origem da Mulher-Maravilha",
     wikiSlugs: ["Wonder_Woman"],
     fallbackIcon: "⚔️",
@@ -52,7 +208,7 @@ const sagas = [
     writers: "Criação: William Moulton Marston & H.G. Peter — All Star Comics #8, 1941"
   },
   {
-    id: 4, year: "1956", era: "silver", eraLabel: "Era de Prata",
+    id: 15, year: "1956", era: "silver", eraLabel: "Era de Prata",
     title: "O Surgimento do Flash",
     wikiSlugs: ["Showcase_(comics)"],
     fallbackIcon: "⚡",
@@ -68,7 +224,7 @@ const sagas = [
     writers: "Escrito por Robert Kanigher, arte de Carmine Infantino — Showcase #4, 1956"
   },
   {
-    id: 5, year: "1960", era: "silver", eraLabel: "Era de Prata",
+    id: 16, year: "1960", era: "silver", eraLabel: "Era de Prata",
     title: "Surgimento da Liga da Justiça",
     wikiSlugs: ["The_Brave_and_the_Bold_(comic_book)", "Justice_League", "Justice_League_of_America"],
     fallbackIcon: "🌟",
@@ -84,23 +240,7 @@ const sagas = [
     writers: "Criação: Gardner Fox & Mike Sekowsky — The Brave and the Bold #28, 1960"
   },
   {
-    id: 6, year: "1971", era: "bronze", eraLabel: "Era de Bronze",
-    title: "O Quarto Mundo de Jack Kirby",
-    wikiSlugs: ["New_Gods", "Fourth_World_(comics)", "Mister_Miracle"],
-    fallbackIcon: "🌌",
-    summary: "Jack Kirby migrou para a DC e criou o Quarto Mundo, uma saga épica sobre a guerra entre Nova Gênese e Apokolips. Darkseid surge como um tirano divino em busca da Anti-Vida Equação — uma fórmula matemática capaz de subjugar toda forma de vida à sua vontade. As histórias de Kirby exploraram mitologia cósmica de escala nunca vista, redefinindo o escopo dos quadrinhos.",
-    events: [
-      "Criação de Apokolips e Nova Gênese como planetas-deuses opostos",
-      "Surgimento de Darkseid, filho de Heggra, como senhor de Apokolips",
-      "Introdução de Orion, filho de Darkseid criado em Nova Gênese",
-      "Revelação da Anti-Vida Equação e sua ameaça existencial",
-      "Publicação em New Gods, Forever People e Mister Miracle (1971)"
-    ],
-    consequences: "O Quarto Mundo introduziu Darkseid, o vilão cósmico definitivo da DC. A Anti-Vida Equação e Apokolips moldaram eventos futuros como a Crise nas Infinitas Terras e a Final Crisis. Curiosamente, Thanos da Marvel foi diretamente inspirado em Darkseid por Jim Starlin.",
-    writers: "Criação de Jack Kirby — New Gods, Forever People, Mister Miracle (1971)"
-  },
-  {
-    id: 7, year: "1970", era: "bronze", eraLabel: "Era de Bronze",
+    id: 17, year: "1970", era: "bronze", eraLabel: "Era de Bronze",
     title: "GL/GA: O Espantalho de Deus",
     wikiSlugs: ["Green_Lantern/Green_Arrow"],
     fallbackIcon: "💊",
@@ -116,7 +256,23 @@ const sagas = [
     writers: "Dennis O'Neil (roteiro) & Neal Adams (arte) — Green Lantern #76–89, 1970–1972"
   },
   {
-    id: 8, year: "1985", era: "modern", eraLabel: "Era Moderna",
+    id: 18, year: "1971", era: "bronze", eraLabel: "Era de Bronze",
+    title: "O Quarto Mundo de Jack Kirby",
+    wikiSlugs: ["New_Gods", "Fourth_World_(comics)", "Mister_Miracle"],
+    fallbackIcon: "🌌",
+    summary: "Jack Kirby migrou para a DC e criou o Quarto Mundo, uma saga épica sobre a guerra entre Nova Gênese e Apokolips. Darkseid surge como um tirano divino em busca da Anti-Vida Equação — uma fórmula matemática capaz de subjugar toda forma de vida à sua vontade. As histórias de Kirby exploraram mitologia cósmica de escala nunca vista, redefinindo o escopo dos quadrinhos.",
+    events: [
+      "Criação de Apokolips e Nova Gênese como planetas-deuses opostos",
+      "Surgimento de Darkseid, filho de Heggra, como senhor de Apokolips",
+      "Introdução de Orion, filho de Darkseid criado em Nova Gênese",
+      "Revelação da Anti-Vida Equação e sua ameaça existencial",
+      "Publicação em New Gods, Forever People e Mister Miracle (1971)"
+    ],
+    consequences: "O Quarto Mundo introduziu Darkseid, o vilão cósmico definitivo da DC. A Anti-Vida Equação e Apokolips moldaram eventos futuros como a Crise nas Infinitas Terras e a Final Crisis. Curiosamente, Thanos da Marvel foi diretamente inspirado em Darkseid por Jim Starlin.",
+    writers: "Criação de Jack Kirby — New Gods, Forever People, Mister Miracle (1971)"
+  },
+  {
+    id: 19, year: "1985", era: "modern", eraLabel: "Era Moderna",
     title: "Crise nas Infinitas Terras",
     wikiSlugs: ["Crisis_on_Infinite_Earths"],
     fallbackIcon: "🌀",
@@ -132,7 +288,7 @@ const sagas = [
     writers: "Marv Wolfman (roteiro) & George Pérez (arte) — Crisis on Infinite Earths #1–12, 1985–1986"
   },
   {
-    id: 9, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 20, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: O Cavaleiro das Trevas",
     wikiSlugs: ["Batman:_The_Dark_Knight_Returns"],
     fallbackIcon: "🌑",
@@ -148,7 +304,7 @@ const sagas = [
     writers: "Frank Miller (roteiro e arte) com Lynn Varley (cores) — Batman: The Dark Knight Returns #1–4, 1986"
   },
   {
-    id: 10, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 21, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Watchmen",
     wikiSlugs: ["Watchmen"],
     fallbackIcon: "🕐",
@@ -164,7 +320,23 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Dave Gibbons (arte) — Watchmen #1–12, 1986–1987"
   },
   {
-    id: 11, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 22, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    title: "Lendas",
+    wikiSlugs: ["Legends_(comics)"],
+    fallbackIcon: "⚡",
+    summary: "Logo após a Crise nas Infinitas Terras, Darkseid lança um plano sutil para destruir os heróis da Terra sem usar força bruta: ele manipula a opinião pública através do demagogo G. Gordon Godfrey, fazendo com que a humanidade se volte contra seus próprios protetores. Diante da perseguição, super-heróis precisam agir na clandestinidade para provar seu valor, o que leva à formação de uma nova Liga da Justiça, um novo Esquadrão Suicida e o retorno do Capitão Marvel.",
+    events: [
+      "Darkseid inicia a 'Operação Humilhação' através do orador G. Gordon Godfrey",
+      "A opinião pública se volta contra os super-heróis, que são declarados ilegais",
+      "Billy Batson hesita em se tornar o Capitão Marvel após ser manipulado a matar um inocente",
+      "Heróis como Flash, Firestorm e Mulher-Gavião enfrentam ameaças criadas por Darkseid",
+      "Formação de uma nova Liga da Justiça para restaurar a confiança pública nos heróis"
+    ],
+    consequences: "Lendas foi o primeiro grande evento pós-Crise e serviu como ponto de partida para três novas séries icônicas: a Liga da Justiça Internacional de Giffen/DeMatteis, o Esquadrão Suicida de John Ostrander, e o relançamento de Flash com Wally West como protagonista. Esse evento moldou a estrutura editorial da DC por toda a década seguinte.",
+    writers: "John Ostrander & Len Wein (roteiro), John Byrne (arte) — Legends #1–6, 1986–1987"
+  },
+  {
+    id: 23, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: A Piada Mortal",
     wikiSlugs: ["Batman:_The_Killing_Joke"],
     fallbackIcon: "🃏",
@@ -180,7 +352,39 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Brian Bolland (arte) — Batman: The Killing Joke, 1988"
   },
   {
-    id: 12, year: "1989", era: "modern", eraLabel: "Era Moderna",
+    id: 24, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    title: "Milênio",
+    wikiSlugs: ["Millennium_(comics)"],
+    fallbackIcon: "🌠",
+    summary: "Os Guardiões do Universo decidem que é hora de criar uma nova geração de seres evoluídos, os Novos Guardiões, escolhendo dez humanos ao redor do mundo para essa transformação. Porém, os Caçadores Cósmicos — andróides outrora criados pelos próprios Guardiões — se infiltraram secretamente na sociedade humana há anos e tentam impedir o ritual a todo custo, revelando uma conspiração antiga dentro da Tropa dos Lanternas Verdes.",
+    events: [
+      "Os Guardiões do Universo selecionam dez humanos para se tornarem os Novos Guardiões",
+      "Revelação de que os Caçadores Cósmicos se infiltraram disfarçados entre os heróis há décadas",
+      "Batman descobre que os Manhunters miram destruir os candidatos escolhidos",
+      "Grande batalha entre a Liga da Justiça e os Caçadores Cósmicos pelo destino dos eleitos",
+      "Surgimento oficial dos Novos Guardiões como uma nova força no Universo DC"
+    ],
+    consequences: "Milênio expandiu a mitologia dos Guardiões do Universo e dos Lanternas Verdes, revelando a antiga traição dos Caçadores Cósmicos. Embora controverso entre os fãs por sua resolução, o evento gerou consequências de longo prazo em diversas séries e aprofundou a história secreta da Tropa dos Lanternas Verdes.",
+    writers: "Steve Englehart (roteiro) & Joe Staton (arte) — Millennium #1–8, 1988"
+  },
+  {
+    id: 25, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    title: "Odisseia Cósmica",
+    wikiSlugs: ["Cosmic_Odyssey_(comics)"],
+    fallbackIcon: "🪐",
+    summary: "Darkseid descobre, através dos dados do Trono Móbius, que existe algo no universo mais poderoso do que ele mesmo: uma entidade primordial do mal capaz de destruir tudo. Obrigado a buscar ajuda entre seus inimigos, Darkseid recruta Superman, Batman, Lanterna Verde John Stewart, Caçador de Marte, Demolidor e os Novos Deuses para uma missão que pode salvar — ou destruir — quatro planetas inteiros.",
+    events: [
+      "Darkseid encontra o Trono Móbius e descobre uma ameaça maior que ele mesmo",
+      "Formação de uma aliança improvável entre heróis da Terra e os Novos Deuses",
+      "As equipes se dividem para proteger quatro mundos: Terra, Rann, Thanagar e Xanshi",
+      "Lanterna Verde John Stewart falha em proteger Xanshi, que é destruído",
+      "A culpa pela destruição de Xanshi marca profundamente a psique de John Stewart por anos"
+    ],
+    consequences: "Odisseia Cósmica é considerada uma das melhores histórias cósmicas da DC, com arte icônica de Mike Mignola. O trauma de John Stewart pela destruição de Xanshi se tornou um ponto central de desenvolvimento do personagem em histórias futuras, incluindo sua jornada de redenção em sagas posteriores do Lanterna Verde.",
+    writers: "Jim Starlin (roteiro) & Mike Mignola (arte) — Cosmic Odyssey #1–4, 1988–1989"
+  },
+  {
+    id: 26, year: "1989", era: "modern", eraLabel: "Era Moderna",
     title: "Arkham Asylum",
     wikiSlugs: ["Arkham_Asylum:_A_Serious_House_on_Serious_Earth"],
     fallbackIcon: "🏚️",
@@ -196,7 +400,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Dave McKean (arte) — Arkham Asylum, 1989"
   },
   {
-    id: 13, year: "1992", era: "modern", eraLabel: "Era Moderna",
+    id: 27, year: "1992", era: "modern", eraLabel: "Era Moderna",
     title: "A Morte do Superman",
     wikiSlugs: ["The_Death_of_Superman"],
     fallbackIcon: "🪦",
@@ -212,7 +416,7 @@ const sagas = [
     writers: "Dan Jurgens, Roger Stern, Karl Kesel, Jerry Ordway, Louise Simonson — Superman #75, 1992"
   },
   {
-    id: 14, year: "1993", era: "modern", eraLabel: "Era Moderna",
+    id: 28, year: "1993", era: "modern", eraLabel: "Era Moderna",
     title: "Knightfall: A Queda do Batman",
     wikiSlugs: ["Batman:_Knightfall"],
     fallbackIcon: "🦴",
@@ -228,7 +432,7 @@ const sagas = [
     writers: "Doug Moench, Chuck Dixon e outros — Batman #492–500 e conexões, 1993"
   },
   {
-    id: 15, year: "1994", era: "modern", eraLabel: "Era Moderna",
+    id: 29, year: "1994", era: "modern", eraLabel: "Era Moderna",
     title: "Zero Hour: Crise no Tempo",
     wikiSlugs: ["Zero_Hour:_Crisis_in_Time!"],
     fallbackIcon: "⏳",
@@ -244,7 +448,7 @@ const sagas = [
     writers: "Dan Jurgens (roteiro e arte), Jerry Ordway — Zero Hour #4–0, 1994"
   },
   {
-    id: 16, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    id: 30, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Kingdom Come",
     wikiSlugs: ["Kingdom_Come_(comics)"],
     fallbackIcon: "👑",
@@ -260,7 +464,55 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Alex Ross (arte aquarelada) — Kingdom Come #1–4, 1996"
   },
   {
-    id: 17, year: "2000", era: "modern", eraLabel: "Era Moderna",
+    id: 31, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    title: "Noite Final",
+    wikiSlugs: ["The_Final_Night"],
+    fallbackIcon: "🌑",
+    summary: "Um alienígena chamado Dusk cai na Terra trazendo um aviso terrível: uma entidade cósmica conhecida como Devorador de Sóis está vindo para consumir o Sol. Conforme o mundo mergulha em escuridão e frio extremo, heróis e vilões — incluindo Lex Luthor — precisam se unir desesperadamente para evitar a extinção de toda a vida na Terra, em uma batalha que custará a vida de Hal Jordan, agora possuído por Parallax.",
+    events: [
+      "Dusk cai na Terra alertando sobre a chegada do Devorador de Sóis",
+      "O Sol é envolto e extinto, mergulhando o planeta em escuridão e frio mortal",
+      "Heróis e vilões, incluindo Lex Luthor, se unem em esforços de sobrevivência global",
+      "Parallax (Hal Jordan) se sacrifica usando seu poder para reacender o Sol",
+      "A humanidade sobrevive à beira da extinção graças ao sacrifício final de Hal Jordan"
+    ],
+    consequences: "O sacrifício de Hal Jordan em Noite Final foi visto como uma redenção parcial após seus atos como Parallax, preparando emocionalmente os leitores para sua jornada de herói trágico que culminaria, anos depois, em Lanterna Verde: Renascimento. O evento também explorou temas raros nos quadrinhos da época: sobrevivência coletiva diante do fim do mundo.",
+    writers: "Karl Kesel (roteiro) & Stuart Immonen (arte) — The Final Night #1–4, 1996"
+  },
+  {
+    id: 32, year: "1997", era: "modern", eraLabel: "Era Moderna",
+    title: "LJA: Nova Ordem Mundial",
+    wikiSlugs: ["JLA:_New_World_Order"],
+    fallbackIcon: "🌍",
+    summary: "Grant Morrison reformulou a Liga da Justiça reunindo seus membros mais icônicos — Superman, Batman, Mulher-Maravilha, Flash, Lanterna Verde, Aquaman e Caçador de Marte — em uma nova era de grandeza mítica. A história de estreia apresenta a Liga enfrentando os Hyperclan, um grupo de Marcianos Brancos disfarçados de salvadores da humanidade, que escondem planos de dominação total do planeta.",
+    events: [
+      "Surgimento do Hyperclan, supostos novos heróis que prometem resolver os problemas do mundo",
+      "A Liga da Justiça original é gradualmente substituída na confiança pública pelo Hyperclan",
+      "Revelação de que o Hyperclan é formado por Marcianos Brancos com planos de conquista",
+      "Batman descobre a verdade e reúne a formação clássica da Liga para o confronto final",
+      "Restabelecimento da Liga da Justiça como o time principal de elite do Universo DC"
+    ],
+    consequences: "Esta saga deu início à fase mais aclamada da Liga da Justiça, reposicionando o time como um 'panteão' de deuses modernos. Definiu o roster clássico (Superman, Batman, Mulher-Maravilha, Flash, Lanterna Verde, Aquaman, Caçador de Marte) como o padrão definitivo da equipe, influenciando diretamente adaptações futuras em animação e cinema.",
+    writers: "Grant Morrison (roteiro) & Howard Porter (arte) — JLA #1–4, 1997"
+  },
+  {
+    id: 33, year: "1998", era: "modern", eraLabel: "Era Moderna",
+    title: "DC Um Milhão",
+    wikiSlugs: ["DC_One_Million"],
+    fallbackIcon: "🔢",
+    summary: "Para celebrar a publicação simbólica da Action Comics #1.000.000, Grant Morrison levou a Liga da Justiça a uma jornada até o século 853, onde encontram seus descendentes super-heroicos governando uma utopia interestelar. Lá, eles descobrem que o primeiro Superman ainda está vivo, vivendo dentro do núcleo do Sol, e que uma ameaça do passado pode comprometer todo o futuro da humanidade.",
+    events: [
+      "A Liga da Justiça viaja ao futuro para a celebração da Action Comics #1.000.000",
+      "Descoberta de que o Superman original vive imerso no núcleo do Sol há milênios",
+      "Apresentação da Liga da Justiça do século 853, descendente espiritual da equipe atual",
+      "Solaris, o Tirano Solar, ameaça destruir o sistema solar e o legado de Superman",
+      "A Liga do presente e do futuro se unem para impedir a ameaça e restaurar a ordem temporal"
+    ],
+    consequences: "DC Um Milhão é uma celebração visionária do legado duradouro dos heróis da DC, mostrando um futuro de esperança e grandiosidade cósmica. Embora seu impacto direto na cronologia seja menor, a saga é amplamente aclamada como uma das obras mais criativas de Grant Morrison e reforça o Superman como símbolo eterno de esperança.",
+    writers: "Grant Morrison (roteiro) & Val Semeiks (arte) — DC One Million #1–4, 1998"
+  },
+  {
+    id: 34, year: "2000", era: "modern", eraLabel: "Era Moderna",
     title: "JLA: Torre de Babel",
     wikiSlugs: ["JLA:_Tower_of_Babel"],
     fallbackIcon: "📖",
@@ -276,7 +528,7 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Howard Porter (arte) — JLA #43–46, 2000"
   },
   {
-    id: 18, year: "2003", era: "modern", eraLabel: "Era Moderna",
+    id: 35, year: "2003", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: Hush",
     wikiSlugs: ["Batman:_Hush"],
     fallbackIcon: "🤫",
@@ -292,7 +544,7 @@ const sagas = [
     writers: "Jeph Loeb (roteiro) & Jim Lee (arte) — Batman #608–619, 2002–2003"
   },
   {
-    id: 19, year: "2004", era: "modern", eraLabel: "Era Moderna",
+    id: 36, year: "2004", era: "modern", eraLabel: "Era Moderna",
     title: "Identidade Secreta",
     wikiSlugs: ["Identity_Crisis_(DC_Comics)"],
     fallbackIcon: "🔍",
@@ -308,7 +560,39 @@ const sagas = [
     writers: "Brad Meltzer (roteiro) & Rags Morales (arte) — Identity Crisis #1–7, 2004"
   },
   {
-    id: 20, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 37, year: "2004", era: "modern", eraLabel: "Era Moderna",
+    title: "Lanterna Verde: Renascimento",
+    wikiSlugs: ["Green_Lantern:_Rebirth"],
+    fallbackIcon: "💚",
+    summary: "Anos após se tornar o vilão Parallax e sacrificar-se em Noite Final, Hal Jordan retorna como o Espectro, o Espírito Divino da Vingança. Geoff Johns revela uma verdade chocante: Parallax nunca foi verdadeiramente Hal Jordan corrompido pelo luto — era uma entidade parasita do medo, presa há eras na Bateria Central de Poder em Oa, que havia se infiltrado em sua mente. Hal é finalmente exonerado e retorna ao posto de Lanterna Verde.",
+    events: [
+      "Hal Jordan, agora o Espectro, começa a perder o controle de sua própria humanidade",
+      "Investigação revela que Parallax é uma entidade amarela do medo, e não uma criação de Hal",
+      "Revelação de que Parallax estava aprisionada na Bateria Central de Oa há bilhões de anos",
+      "Hal Jordan é libertado da influência de Parallax com ajuda da Liga da Justiça e do Flash",
+      "Hal retorna oficialmente como Lanterna Verde, reintegrando-se à Tropa"
+    ],
+    consequences: "Esta minissérie redimiu Hal Jordan de forma definitiva e reescreveu décadas de história dos Lanternas Verdes, introduzindo o conceito do Espectro Emocional que se tornaria a espinha dorsal da mitologia do Lanterna Verde nos anos seguintes — culminando em Sinestro Corps War e Blackest Night. É considerada o início da fase mais aclamada de Geoff Johns no personagem.",
+    writers: "Geoff Johns (roteiro) & Ethan Van Sciver (arte) — Green Lantern: Rebirth #1–6, 2004–2005"
+  },
+  {
+    id: 38, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    title: "Contagem Regressiva Para Crise Infinita",
+    wikiSlugs: ["Countdown_to_Infinite_Crisis"],
+    fallbackIcon: "⏱️",
+    summary: "Uma edição especial de 80 páginas que serve como estopim para a Crise Infinita: o antigo Besouro Azul, Ted Kord, descobre que Maxwell Lord está secretamente controlando a organização Xeque-Mate e manipulando satélites da Liga da Justiça. Ao confrontá-lo, Ted Kord é executado a sangue frio, desencadeando uma série de eventos — incluindo a Guerra Rann/Thanagar e o assassinato de Maxwell Lord pela Mulher-Maravilha — que convergem diretamente para a Crise Infinita.",
+    events: [
+      "Ted Kord (Besouro Azul) descobre a manipulação secreta de Maxwell Lord sobre a Xeque-Mate",
+      "Maxwell Lord executa Ted Kord a sangue frio ao ser confrontado",
+      "Eclosão da Guerra Rann/Thanagar, com a morte da Mulher-Gavião Shayera Thal",
+      "Maxwell Lord assume controle mental de Superman, forçando a intervenção da Mulher-Maravilha",
+      "Mulher-Maravilha mata Maxwell Lord ao vivo, evento transmitido globalmente"
+    ],
+    consequences: "Este conjunto de minisséries (Projeto O.M.A.C., Guerra Rann/Thanagar, Dia da Vingança, Vilões Unidos) preparou todas as peças narrativas para a Crise Infinita. A morte de Maxwell Lord pela Mulher-Maravilha se tornou um dos momentos mais controversos e discutidos da história recente da personagem, com repercussões em sua reputação pública dentro do universo DC.",
+    writers: "Geoff Johns, Greg Rucka, Judd Winick (roteiro) — Countdown to Infinite Crisis e minisséries relacionadas, 2005"
+  },
+  {
+    id: 39, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Crise Infinita",
     wikiSlugs: ["Infinite_Crisis"],
     fallbackIcon: "🌌",
@@ -324,7 +608,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Phil Jimenez, George Pérez e outros — Infinite Crisis #1–7, 2005–2006"
   },
   {
-    id: 21, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 40, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Filho Vermelho",
     wikiSlugs: ["Superman:_Red_Son"],
     fallbackIcon: "☭",
@@ -340,7 +624,7 @@ const sagas = [
     writers: "Mark Millar (roteiro) & Dave Johnson e Kilian Plunkett (arte) — Superman: Red Son #1–3, 2003"
   },
   {
-    id: 22, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 41, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "All-Star Superman",
     wikiSlugs: ["All-Star_Superman"],
     fallbackIcon: "☀️",
@@ -356,7 +640,23 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Frank Quitely (arte) — All-Star Superman #1–12, 2005–2008"
   },
   {
-    id: 23, year: "2007", era: "modern", eraLabel: "Era Moderna",
+    id: 42, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    title: "52 Semanas",
+    wikiSlugs: ["52_(comics)"],
+    fallbackIcon: "📅",
+    summary: "Após a Crise Infinita, Superman, Batman e Mulher-Maravilha desaparecem da cena heroica por um ano inteiro. 52 narra semana a semana o que acontece com o restante do Universo DC durante esse vácuo de poder, acompanhando personagens como a detetive Renee Montoya, o Besouro Azul Ted Kord (antes de sua morte) e Adão Negro, enquanto revela a existência de um novo Multiverso com 52 Terras paralelas.",
+    events: [
+      "Superman, Batman e Mulher-Maravilha se afastam da linha de frente heroica por um ano",
+      "Renee Montoya assume o manto da Questão após a morte de Vic Sage",
+      "Adão Negro busca vingança violenta contra os responsáveis pela morte de sua família",
+      "Exploração do Multiverso recém-criado, contendo 52 Terras paralelas distintas",
+      "Convergência de todas as tramas no confronto final contra os vilões reunidos na Sociedade Secreta"
+    ],
+    consequences: "52 foi um experimento editorial sem precedentes — uma série semanal contínua por um ano inteiro escrita por quatro autores simultaneamente (Geoff Johns, Grant Morrison, Greg Rucka e Mark Waid). Estabeleceu formalmente o novo Multiverso DC de 52 Terras, conceito que se tornaria fundamental para histórias futuras como Final Crisis e Dark Nights: Metal.",
+    writers: "Geoff Johns, Grant Morrison, Greg Rucka & Mark Waid (roteiro) — 52 #1–52, 2006–2007"
+  },
+  {
+    id: 43, year: "2007", era: "modern", eraLabel: "Era Moderna",
     title: "A Guerra dos Sinestro Corps",
     wikiSlugs: ["Sinestro_Corps_War"],
     fallbackIcon: "🟡",
@@ -372,7 +672,7 @@ const sagas = [
     writers: "Geoff Johns & Dave Gibbons (roteiro), Ivan Reis, Patrick Gleason & Ethan Van Sciver (arte) — 2007"
   },
   {
-    id: 24, year: "2008", era: "modern", eraLabel: "Era Moderna",
+    id: 44, year: "2008", era: "modern", eraLabel: "Era Moderna",
     title: "Final Crisis",
     wikiSlugs: ["Final_Crisis"],
     fallbackIcon: "🔴",
@@ -388,7 +688,23 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & J.G. Jones, Carlos Pacheco, Doug Mahnke — Final Crisis #1–7, 2008–2009"
   },
   {
-    id: 25, year: "2009", era: "modern", eraLabel: "Era Moderna",
+    id: 45, year: "2008", era: "modern", eraLabel: "Era Moderna",
+    title: "Superman: Fase Novo Krypton",
+    wikiSlugs: ["Superman:_New_Krypton"],
+    fallbackIcon: "🏙️",
+    summary: "Após libertar a cidade-garrafa de Kandor do controle de Brainiac, Superman se vê diante de 100.000 kryptonianos recém-libertados na Terra. O governo americano, temeroso da concentração de poder, força os recém-chegados a se mudarem, e com tecnologia de Brainiac eles constroem um novo planeta no Sistema Solar: Novo Krypton. Superman decide viver lá para guiar seu povo, deixando a Terra sob proteção de outros heróis kryptonianos.",
+    events: [
+      "Superman liberta Kandor e expande a cidade de volta ao tamanho normal",
+      "100.000 kryptonianos libertados causam tensão geopolítica com o governo dos EUA",
+      "Construção do planeta Novo Krypton em órbita próxima ao Sol, usando tecnologia de Brainiac",
+      "Superman se muda para Novo Krypton para governar ao lado dos sobreviventes de seu povo",
+      "Tensões entre Novo Krypton e a Terra escalam, preparando o terreno para conflito futuro com o General Zod"
+    ],
+    consequences: "Novo Krypton foi uma das fases mais longas e ambiciosas do Superman na era moderna, explorando temas de identidade, pertencimento e nacionalismo. A tensão criada entre os dois planetas culminou na saga A Guerra dos Supermens, onde o General Zod lidera um exército kryptoniano contra a Terra, decisão que custaria caro ao próprio Novo Krypton.",
+    writers: "Geoff Johns, James Robinson & Sterling Gates (roteiro), Gary Frank e outros (arte) — Superman: New Krypton, 2008–2009"
+  },
+  {
+    id: 46, year: "2009", era: "modern", eraLabel: "Era Moderna",
     title: "Lanterna Verde: Blackest Night",
     wikiSlugs: ["Blackest_Night"],
     fallbackIcon: "💍",
@@ -404,7 +720,23 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis (arte) — Blackest Night #0–8 + tie-ins, 2009–2010"
   },
   {
-    id: 26, year: "2010", era: "modern", eraLabel: "Era Moderna",
+    id: 47, year: "2009", era: "modern", eraLabel: "Era Moderna",
+    title: "Flash: Renascido",
+    wikiSlugs: ["The_Flash:_Rebirth"],
+    fallbackIcon: "🔁",
+    summary: "Após retornar dos mortos por meio da Força da Aceleração ao final de Final Crisis, Barry Allen tenta se readaptar à vida moderna como o Flash. Mas a verdadeira provação vem quando ele descobre que Eobard Thawne — seu arqui-inimigo, o Flash Reverso — foi o responsável pelo assassinato de sua mãe quando ele era apenas uma criança, um crime pelo qual seu próprio pai foi condenado injustamente e morreu na prisão.",
+    events: [
+      "Barry Allen retorna à vida física após anos como força pura dentro da Speed Force",
+      "Barry tenta se readaptar ao mundo moderno, décadas após sua morte original",
+      "Revelação de que Eobard Thawne (Flash Reverso) assassinou Nora Allen, mãe de Barry",
+      "Henry Allen, pai de Barry, é revelado como inocente, tendo morrido preso injustamente",
+      "Barry assume definitivamente o manto do Flash, restaurando seu papel central no Universo DC"
+    ],
+    consequences: "Flash: Renascido devolveu Barry Allen ao centro do Universo DC após décadas de ausência, e sua dor pessoal pelo assassinato da mãe se tornaria o gatilho emocional para o evento Flashpoint dois anos depois. A obra também serviu de base direta para a primeira temporada da série de TV 'The Flash'.",
+    writers: "Geoff Johns (roteiro) & Ethan Van Sciver (arte) — The Flash: Rebirth #1–6, 2009–2010"
+  },
+  {
+    id: 48, year: "2010", era: "modern", eraLabel: "Era Moderna",
     title: "O Dia Mais Claro",
     wikiSlugs: ["Brightest_Day"],
     fallbackIcon: "🌟",
@@ -420,7 +752,7 @@ const sagas = [
     writers: "Geoff Johns & Peter Tomasi (roteiro), Ivan Reis & Patrick Gleason (arte) — Brightest Day #0–24, 2010–2011"
   },
   {
-    id: 27, year: "2011", era: "modern", eraLabel: "Era Moderna",
+    id: 49, year: "2011", era: "modern", eraLabel: "Era Moderna",
     title: "Flashpoint",
     wikiSlugs: ["Flashpoint_(comics)"],
     fallbackIcon: "🌩️",
@@ -436,7 +768,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Andy Kubert (arte) — Flashpoint #1–5, 2011"
   },
   {
-    id: 28, year: "2011", era: "new52", eraLabel: "New 52",
+    id: 50, year: "2011", era: "new52", eraLabel: "New 52",
     title: "New 52: Reinício do Universo DC",
     wikiSlugs: ["The_New_52"],
     fallbackIcon: "🔁",
@@ -452,7 +784,23 @@ const sagas = [
     writers: "Múltiplos autores, coordenação de Geoff Johns e Dan DiDio — Setembro de 2011"
   },
   {
-    id: 29, year: "2012", era: "new52", eraLabel: "New 52",
+    id: 51, year: "2011", era: "new52", eraLabel: "New 52",
+    title: "Liga da Justiça: Origem (Novos 52)",
+    wikiSlugs: ["Justice_League:_Origin", "Justice_League_(2011_comic_book)"],
+    fallbackIcon: "🛡️",
+    summary: "A revista que inaugurou oficialmente o New 52, mostrando pela primeira vez como Batman, Lanterna Verde Hal Jordan, Flash Barry Allen, Mulher-Maravilha, Aquaman e Cyborg se uniram em meio a uma invasão de Apokolips liderada por Darkseid. Diferente de versões anteriores, aqui os heróis se encontram como praticamente desconhecidos uns dos outros, desconfiados e ainda aprendendo a confiar.",
+    events: [
+      "Batman e Lanterna Verde se encontram pela primeira vez perseguindo um Parademônio em Gotham",
+      "Superman ataca Batman e Lanterna Verde por engano, acreditando serem ameaças",
+      "Darkseid invade a Terra em busca da Mother Box e de um novo lar para Apokolips",
+      "Victor Stone é gravemente ferido e reconstruído com tecnologia alienígena, tornando-se Cyborg",
+      "Os sete heróis repelem Darkseid e formam oficialmente a Liga da Justiça"
+    ],
+    consequences: "Esta revista relançou a mitologia fundacional da Liga da Justiça para uma nova geração de leitores, com a icônica arte de Jim Lee. Tornou-se a porta de entrada definitiva para o New 52 e estabeleceu Cyborg como membro fundador permanente da Liga, uma mudança significativa em relação às formações clássicas anteriores.",
+    writers: "Geoff Johns (roteiro) & Jim Lee (arte) — Justice League Vol. 2 #1–6, 2011–2012"
+  },
+  {
+    id: 52, year: "2012", era: "new52", eraLabel: "New 52",
     title: "Batman: Corte da Coruja",
     wikiSlugs: ["Batman_(comic_book)", "Court_of_Owls", "Scott_Snyder"],
     fallbackIcon: "🦉",
@@ -468,7 +816,87 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Batman Vol. 2 #1–11, 2011–2012"
   },
   {
-    id: 30, year: "2015", era: "new52", eraLabel: "New 52",
+    id: 53, year: "2013", era: "new52", eraLabel: "New 52",
+    title: "Trono de Atlântida",
+    wikiSlugs: ["Throne_of_Atlantis"],
+    fallbackIcon: "🔱",
+    summary: "Um míssil naval americano que funciona mal atinge Atlântida, provocando a ira de Orm, o Mestre dos Oceanos e meio-irmão de Aquaman, que declara guerra total contra a superfície. Enquanto a Liga da Justiça é capturada nas profundezas do oceano, Arthur Curry precisa enfrentar seu irmão e reivindicar seu direito ao trono atlante para impedir uma guerra que pode devastar bilhões de vidas na superfície.",
+    events: [
+      "Um míssil naval avariado atinge Atlântida, sendo interpretado como ataque deliberado",
+      "Orm, o Mestre dos Oceanos, declara guerra contra a superfície em nome de Atlântida",
+      "A Liga da Justiça é capturada pelas forças atlantes durante o conflito inicial",
+      "Aquaman confronta seu meio-irmão Orm em batalha pelo direito ao trono",
+      "Aquaman derrota Orm e assume oficialmente o trono de Atlântida, tornando-se Rei"
+    ],
+    consequences: "Trono de Atlântida transformou Aquaman de personagem secundário em uma das figuras centrais e mais respeitadas do New 52, estabelecendo-o como Rei de Atlântida. A saga também serviu de base direta para o filme 'Aquaman' de 2018, incluindo o conflito entre os irmãos Arthur e Orm.",
+    writers: "Geoff Johns (roteiro) & Ivan Reis (arte) — Justice League #15–17 / Aquaman #15–16, 2012–2013"
+  },
+  {
+    id: 54, year: "2013", era: "new52", eraLabel: "New 52",
+    title: "Guerra da Trindade",
+    wikiSlugs: ["Trinity_War"],
+    fallbackIcon: "⚔️",
+    summary: "Pandora entrega sua caixa amaldiçoada para Superman, acreditando que ele seja puramente bom o suficiente para resistir à sua influência corruptora. Ela está enganada. O efeito da caixa desencadeia um confronto entre três versões da Liga da Justiça — a Liga principal, a Liga da Justiça da América e a sombria Liga da Justiça Sombria — em uma guerra que revela um plano muito maior: abrir um portal para a Terra-3 e libertar o terrível Sindicato do Crime.",
+    events: [
+      "Pandora entrega sua Caixa amaldiçoada para Superman, testando sua resistência à corrupção",
+      "Três Ligas da Justiça diferentes entram em confronto direto por causa da caixa",
+      "Superman mata acidentalmente a Doutora Luz sob influência da Caixa de Pandora",
+      "Revelação de que tudo fazia parte de um plano para abrir um portal para a Terra-3",
+      "O Sindicato do Crime de Terra-3 invade o universo principal, dando início a Vilania Eterna"
+    ],
+    consequences: "Guerra da Trindade foi o primeiro grande crossover entre os múltiplos títulos da Liga da Justiça do New 52, unindo as tramas que vinham sendo construídas desde o relançamento de 2011. Funcionou como prólogo direto para Vilania Eterna, o evento mais ambicioso da era New 52.",
+    writers: "Geoff Johns (roteiro) & Ivan Reis, David Finch (arte) — Justice League #22 / Justice League of America #6 / Justice League Dark #22, 2013"
+  },
+  {
+    id: 55, year: "2013", era: "new52", eraLabel: "New 52",
+    title: "Vilania Eterna",
+    wikiSlugs: ["Forever_Evil"],
+    fallbackIcon: "👹",
+    summary: "O Sindicato do Crime — versões malignas e brutais da Liga da Justiça vindas da Terra-3 — invade o universo principal e aprisiona toda a Liga dentro do Nuclear, um campo de força inescapável. Com os heróis fora de cena, cabe aos vilões da Terra, liderados por um Lex Luthor relutante, formar a improvável Liga da Injustiça para impedir que o Sindicato do Crime conquiste o planeta de forma permanente.",
+    events: [
+      "O Sindicato do Crime de Terra-3 invade a Terra principal através do portal aberto na Guerra da Trindade",
+      "A Liga da Justiça é aprisionada dentro do campo de força do Nuclear",
+      "Lex Luthor reúne um grupo de vilões para resistir à ocupação do Sindicato",
+      "Batman (Owlman) do Sindicato revela planos ainda mais sombrios para o multiverso",
+      "Os heróis se libertam e, com ajuda da Liga da Injustiça, derrotam o Sindicato do Crime"
+    ],
+    consequences: "Vilania Eterna foi o evento de maior sucesso comercial e crítico do New 52, consolidando o Sindicato do Crime e a Terra-3 como elementos permanentes da mitologia DC. A parceria forçada entre Lex Luthor e os heróis também redefiniu a relação do vilão com a Liga da Justiça nos anos seguintes.",
+    writers: "Geoff Johns (roteiro) & David Finch (arte) — Forever Evil #1–7, 2013–2014"
+  },
+  {
+    id: 56, year: "2014", era: "new52", eraLabel: "New 52",
+    title: "Fim dos Tempos",
+    wikiSlugs: ["The_New_52:_Futures_End"],
+    fallbackIcon: "🤖",
+    summary: "Em um salto de cinco anos no futuro do New 52, o mundo é dominado pelo Irmão Olho, uma inteligência artificial que converte a maioria dos super-heróis em cyborgs sob seu controle. Para impedir que esse futuro sombrio se torne realidade, um Batman do futuro, junto com uma resistência formada por Pandora e outros remanescentes, viaja no tempo para alterar os eventos antes que seja tarde demais.",
+    events: [
+      "Salto temporal de cinco anos revela um futuro distópico dominado pelo Irmão Olho",
+      "A maioria dos super-heróis foi convertida à força em cyborgs sob controle do vilão",
+      "Batman do futuro lidera uma resistência clandestina contra o domínio do Irmão Olho",
+      "Pandora viaja ao passado tentando alertar os heróis do presente sobre o futuro sombrio",
+      "Confronto final determina se esse futuro distópico poderá ser evitado"
+    ],
+    consequences: "Fim dos Tempos (Futures End) foi uma das séries semanais mais longas do New 52, com 49 edições. Funcionou como ponte direta para o evento Convergência, preparando os leitores para a transição que encerraria oficialmente a era New 52 nos anos seguintes.",
+    writers: "Brian Azzarello, Keith Giffen, Dan Jurgens & Jeff Lemire (roteiro) — The New 52: Futures End #0–48, 2014–2015"
+  },
+  {
+    id: 57, year: "2014", era: "new52", eraLabel: "New 52",
+    title: "The Multiversity",
+    wikiSlugs: ["The_Multiversity"],
+    fallbackIcon: "🌐",
+    summary: "Grant Morrison apresenta um tour definitivo pelo Multiverso do New 52, explorando Terras paralelas nunca antes vistas em detalhe — desde um mundo dominado por super-heróis nazistas até universos steampunk e versões sombrias da Liga da Justiça. A obra culmina em uma ameaça que transcende universos individuais: a Casa das Trevas, uma força maligna capaz de consumir o próprio Multiverso.",
+    events: [
+      "Apresentação detalhada de múltiplas Terras paralelas do Multiverso do New 52",
+      "Exploração de universos alternativos como Terra-7, Terra-19 (steampunk) e Terra-36",
+      "Revelação da ameaça cósmica conhecida como a Casa das Trevas",
+      "Heróis de diferentes Terras se unem pela primeira vez contra uma ameaça multiversal",
+      "Estabelecimento detalhado da estrutura e regras do Multiverso de 52 Terras"
+    ],
+    consequences: "The Multiversity é considerada uma das obras mais ambiciosas e estruturalmente inovadoras de Grant Morrison, com cada edição usando técnicas narrativas distintas. Expandiu enormemente o conhecimento dos leitores sobre as 52 Terras do Multiverso, servindo como referência obrigatória para todas as histórias multiversais futuras da DC.",
+    writers: "Grant Morrison (roteiro) & múltiplos artistas — The Multiversity #1–2 + one-shots, 2014–2015"
+  },
+  {
+    id: 58, year: "2015", era: "new52", eraLabel: "New 52",
     title: "A Guerra de Darkseid",
     wikiSlugs: ["Darkseid_War"],
     fallbackIcon: "🔥",
@@ -484,7 +912,23 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Jason Fabok (arte) — Justice League #40–50, 2015–2016"
   },
   {
-    id: 31, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 59, year: "2015", era: "new52", eraLabel: "New 52",
+    title: "Convergência",
+    wikiSlugs: ["Convergence_(comics)"],
+    fallbackIcon: "🏙️",
+    summary: "Para celebrar os 30 anos da Crise nas Infinitas Terras, Brainiac coleta cidades inteiras de incontáveis universos e linhas temporais — incluindo eras Pré-Crise, Pós-Crise e Pré-Novos 52 — e as aprisiona em cúpulas sob domínio do vilão Telos. Múltiplas versões de Superman, diferentes Ligas da Justiça de diversas épocas e heróis perdidos no tempo precisam competir para sobreviver, numa celebração nostálgica de toda a história editorial da DC.",
+    events: [
+      "Brainiac coleta cidades de incontáveis linhas temporais e as aprisiona em cúpulas isoladas",
+      "Telos força confrontos entre cidades de diferentes eras para determinar quem sobrevive",
+      "Múltiplas versões de Superman e outras Ligas da Justiça de diferentes épocas se encontram",
+      "Personagens clássicos Pré-Crise retornam brevemente à continuidade ativa",
+      "Resolução do evento prepara a transição de saída do New 52 para uma nova era editorial"
+    ],
+    consequences: "Convergência foi uma celebração nostálgica de 30 anos de história editorial da DC, reunindo eras que antes pareciam mutuamente exclusivas. Marcou o encerramento gradual da identidade visual do New 52, abrindo caminho para o relançamento que viria com o DC Rebirth no ano seguinte.",
+    writers: "Jeff King, Scott Lobdell & Dan Jurgens (roteiro), múltiplos artistas — Convergence #0–8 + tie-ins, 2015"
+  },
+  {
+    id: 60, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC Rebirth: O Universo Volta",
     wikiSlugs: ["DC_Rebirth"],
     fallbackIcon: "🌅",
@@ -500,7 +944,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Gary Frank, Ethan Van Sciver e outros — DC Universe: Rebirth #1, 2016"
   },
   {
-    id: 32, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 61, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Batman: A Maldição do Barão Branco",
     wikiSlugs: ["Batman:_White_Knight"],
     fallbackIcon: "🎭",
@@ -516,7 +960,7 @@ const sagas = [
     writers: "Sean Murphy (roteiro e arte) — Batman: White Knight #1–8, 2017–2018"
   },
   {
-    id: 33, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 62, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Doomsday Clock",
     wikiSlugs: ["Doomsday_Clock_(comics)"],
     fallbackIcon: "⏰",
@@ -532,7 +976,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Gary Frank (arte) — Doomsday Clock #1–12, 2017–2019"
   },
   {
-    id: 34, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 63, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Metal",
     wikiSlugs: ["Dark_Nights:_Metal"],
     fallbackIcon: "🎸",
@@ -548,7 +992,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Dark Nights: Metal #1–6, 2017–2018"
   },
   {
-    id: 35, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 64, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Death Metal",
     wikiSlugs: ["Dark_Nights:_Death_Metal"],
     fallbackIcon: "🤘",
@@ -564,7 +1008,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Dark Nights: Death Metal #1–7, 2020–2021"
   },
   {
-    id: 36, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 65, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC K.O.: Absolute Power",
     wikiSlugs: ["DC_K.O.", "Absolute_Power_(comics)", "Amanda_Waller"],
     fallbackIcon: "💥",
@@ -583,6 +1027,7 @@ const sagas = [
 
 // --- CORES POR ERA ---
 const eraColors = {
+  cosmic:  "var(--cosmic)",
   golden:  "var(--golden)",
   silver:  "var(--silver)",
   bronze:  "var(--bronze)",
@@ -662,7 +1107,7 @@ async function renderCards(filter = "all") {
   const cards = filtered.map((saga) => {
     const color = eraColors[saga.era] || "var(--dc-blue)";
     const card = document.createElement("div");
-    card.className = "card";
+    card.className = saga.isCosmic ? "card card-cosmic" : "card";
     card.style.setProperty("--card-era-color", color);
     card.dataset.id = saga.id;
     card.setAttribute("tabindex", "0");
@@ -691,8 +1136,10 @@ async function renderCards(filter = "all") {
     return { saga, card };
   });
 
-  // Carrega imagens em segundo plano
+  // Carrega imagens em segundo plano (eventos cósmicos não têm HQ/capa associada,
+  // então pulamos a busca e mantemos apenas o ícone temático)
   for (const { saga, card } of cards) {
+    if (saga.isCosmic) continue;
     fetchWikiImage(saga.wikiSlugs).then(imgUrl => {
       if (!imgUrl) return;
       const coverEl = document.getElementById(`cover-card-${saga.id}`);
@@ -722,7 +1169,15 @@ async function openModal(saga) {
   document.getElementById("modalTitle").textContent = saga.title;
   document.getElementById("modalSummary").textContent = saga.summary;
   document.getElementById("modalConsequences").textContent = saga.consequences;
-  document.getElementById("modalWriters").textContent = saga.writers;
+
+  // Eventos cósmicos não têm uma HQ/ficha de autores específica associada —
+  // eles representam fatos da cronologia ficcional, não publicações.
+  const writersEl = document.getElementById("modalWriters");
+  if (saga.isCosmic) {
+    writersEl.textContent = "Evento da cronologia cósmica do Universo DC — referenciado ao longo de diversas publicações.";
+  } else {
+    writersEl.textContent = saga.writers;
+  }
 
   const coverPlaceholder = document.getElementById("modalCoverPlaceholder");
   coverPlaceholder.innerHTML = `<div class="cover-icon" id="coverIcon">${saga.fallbackIcon}</div>`;
@@ -741,6 +1196,9 @@ async function openModal(saga) {
   overlay.setAttribute("aria-hidden", "false");
   document.body.style.overflow = "hidden";
   setTimeout(() => document.getElementById("modalClose").focus(), 350);
+
+  // Eventos cósmicos não têm capa de HQ para buscar na Wikipedia
+  if (saga.isCosmic) return;
 
   // Carrega imagem real para o modal
   const imgUrl = await fetchWikiImage(saga.wikiSlugs);

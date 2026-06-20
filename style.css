@@ -27,6 +27,7 @@
   --text-lo:    #55557A;
 
   /* Era cores */
+  --cosmic:  #9D7CFF;
   --golden:  #FFD700;
   --silver:  #C0C0C0;
   --bronze:  #CD7F32;
@@ -386,6 +387,27 @@ body {
 .card-cover-emoji {
   position: relative;
   z-index: 1;
+}
+
+/* --- VARIANTE: CARDS DA PRÉ-HISTÓRIA CÓSMICA (sem capa de HQ) --- */
+.card-cosmic .card-cover {
+  background:
+    radial-gradient(1px 1px at 20% 30%, #FFFFFF 100%, transparent),
+    radial-gradient(1px 1px at 65% 15%, #FFFFFF 100%, transparent),
+    radial-gradient(1.5px 1.5px at 80% 60%, #FFFFFF 100%, transparent),
+    radial-gradient(1px 1px at 40% 70%, #FFFFFF 100%, transparent),
+    radial-gradient(1px 1px at 90% 80%, #FFFFFF 100%, transparent),
+    radial-gradient(1.5px 1.5px at 10% 85%, #FFFFFF 100%, transparent),
+    radial-gradient(ellipse at center, color-mix(in srgb, var(--cosmic) 35%, var(--surface-2)) 0%, var(--bg) 100%);
+  background-size: 100% 100%;
+}
+
+.card-cosmic .card-cover-emoji {
+  filter: drop-shadow(0 0 12px var(--cosmic));
+}
+
+.card-cosmic .card-year {
+  letter-spacing: 0.04em;
 }
 
 .card-body {
