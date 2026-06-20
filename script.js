@@ -563,6 +563,22 @@ const sagas = [
   },
   {
     id: 38, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    title: "Wally West se Torna o Novo Flash",
+    wikiSlugs: ["Wally_West"],
+    fallbackIcon: "⚡",
+    summary: "Após testemunhar o sacrifício heroico de seu mentor e tio por casamento, Barry Allen, durante a Crise nas Infinitas Terras, Wally West — antigo Ajudante-Mirim Kid Flash dos Jovens Titãs — assume o manto do Flash. Diferente de Barry, Wally inicialmente não consegue ultrapassar a barreira do som, precisando consumir quantidades absurdas de calorias para sustentar sua supervelocidade. O que começou como um legado incerto se tornaria, ao longo de mais de duas décadas, uma das jornadas heroicas mais celebradas e amadas da DC Comics.",
+    events: [
+      "Barry Allen se sacrifica destruindo o canhão de antimatéria durante a Crise",
+      "Wally West, antigo Kid Flash dos Jovens Titãs, assume o manto do Flash em homenagem ao tio",
+      "Wally inicialmente luta com limitações de velocidade, não conseguindo quebrar a barreira do som",
+      "Ele precisa consumir enormes quantidades de calorias para sustentar seus poderes",
+      "Ao longo dos anos seguintes, Wally se torna gradualmente mais rápido que o próprio Barry jamais foi"
+    ],
+    consequences: "Wally West se tornou o primeiro sidekick da história dos quadrinhos a assumir permanentemente o manto de seu mentor, criando um precedente de legado heroico que influenciaria incontáveis personagens futuros. Sob a pena de Mark Waid a partir de 1990, Wally se tornaria o Flash titular por mais de duas décadas, sendo amplamente considerado por fãs como o definitivo Homem mais Rápido do Mundo.",
+    writers: "Mike Baron (roteiro) & Jackson Guice (arte) — The Flash Vol. 2 #1, 1987"
+  },
+  {
+    id: 39, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: O Cavaleiro das Trevas",
     wikiSlugs: ["Batman:_The_Dark_Knight_Returns"],
     fallbackIcon: "🌑",
@@ -578,7 +594,7 @@ const sagas = [
     writers: "Frank Miller (roteiro e arte) com Lynn Varley (cores) — Batman: The Dark Knight Returns #1–4, 1986"
   },
   {
-    id: 39, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 40, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Watchmen",
     wikiSlugs: ["Watchmen"],
     fallbackIcon: "🕐",
@@ -594,7 +610,23 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Dave Gibbons (arte) — Watchmen #1–12, 1986–1987"
   },
   {
-    id: 40, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 41, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    title: "O Que Aconteceu com o Homem do Amanhã?",
+    wikiSlugs: ["Whatever_Happened_to_the_Man_of_Tomorrow"],
+    fallbackIcon: "🌅",
+    summary: "Concebida pelo lendário editor Julius Schwartz como a despedida definitiva do Superman da Era de Prata antes da reformulação de John Byrne pós-Crise, esta história imaginária de Alan Moore narra os últimos dias do Homem de Aço através dos olhos de uma envelhecida Lois Lane, contando a um repórter o que realmente aconteceu naquela noite fatídica. Os vilões de toda a vida de Superman se unem numa última conspiração mortal, revelando segredos, sacrificando aliados queridos e levando o herói mais poderoso da Terra a um confronto final que selaria seu destino com honra e tragédia.",
+    events: [
+      "Uma idosa Lois Elliot (née Lane) conta a um jornalista os eventos finais do Superman",
+      "Os vilões clássicos de Superman se unem numa conspiração coordenada para destruí-lo",
+      "Identidades secretas são reveladas e aliados queridos de Superman são mortos um a um",
+      "Superman é forçado a usar Kryptonita Dourada, removendo permanentemente seus poderes",
+      "Numa última e ambígua cena, o Superman aparentemente sacrifica sua vida para deter Mxyzptlk"
+    ],
+    consequences: "Esta história é amplamente considerada uma das maiores e mais emocionalmente devastadoras já escritas sobre o Superman, servindo como o adeus perfeito para décadas de mitologia da Era de Prata antes do reboot de John Byrne. A icônica imagem de Superman chorando se tornou um símbolo da melancolia inerente a reformulações editoriais que apagam décadas de história amada pelos fãs.",
+    writers: "Alan Moore (roteiro) & Curt Swan (arte) — Superman #423 e Action Comics #583, 1986"
+  },
+  {
+    id: 42, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Lendas",
     wikiSlugs: ["Legends_(comics)"],
     fallbackIcon: "⚡",
@@ -610,7 +642,23 @@ const sagas = [
     writers: "John Ostrander & Len Wein (roteiro), John Byrne (arte) — Legends #1–6, 1986–1987"
   },
   {
-    id: 41, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 43, year: "1987", era: "modern", eraLabel: "Era Moderna",
+    title: "Liga da Justiça Internacional",
+    wikiSlugs: ["Justice_League_International"],
+    fallbackIcon: "🌍",
+    summary: "Após a dissolução violenta da Liga da Justiça Detroit num confronto brutal contra o Professor Ivo, o mundo fica sem uma equipe de heróis de elite. O empresário Maxwell Lord reúne um time improvável sob patrocínio das Nações Unidas: Batman, Caçador de Marte, Lanterna Verde Guy Gardner, Besouro Azul, Canário Negro, Dr. Destino, Capitão Marvel, Senhor Milagre e seu parceiro Oberon. Keith Giffen e J.M. DeMatteis transformam a equipe numa comédia sitcom irreverente, repleta de piadas internas, rivalidades cômicas e personagens secundários que se tornariam queridos pelos fãs.",
+    events: [
+      "A Liga da Justiça Detroit se dissolve após confronto brutal com o Professor Ivo",
+      "Maxwell Lord recruta uma nova equipe sob patrocínio formal das Nações Unidas",
+      "Formação inicial inclui Batman, Caçador de Marte, Guy Gardner, Besouro Azul e Dr. Destino",
+      "A série adota um tom cômico inédito, com piadas internas e personagens excêntricos",
+      "A equipe se expande e se divide em Liga da Justiça América e Liga da Justiça Europa"
+    ],
+    consequences: "A Liga da Justiça Internacional é amplamente considerada uma das eras mais amadas e influentes da Liga, provando que humor e caracterização forte podiam coexistir com aventuras de super-heróis sérias. Introduziu Maxwell Lord como personagem permanente da mitologia DC, e a dinâmica cômica entre Batman e Guy Gardner se tornou uma das parcerias mais citadas e parodiadas da história dos quadrinhos.",
+    writers: "Keith Giffen & J.M. DeMatteis (roteiro), Kevin Maguire (arte) — Justice League #1–6 e Justice League International #7+, 1987"
+  },
+  {
+    id: 44, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: A Piada Mortal",
     wikiSlugs: ["Batman:_The_Killing_Joke"],
     fallbackIcon: "🃏",
@@ -626,7 +674,7 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Brian Bolland (arte) — Batman: The Killing Joke, 1988"
   },
   {
-    id: 42, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 45, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Milênio",
     wikiSlugs: ["Millennium_(comics)"],
     fallbackIcon: "🌠",
@@ -642,7 +690,7 @@ const sagas = [
     writers: "Steve Englehart (roteiro) & Joe Staton (arte) — Millennium #1–8, 1988"
   },
   {
-    id: 43, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 46, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Odisseia Cósmica",
     wikiSlugs: ["Cosmic_Odyssey_(comics)"],
     fallbackIcon: "🪐",
@@ -658,7 +706,7 @@ const sagas = [
     writers: "Jim Starlin (roteiro) & Mike Mignola (arte) — Cosmic Odyssey #1–4, 1988–1989"
   },
   {
-    id: 44, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 47, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Morte em Família: A Morte de Jason Todd",
     wikiSlugs: ["A_Death_in_the_Family_(comics)"],
     fallbackIcon: "🩸",
@@ -674,7 +722,7 @@ const sagas = [
     writers: "Jim Starlin (roteiro) & Jim Aparo (arte) — Batman #426–429, 1988"
   },
   {
-    id: 45, year: "1989", era: "modern", eraLabel: "Era Moderna",
+    id: 48, year: "1989", era: "modern", eraLabel: "Era Moderna",
     title: "Arkham Asylum",
     wikiSlugs: ["Arkham_Asylum:_A_Serious_House_on_Serious_Earth"],
     fallbackIcon: "🏚️",
@@ -690,7 +738,23 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Dave McKean (arte) — Arkham Asylum, 1989"
   },
   {
-    id: 46, year: "1992", era: "modern", eraLabel: "Era Moderna",
+    id: 49, year: "1991", era: "modern", eraLabel: "Era Moderna",
+    title: "Guerra dos Deuses",
+    wikiSlugs: ["War_of_the_Gods_(comics)"],
+    fallbackIcon: "⚡",
+    summary: "Para celebrar os 50 anos da Mulher-Maravilha, George Pérez encerrou seu aclamado período no título com uma guerra entre panteões inteiros. A feiticeira Circe, buscando agradar sua deusa-patrona Hécate, tece a Teia do Fogo Infernal para destruir a deusa da Terra Gaia. Para isso, ela desperta e manipula os deuses gregos e romanos uns contra os outros, despertando um conflito que abala a estabilidade geológica do planeta inteiro e força praticamente todos os heróis do Universo DC — de Superman a Liga da Justiça — a entrar em ação.",
+    events: [
+      "Circe tece a Teia do Fogo Infernal, um ritual místico para destruir a deusa Gaia",
+      "Os panteões grego e romano são despertados e manipulados a guerrear entre si",
+      "O Capitão Marvel é possuído pelo panteão romano, enfrentando a Mulher-Maravilha protegida pelos gregos",
+      "Efeitos da magia de Circe causam catástrofes geológicas ao redor do mundo inteiro",
+      "Mulher-Maravilha enfrenta e derrota Circe definitivamente, encerrando a guerra entre os deuses"
+    ],
+    consequences: "Guerra dos Deuses foi o ápice e a conclusão do lendário período de George Pérez em Mulher-Maravilha, que havia redefinido completamente a personagem após a Crise nas Infinitas Terras. A saga estabeleceu Circe como a maior inimiga mística de Diana, e expandiu a mitologia grega dentro do Universo DC de forma mais rica do que qualquer história anterior da Era Moderna.",
+    writers: "George Pérez (roteiro e arte), Cynthia Martin & Russell Braun (arte) — War of the Gods #1–4, 1991"
+  },
+  {
+    id: 50, year: "1992", era: "modern", eraLabel: "Era Moderna",
     title: "A Morte do Superman",
     wikiSlugs: ["The_Death_of_Superman"],
     fallbackIcon: "🪦",
@@ -706,7 +770,7 @@ const sagas = [
     writers: "Dan Jurgens, Roger Stern, Karl Kesel, Jerry Ordway, Louise Simonson — Superman #75, 1992"
   },
   {
-    id: 47, year: "1993", era: "modern", eraLabel: "Era Moderna",
+    id: 51, year: "1993", era: "modern", eraLabel: "Era Moderna",
     title: "Knightfall: A Queda do Batman",
     wikiSlugs: ["Batman:_Knightfall"],
     fallbackIcon: "🦴",
@@ -722,7 +786,23 @@ const sagas = [
     writers: "Doug Moench, Chuck Dixon e outros — Batman #492–500 e conexões, 1993"
   },
   {
-    id: 48, year: "1994", era: "modern", eraLabel: "Era Moderna",
+    id: 52, year: "1993", era: "modern", eraLabel: "Era Moderna",
+    title: "Flash: O Retorno de Barry Allen",
+    wikiSlugs: ["The_Flash_(comic_book)"],
+    fallbackIcon: "🌀",
+    summary: "Após anos como o Flash titular, Wally West enfrenta seu maior pesadelo emocional: Barry Allen parece ter retornado dos mortos. Mas o homem que volta não é o Barry gentil e heroico que Wally conhecia — é um velocista paranoico e violento, determinado a eliminar tudo que considera 'crime' através de métodos brutais. A verdade chocante por trás desse retorno revelaria uma das reviravoltas mais impactantes da carreira de Wally como herói, forçando-o a confrontar diretamente a sombra de seu próprio mentor.",
+    events: [
+      "Um velocista misterioso surge afirmando ser Barry Allen, retornado dos mortos",
+      "O suposto Barry se revela paranoico e extremamente violento em sua cruzada contra o crime",
+      "Wally West enfrenta a dolorosa possibilidade de que seu mentor tenha retornado corrompido",
+      "Investigação revela que se trata de Bart Allen... na verdade Eobard Thawne disfarçado",
+      "Wally precisa derrotar o impostor e reafirmar definitivamente seu próprio direito ao manto do Flash"
+    ],
+    consequences: "Esta saga, escrita por Mark Waid em seu aclamado período na revista, foi um marco decisivo para a maturidade de Wally West como herói — forçando-o a parar de viver na sombra de Barry Allen e a se afirmar como o Flash por direito próprio. É amplamente considerada uma das melhores histórias do período Waid e consolidou Wally como um dos heróis mais bem desenvolvidos psicologicamente da DC.",
+    writers: "Mark Waid (roteiro) & Greg LaRocque (arte) — The Flash Vol. 2 #74–79, 1993"
+  },
+  {
+    id: 53, year: "1994", era: "modern", eraLabel: "Era Moderna",
     title: "Zero Hour: Crise no Tempo",
     wikiSlugs: ["Zero_Hour:_Crisis_in_Time!"],
     fallbackIcon: "⏳",
@@ -738,7 +818,23 @@ const sagas = [
     writers: "Dan Jurgens (roteiro e arte), Jerry Ordway — Zero Hour #4–0, 1994"
   },
   {
-    id: 49, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    id: 54, year: "1994", era: "modern", eraLabel: "Era Moderna",
+    title: "Aquaman: A Transformação de Peter David",
+    wikiSlugs: ["Aquaman_(comic_book)", "Aquaman"],
+    fallbackIcon: "🔱",
+    summary: "Peter David assume o título de Aquaman com uma missão clara: transformar radicalmente um personagem visto havia décadas como piada entre os fãs de quadrinhos. Arthur Curry mergulha em depressão após descobrir verdades perturbadoras sobre seu passado e sua relação com o Mestre dos Oceanos durante a minissérie Crônicas de Atlântida. Quando o vilão Caribdis prende sua mão em um cardume de piranhas enlouquecidas, Aquaman perde a mão para sempre — e decide substituí-la por um arpão místico de água, ao mesmo tempo deixando crescer cabelo e barba longos, abandonando definitivamente a imagem datada de décadas anteriores.",
+    events: [
+      "Arthur Curry mergulha em depressão após descobrir segredos sombrios sobre seu passado",
+      "O vilão Caribdis prende a mão de Aquaman em um cardume de piranhas enlouquecidas",
+      "Aquaman perde permanentemente sua mão esquerda no confronto",
+      "Ele substitui a mão perdida por um arpão místico capaz de canalizar água",
+      "Aquaman deixa crescer cabelo e barba longos, adotando um visual selvagem e mais sério"
+    ],
+    consequences: "A reinvenção de Peter David transformou Aquaman de personagem secundário e motivo de piadas em um dos heróis mais respeitados e visualmente icônicos da DC dos anos 90. O visual de cabelo longo, barba e mão de arpão se tornaria tão influente que serviria de inspiração direta para a aparência de Arthur Curry interpretado por Jason Momoa no Universo Estendido DC décadas depois.",
+    writers: "Peter David (roteiro) & Martin Egeland (arte) — Aquaman Vol. 5 #0–2, 1994"
+  },
+  {
+    id: 55, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Kingdom Come",
     wikiSlugs: ["Kingdom_Come_(comics)"],
     fallbackIcon: "👑",
@@ -754,7 +850,7 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Alex Ross (arte aquarelada) — Kingdom Come #1–4, 1996"
   },
   {
-    id: 50, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    id: 56, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Noite Final",
     wikiSlugs: ["The_Final_Night"],
     fallbackIcon: "🌑",
@@ -770,7 +866,7 @@ const sagas = [
     writers: "Karl Kesel (roteiro) & Stuart Immonen (arte) — The Final Night #1–4, 1996"
   },
   {
-    id: 51, year: "1997", era: "modern", eraLabel: "Era Moderna",
+    id: 57, year: "1997", era: "modern", eraLabel: "Era Moderna",
     title: "LJA: Nova Ordem Mundial",
     wikiSlugs: ["JLA:_New_World_Order"],
     fallbackIcon: "🌍",
@@ -786,7 +882,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Howard Porter (arte) — JLA #1–4, 1997"
   },
   {
-    id: 52, year: "1998", era: "modern", eraLabel: "Era Moderna",
+    id: 58, year: "1998", era: "modern", eraLabel: "Era Moderna",
     title: "DC Um Milhão",
     wikiSlugs: ["DC_One_Million"],
     fallbackIcon: "🔢",
@@ -802,7 +898,23 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Val Semeiks (arte) — DC One Million #1–4, 1998"
   },
   {
-    id: 53, year: "2000", era: "modern", eraLabel: "Era Moderna",
+    id: 59, year: "1999", era: "modern", eraLabel: "Era Moderna",
+    title: "Batman: Terra de Ninguém",
+    wikiSlugs: ["Batman:_No_Man's_Land"],
+    fallbackIcon: "🏚️",
+    summary: "Após uma sequência de desastres — surtos de superfebre, mais uma epidemia, e finalmente um terremoto de magnitude 7,6 conhecido como o Cataclismo — o governo dos Estados Unidos decide que Gotham City é cara demais para salvar. As pontes são explodidas, um bloqueio militar isola a cidade, e ela é oficialmente declarada Terra de Ninguém, abandonada à própria sorte. Vilões como Coringa, Pinguim, Duas-Caras e Bane dividem o território entre si, enquanto Batman, ausente no início do caos, retorna para encontrar sua cidade fraturada e precisa reconquistá-la quarteirão por quarteirão.",
+    events: [
+      "Um terremoto de magnitude 7,6 (o Cataclismo) devasta Gotham City, matando milhares",
+      "O governo americano declara Gotham uma Terra de Ninguém, explodindo as pontes de acesso",
+      "Vilões como Coringa, Pinguim, Duas-Caras e Bane dividem a cidade em territórios próprios",
+      "Batman retorna à cidade fraturada para reconquistá-la com ajuda da Família Batman",
+      "Cassandra Cain surge como a nova Batgirl, e Sarah Essen-Gordon é assassinada pelo Coringa"
+    ],
+    consequences: "Terra de Ninguém é considerada uma das maiores e mais ambiciosas sagas do Batman, unindo todos os títulos mensais relacionados durante um ano inteiro de publicação. Introduziu Cassandra Cain como uma das Batgirls mais queridas dos fãs, e a reconstrução de Gotham ao final da saga se tornou um marco simbólico de resiliência que viria a influenciar diretamente as séries de TV Gotham e adaptações futuras.",
+    writers: "Jordan B. Gorfinkel (arquitetura editorial) & múltiplos roteiristas e artistas — Batman, Detective Comics, Batman: Shadow of the Bat e outros títulos, 1999"
+  },
+  {
+    id: 60, year: "2000", era: "modern", eraLabel: "Era Moderna",
     title: "JLA: Torre de Babel",
     wikiSlugs: ["JLA:_Tower_of_Babel"],
     fallbackIcon: "📖",
@@ -818,7 +930,55 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Howard Porter (arte) — JLA #43–46, 2000"
   },
   {
-    id: 54, year: "2003", era: "modern", eraLabel: "Era Moderna",
+    id: 61, year: "2000", era: "modern", eraLabel: "Era Moderna",
+    title: "Superman: Imperador Coringa",
+    wikiSlugs: ["Superman:_Emperor_Joker"],
+    fallbackIcon: "🎪",
+    summary: "O entediado Sr. Mxyzptlk, ser onipotente da Quinta Dimensão, decide dar uma fração de seus poderes de manipulação da realidade ao Coringa apenas para se divertir vendo o que aconteceria. O Coringa engana o duende e rouba 99% de seus poderes, recriando o universo inteiro à sua própria imagem grotesca: Superman é constantemente torturado, morto e ressuscitado repetidas vezes só para o entretenimento do Coringa, que governa uma realidade tão bizarra e caótica que ameaça desfazer literalmente o tecido da existência.",
+    events: [
+      "Mr. Mxyzptlk decide dar uma fração de seus poderes ao Coringa por puro entretenimento",
+      "O Coringa engana o duende da Quinta Dimensão e rouba 99% de seu poder total",
+      "O Coringa recria a realidade inteira à sua imagem, com Lois Lane como vilã e Bizarro como herói",
+      "Superman é torturado, morto e ressuscitado repetidamente apenas para a diversão do Coringa",
+      "Superman percebe que o Coringa não consegue apagar Batman, pois sua existência o define, e usa isso para quebrar seu controle"
+    ],
+    consequences: "Imperador Coringa é considerada uma das histórias mais criativamente bizarras e ousadas envolvendo Superman, explorando os limites entre comédia absurda e horror existencial. A revelação de que o Coringa precisa de Batman para se definir como vilão se tornou uma das observações mais citadas sobre a natureza simbiótica entre os dois personagens em toda a mitologia DC.",
+    writers: "Jeph Loeb, Joe Kelly, Mark Schultz & J.M. DeMatteis (roteiro) — Superman/Action Comics/Superman: The Man of Steel, 2000"
+  },
+  {
+    id: 62, year: "2001", era: "modern", eraLabel: "Era Moderna",
+    title: "Nossos Mundos em Guerra",
+    wikiSlugs: ["Our_Worlds_at_War"],
+    fallbackIcon: "💢",
+    summary: "Imperiex, a encarnação viva da entropia, detecta 'imperfeições' no tecido do universo e decide destruí-lo para criar um cosmos 'perfeito' em seu lugar. Após arrasar incontáveis mundos, ele se volta para a Terra — a peça-chave cósmica que sustenta toda a realidade desde a Crise nas Infinitas Terras. Refugiados alienígenas de toda a galáxia convergem para o planeta numa última resistência desesperada, forçando até Superman a deixar de lado suas rivalidades com Lex Luthor, General Zod e o próprio Darkseid para enfrentar a aniquilação total.",
+    events: [
+      "Imperiex destrói incontáveis mundos em busca de um universo 'perfeito'",
+      "A Terra é identificada como o ponto-chave cósmico que sustenta toda a realidade",
+      "Heróis e vilões — incluindo Darkseid e Lex Luthor — formam uma aliança desesperada",
+      "Brainiac trai todos ao absorver a essência de Imperiex e tentar dominar o universo inteiro",
+      "Superman mergulha no núcleo do Sol para obter poder suficiente para deter a ameaça final"
+    ],
+    consequences: "Nossos Mundos em Guerra reuniu praticamente todo o panteão de heróis e vilões da DC numa escala raramente vista, e a morte de personagens importantes durante o evento chocou os leitores da época. Coincidentemente publicado nas semanas anteriores aos ataques de 11 de setembro de 2001, o evento ficou marcado por seu timing sombrio e involuntariamente profético sobre destruição em massa de cidades.",
+    writers: "Jeph Loeb, Joe Casey, Mark Schultz, Joe Kelly, Phil Jimenez & Peter David (roteiro) — Superman e títulos relacionados, 2001"
+  },
+  {
+    id: 63, year: "2001", era: "modern", eraLabel: "Era Moderna",
+    title: "Coringa: A Última Risada",
+    wikiSlugs: ["Last_Laugh_(comics)"],
+    fallbackIcon: "🃏",
+    summary: "Preso na penitenciária de segurança máxima Slab, o Coringa descobre que possui um tumor cerebral terminal. Em vez de se entregar à morte, ele decide sair 'com chave de ouro': provoca um motim, infecta os outros detentos com seu veneno particular — transformando-os em versões caóticas e mortais de si mesmo — e força o vilão Massa Negra a sugar a prisão inteira para dentro de um buraco negro, libertando centenas de criminosos perigosos simultaneamente ao redor do mundo.",
+    events: [
+      "O Coringa descobre que possui um tumor cerebral terminal enquanto preso na Slab",
+      "Ele provoca um motim e infecta outros detentos com seu veneno, criando versões caóticas deles",
+      "Massa Negra é forçado a sugar a prisão inteira para um buraco negro, libertando os criminosos",
+      "Batman, Asa Noturna e Canário Negro tentam conter o motim sem sucesso total",
+      "Vilões libertados se espalham pelo mundo, causando caos simultâneo em múltiplas cidades"
+    ],
+    consequences: "A Última Risada foi um dos maiores eventos crossover focados em vilões da história da DC, espalhando caos por dezenas de títulos mensais simultaneamente. A premissa do tumor cerebral terminal do Coringa adicionou uma camada trágica e desesperada à sua loucura usual, e o evento reforçou sua posição como o vilão mais imprevisível e perigoso de toda a galeria de inimigos do Batman.",
+    writers: "Chuck Dixon & Scott Beatty (roteiro) — Joker: Last Laugh #1–6, 2001"
+  },
+  {
+    id: 64, year: "2003", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: Hush",
     wikiSlugs: ["Batman:_Hush"],
     fallbackIcon: "🤫",
@@ -834,7 +994,7 @@ const sagas = [
     writers: "Jeph Loeb (roteiro) & Jim Lee (arte) — Batman #608–619, 2002–2003"
   },
   {
-    id: 55, year: "2004", era: "modern", eraLabel: "Era Moderna",
+    id: 65, year: "2004", era: "modern", eraLabel: "Era Moderna",
     title: "Identidade Secreta",
     wikiSlugs: ["Identity_Crisis_(DC_Comics)"],
     fallbackIcon: "🔍",
@@ -850,7 +1010,7 @@ const sagas = [
     writers: "Brad Meltzer (roteiro) & Rags Morales (arte) — Identity Crisis #1–7, 2004"
   },
   {
-    id: 56, year: "2004", era: "modern", eraLabel: "Era Moderna",
+    id: 66, year: "2004", era: "modern", eraLabel: "Era Moderna",
     title: "Lanterna Verde: Renascimento",
     wikiSlugs: ["Green_Lantern:_Rebirth"],
     fallbackIcon: "💚",
@@ -866,7 +1026,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ethan Van Sciver (arte) — Green Lantern: Rebirth #1–6, 2004–2005"
   },
   {
-    id: 57, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 67, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Contagem Regressiva Para Crise Infinita",
     wikiSlugs: ["Countdown_to_Infinite_Crisis"],
     fallbackIcon: "⏱️",
@@ -882,7 +1042,7 @@ const sagas = [
     writers: "Geoff Johns, Greg Rucka, Judd Winick (roteiro) — Countdown to Infinite Crisis e minisséries relacionadas, 2005"
   },
   {
-    id: 58, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 68, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Crise Infinita",
     wikiSlugs: ["Infinite_Crisis"],
     fallbackIcon: "🌌",
@@ -898,7 +1058,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Phil Jimenez, George Pérez e outros — Infinite Crisis #1–7, 2005–2006"
   },
   {
-    id: 59, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 69, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Sob o Capuz: O Retorno de Jason Todd",
     wikiSlugs: ["Batman:_Under_the_Hood"],
     fallbackIcon: "🔴",
@@ -914,7 +1074,7 @@ const sagas = [
     writers: "Judd Winick (roteiro) & Doug Mahnke (arte) — Batman #635–641, 645–650, 2005–2006"
   },
   {
-    id: 60, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 70, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Filho Vermelho",
     wikiSlugs: ["Superman:_Red_Son"],
     fallbackIcon: "☭",
@@ -930,7 +1090,7 @@ const sagas = [
     writers: "Mark Millar (roteiro) & Dave Johnson e Kilian Plunkett (arte) — Superman: Red Son #1–3, 2003"
   },
   {
-    id: 61, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 71, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "All-Star Superman",
     wikiSlugs: ["All-Star_Superman"],
     fallbackIcon: "☀️",
@@ -946,7 +1106,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Frank Quitely (arte) — All-Star Superman #1–12, 2005–2008"
   },
   {
-    id: 62, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 72, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "52 Semanas",
     wikiSlugs: ["52_(comics)"],
     fallbackIcon: "📅",
@@ -962,7 +1122,7 @@ const sagas = [
     writers: "Geoff Johns, Grant Morrison, Greg Rucka & Mark Waid (roteiro) — 52 #1–52, 2006–2007"
   },
   {
-    id: 63, year: "2007", era: "modern", eraLabel: "Era Moderna",
+    id: 73, year: "2007", era: "modern", eraLabel: "Era Moderna",
     title: "A Guerra dos Sinestro Corps",
     wikiSlugs: ["Sinestro_Corps_War"],
     fallbackIcon: "🟡",
@@ -978,7 +1138,7 @@ const sagas = [
     writers: "Geoff Johns & Dave Gibbons (roteiro), Ivan Reis, Patrick Gleason & Ethan Van Sciver (arte) — 2007"
   },
   {
-    id: 64, year: "2008", era: "modern", eraLabel: "Era Moderna",
+    id: 74, year: "2008", era: "modern", eraLabel: "Era Moderna",
     title: "Final Crisis",
     wikiSlugs: ["Final_Crisis"],
     fallbackIcon: "🔴",
@@ -994,7 +1154,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & J.G. Jones, Carlos Pacheco, Doug Mahnke — Final Crisis #1–7, 2008–2009"
   },
   {
-    id: 65, year: "2008", era: "modern", eraLabel: "Era Moderna",
+    id: 75, year: "2008", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Fase Novo Krypton",
     wikiSlugs: ["Superman:_New_Krypton"],
     fallbackIcon: "🏙️",
@@ -1010,7 +1170,7 @@ const sagas = [
     writers: "Geoff Johns, James Robinson & Sterling Gates (roteiro), Gary Frank e outros (arte) — Superman: New Krypton, 2008–2009"
   },
   {
-    id: 66, year: "2009", era: "modern", eraLabel: "Era Moderna",
+    id: 76, year: "2009", era: "modern", eraLabel: "Era Moderna",
     title: "Lanterna Verde: Blackest Night",
     wikiSlugs: ["Blackest_Night"],
     fallbackIcon: "💍",
@@ -1026,7 +1186,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis (arte) — Blackest Night #0–8 + tie-ins, 2009–2010"
   },
   {
-    id: 67, year: "2009", era: "modern", eraLabel: "Era Moderna",
+    id: 77, year: "2009", era: "modern", eraLabel: "Era Moderna",
     title: "Flash: Renascido",
     wikiSlugs: ["The_Flash:_Rebirth"],
     fallbackIcon: "🔁",
@@ -1042,7 +1202,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ethan Van Sciver (arte) — The Flash: Rebirth #1–6, 2009–2010"
   },
   {
-    id: 68, year: "2010", era: "modern", eraLabel: "Era Moderna",
+    id: 78, year: "2010", era: "modern", eraLabel: "Era Moderna",
     title: "O Dia Mais Claro",
     wikiSlugs: ["Brightest_Day"],
     fallbackIcon: "🌟",
@@ -1058,7 +1218,7 @@ const sagas = [
     writers: "Geoff Johns & Peter Tomasi (roteiro), Ivan Reis & Patrick Gleason (arte) — Brightest Day #0–24, 2010–2011"
   },
   {
-    id: 69, year: "2011", era: "modern", eraLabel: "Era Moderna",
+    id: 79, year: "2011", era: "modern", eraLabel: "Era Moderna",
     title: "Flashpoint",
     wikiSlugs: ["Flashpoint_(comics)"],
     fallbackIcon: "🌩️",
@@ -1074,7 +1234,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Andy Kubert (arte) — Flashpoint #1–5, 2011"
   },
   {
-    id: 70, year: "2011", era: "new52", eraLabel: "New 52",
+    id: 80, year: "2011", era: "new52", eraLabel: "New 52",
     title: "New 52: Reinício do Universo DC",
     wikiSlugs: ["The_New_52"],
     fallbackIcon: "🔁",
@@ -1090,7 +1250,7 @@ const sagas = [
     writers: "Múltiplos autores, coordenação de Geoff Johns e Dan DiDio — Setembro de 2011"
   },
   {
-    id: 71, year: "2011", era: "new52", eraLabel: "New 52",
+    id: 81, year: "2011", era: "new52", eraLabel: "New 52",
     title: "Liga da Justiça: Origem (Novos 52)",
     wikiSlugs: ["Justice_League:_Origin", "Justice_League_(2011_comic_book)"],
     fallbackIcon: "🛡️",
@@ -1106,7 +1266,23 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Jim Lee (arte) — Justice League Vol. 2 #1–6, 2011–2012"
   },
   {
-    id: 72, year: "2012", era: "new52", eraLabel: "New 52",
+    id: 82, year: "2011", era: "new52", eraLabel: "New 52",
+    title: "Mulher-Maravilha: Sangue (New 52)",
+    wikiSlugs: ["Wonder_Woman_(comic_book)", "Brian_Azzarello"],
+    fallbackIcon: "⚡",
+    summary: "Brian Azzarello reformula completamente as origens de Diana para o New 52: ela não foi esculpida em argila e animada pelos deuses como sempre se contou, mas sim filha biológica de Zeus, fruto de um caso secreto entre o rei dos deuses e a rainha Hipólita — uma verdade escondida por toda a vida de Diana. Quando Hera descobre que Zeus engravidou outra mulher mortal, Zola, ela envia seus súditos para matá-la. Diana assume a missão de proteger Zola e seu filho ainda não nascido, mergulhando de cabeça numa guerra de intrigas entre os deuses do Olimpo pelo trono vago de Zeus.",
+    events: [
+      "Revelação de que Diana não foi feita de argila, mas é filha biológica de Zeus e Hipólita",
+      "Hera descobre que Zeus engravidou a mortal Zola e envia capangas para matá-la",
+      "Diana assume a proteção de Zola e seu filho não nascido contra a fúria de Hera",
+      "Surgimento do Primogênito, irmão mais velho de Diana e filho legítimo de Zeus e Hera",
+      "Diana navega intrigas mortais entre Apolo, Ares, Estranho, Hermes e outros deuses gregos"
+    ],
+    consequences: "O run de Azzarello e Cliff Chiang é amplamente considerado uma das melhores reinvenções de qualquer personagem do New 52, transformando Mulher-Maravilha numa saga de intriga política e mitologia grega visceral. A revelação de Diana como filha de Zeus se tornou parte permanente e influente de sua mitologia, e a aclamação crítica da arte de Chiang elevou o título a um dos mais respeitados da era.",
+    writers: "Brian Azzarello (roteiro) & Cliff Chiang (arte) — Wonder Woman Vol. 4 #1–6, 2011–2012"
+  },
+  {
+    id: 83, year: "2012", era: "new52", eraLabel: "New 52",
     title: "Batman: Corte da Coruja",
     wikiSlugs: ["Batman_(comic_book)", "Court_of_Owls", "Scott_Snyder"],
     fallbackIcon: "🦉",
@@ -1122,7 +1298,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Batman Vol. 2 #1–11, 2011–2012"
   },
   {
-    id: 73, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 84, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Trono de Atlântida",
     wikiSlugs: ["Throne_of_Atlantis"],
     fallbackIcon: "🔱",
@@ -1138,7 +1314,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis (arte) — Justice League #15–17 / Aquaman #15–16, 2012–2013"
   },
   {
-    id: 74, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 85, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Guerra da Trindade",
     wikiSlugs: ["Trinity_War"],
     fallbackIcon: "⚔️",
@@ -1154,7 +1330,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis, David Finch (arte) — Justice League #22 / Justice League of America #6 / Justice League Dark #22, 2013"
   },
   {
-    id: 75, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 86, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Vilania Eterna",
     wikiSlugs: ["Forever_Evil"],
     fallbackIcon: "👹",
@@ -1170,7 +1346,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & David Finch (arte) — Forever Evil #1–7, 2013–2014"
   },
   {
-    id: 76, year: "2014", era: "new52", eraLabel: "New 52",
+    id: 87, year: "2014", era: "new52", eraLabel: "New 52",
     title: "Fim dos Tempos",
     wikiSlugs: ["The_New_52:_Futures_End"],
     fallbackIcon: "🤖",
@@ -1186,7 +1362,7 @@ const sagas = [
     writers: "Brian Azzarello, Keith Giffen, Dan Jurgens & Jeff Lemire (roteiro) — The New 52: Futures End #0–48, 2014–2015"
   },
   {
-    id: 77, year: "2014", era: "new52", eraLabel: "New 52",
+    id: 88, year: "2014", era: "new52", eraLabel: "New 52",
     title: "The Multiversity",
     wikiSlugs: ["The_Multiversity"],
     fallbackIcon: "🌐",
@@ -1202,7 +1378,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & múltiplos artistas — The Multiversity #1–2 + one-shots, 2014–2015"
   },
   {
-    id: 78, year: "2015", era: "new52", eraLabel: "New 52",
+    id: 89, year: "2015", era: "new52", eraLabel: "New 52",
     title: "A Guerra de Darkseid",
     wikiSlugs: ["Darkseid_War"],
     fallbackIcon: "🔥",
@@ -1218,7 +1394,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Jason Fabok (arte) — Justice League #40–50, 2015–2016"
   },
   {
-    id: 79, year: "2015", era: "new52", eraLabel: "New 52",
+    id: 90, year: "2015", era: "new52", eraLabel: "New 52",
     title: "Convergência",
     wikiSlugs: ["Convergence_(comics)"],
     fallbackIcon: "🏙️",
@@ -1234,7 +1410,7 @@ const sagas = [
     writers: "Jeff King, Scott Lobdell & Dan Jurgens (roteiro), múltiplos artistas — Convergence #0–8 + tie-ins, 2015"
   },
   {
-    id: 80, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 91, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC Rebirth: O Universo Volta",
     wikiSlugs: ["DC_Rebirth"],
     fallbackIcon: "🌅",
@@ -1250,7 +1426,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Gary Frank, Ethan Van Sciver e outros — DC Universe: Rebirth #1, 2016"
   },
   {
-    id: 81, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 92, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Batman: A Maldição do Barão Branco",
     wikiSlugs: ["Batman:_White_Knight"],
     fallbackIcon: "🎭",
@@ -1266,7 +1442,7 @@ const sagas = [
     writers: "Sean Murphy (roteiro e arte) — Batman: White Knight #1–8, 2017–2018"
   },
   {
-    id: 82, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 93, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Doomsday Clock",
     wikiSlugs: ["Doomsday_Clock_(comics)"],
     fallbackIcon: "⏰",
@@ -1282,7 +1458,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Gary Frank (arte) — Doomsday Clock #1–12, 2017–2019"
   },
   {
-    id: 83, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 94, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Metal",
     wikiSlugs: ["Dark_Nights:_Metal"],
     fallbackIcon: "🎸",
@@ -1298,7 +1474,23 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Dark Nights: Metal #1–6, 2017–2018"
   },
   {
-    id: 84, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 95, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    title: "Liga da Justiça: Sem Justiça",
+    wikiSlugs: ["Justice_League_(comic_book)", "Scott_Snyder"],
+    fallbackIcon: "🪐",
+    summary: "Nas consequências diretas de Dark Nights: Metal, o equilíbrio cósmico do universo se rompeu. Brainiac chega à Terra com um aviso urgente: quatro entidades primordiais conhecidas como Titãs Ômega — representando Entropia, Sabedoria, Maravilha e Mistério — despertaram e ameaçam devorar mundos inteiros, incluindo o planeta natal do próprio Brainiac, Colu. Para enfrentar essa ameaça em escala de extinção, heróis e vilões são forçosamente combinados em quatro novas equipes, cada uma reunindo a energia correspondente a um dos Titãs Ômega.",
+    events: [
+      "Brainiac chega à Terra alertando sobre o despertar de quatro Titãs Ômega devoradores de mundos",
+      "Heróis e vilões são combinados à força em quatro novas equipes temáticas",
+      "Amanda Waller ativa o Protocolo XI, minerando a mente de Brainiac com tecnologia apokoliptiana",
+      "As equipes combinadas enfrentam os Titãs Ômega em múltiplos cantos do universo simultaneamente",
+      "Brainiac trai os heróis ao tentar assumir os poderes restantes dos Titãs Ômega para si mesmo"
+    ],
+    consequences: "Sem Justiça reformulou completamente a estrutura editorial da Liga da Justiça, dando origem a três novos títulos simultâneos: Justice League, Justice League Dark e Justice League Odyssey. A saga expandiu drasticamente a cosmologia do Universo DC pós-Metal, introduzindo os Titãs Ômega como conceitos fundamentais que normalizariam a fusão entre magia, ciência e cosmologia nas histórias seguintes da editora.",
+    writers: "Scott Snyder, James Tynion IV & Joshua Williamson (roteiro), Francis Manapul (arte) — Justice League: No Justice #1–4, 2018"
+  },
+  {
+    id: 96, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Death Metal",
     wikiSlugs: ["Dark_Nights:_Death_Metal"],
     fallbackIcon: "🤘",
@@ -1314,7 +1506,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Dark Nights: Death Metal #1–7, 2020–2021"
   },
   {
-    id: 85, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 97, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC K.O.: Absolute Power",
     wikiSlugs: ["DC_K.O.", "Absolute_Power_(comics)", "Amanda_Waller"],
     fallbackIcon: "💥",
