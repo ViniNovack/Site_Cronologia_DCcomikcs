@@ -50,8 +50,22 @@
     </div>
   </nav>
 
+  <!-- BRANCHES LEGEND (ramos por personagem/equipe) -->
+  <nav class="branches-nav">
+    <div class="branches-nav-inner" id="branchPills">
+      <!-- Pills de ramos inseridos via JS -->
+    </div>
+    <button class="orientation-toggle" id="orientationToggle" aria-label="Mudar para visualização vertical">
+      <span class="orientation-icon">↕️</span>
+      <span class="orientation-label">Ver na Vertical</span>
+    </button>
+  </nav>
+
+  <!-- BARRA DE CONTEXTO DO RAMO ATIVO -->
+  <div class="branch-context-bar" id="branchContextBar"></div>
+
   <!-- TIMELINE -->
-  <main class="timeline-section">
+  <main class="timeline-section timeline-horizontal">
     <div class="timeline-track-wrapper">
       <div class="timeline-line"></div>
       <div class="timeline-cards" id="timelineCards">

@@ -249,22 +249,190 @@ body {
   box-shadow: 0 0 16px rgba(0,87,255,0.4);
 }
 
+/* --- BRANCHES NAV (ramos por personagem/equipe) --- */
+.branches-nav {
+  position: sticky;
+  top: 49px; /* logo abaixo da eras-nav */
+  z-index: 99;
+  background: rgba(13,13,20,0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  padding: 0.6rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.branches-nav-inner {
+  display: flex;
+  gap: 0.45rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  flex: 1;
+}
+.branches-nav-inner::-webkit-scrollbar { display: none; }
+
+.branch-pill {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-mid);
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.branch-pill-icon {
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.branch-pill:hover {
+  border-color: var(--chip-color, var(--dc-blue));
+  color: var(--text-hi);
+}
+
+.branch-pill.active {
+  background: var(--chip-color, var(--dc-blue));
+  border-color: var(--chip-color, var(--dc-blue));
+  color: #0A0A0F;
+  font-weight: 700;
+  box-shadow: 0 0 14px color-mix(in srgb, var(--chip-color, var(--dc-blue)) 50%, transparent);
+}
+
+/* --- ORIENTATION TOGGLE --- */
+.orientation-toggle {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--dc-gold);
+  background: rgba(255,215,0,0.06);
+  color: var(--dc-gold);
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.orientation-toggle:hover {
+  background: var(--dc-gold);
+  color: var(--bg);
+  box-shadow: 0 0 14px rgba(255,215,0,0.4);
+}
+
+.orientation-icon {
+  font-size: 0.85rem;
+}
+
+/* --- BRANCH CONTEXT BAR --- */
+.branch-context-bar {
+  display: none;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 2rem;
+  background: color-mix(in srgb, var(--chip-color, var(--dc-blue)) 12%, var(--surface));
+  border-bottom: 1px solid color-mix(in srgb, var(--chip-color, var(--dc-blue)) 35%, transparent);
+  font-size: 0.8rem;
+  color: var(--text-hi);
+  line-height: 1.5;
+}
+
+.branch-context-bar.visible {
+  display: flex;
+}
+
+.branch-context-icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.branch-context-bar strong {
+  color: var(--chip-color, var(--dc-gold));
+}
+
+/* --- BRANCH CHIPS NOS CARDS --- */
+.card-branches {
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.branch-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--chip-color, var(--dc-blue)) 25%, var(--surface-2));
+  border: 1px solid color-mix(in srgb, var(--chip-color, var(--dc-blue)) 50%, transparent);
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+/* --- DESTAQUE / ESMAECIMENTO POR RAMO ATIVO --- */
+.card-branch-dim {
+  opacity: 0.25;
+  filter: grayscale(0.6);
+}
+
+.card-branch-dim:hover {
+  opacity: 0.55;
+  filter: grayscale(0.3);
+}
+
+.card-branch-active .card-inner {
+  border-color: var(--card-branch-color, var(--dc-gold));
+  box-shadow:
+    var(--shadow-card),
+    0 0 22px color-mix(in srgb, var(--card-branch-color, var(--dc-gold)) 45%, transparent);
+}
+
+.card-branch-active::after {
+  background: var(--card-branch-color, var(--card-era-color));
+  box-shadow: 0 0 14px var(--card-branch-color, transparent);
+}
+
 /* --- TIMELINE --- */
 .timeline-section {
   padding: 5rem 0 8rem;
+}
+
+/* ===== MODO HORIZONTAL (padrão) ===== */
+.timeline-horizontal {
   overflow-x: auto;
+  overflow-y: hidden;
   scrollbar-width: thin;
   scrollbar-color: var(--border) transparent;
 }
 
-.timeline-track-wrapper {
+.timeline-horizontal .timeline-track-wrapper {
   position: relative;
   min-width: max-content;
   padding: 0 4rem;
 }
 
 /* Linha central */
-.timeline-line {
+.timeline-horizontal .timeline-line {
   position: absolute;
   top: 50%;
   left: 0;
@@ -279,7 +447,7 @@ body {
   transform: translateY(-50%);
 }
 
-.timeline-cards {
+.timeline-horizontal .timeline-cards {
   display: flex;
   gap: 2.5rem;
   align-items: center;
@@ -287,32 +455,32 @@ body {
   position: relative;
 }
 
-/* --- CARD --- */
-.card {
+/* --- CARD (modo horizontal) --- */
+.timeline-horizontal .card {
   position: relative;
   width: 220px;
   flex-shrink: 0;
   cursor: pointer;
-  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.25s ease, filter 0.25s ease;
 }
 
 /* Alternância: cards pares vão pra cima, ímpares pra baixo */
-.card:nth-child(even) {
+.timeline-horizontal .card:nth-child(even) {
   transform: translateY(-140px);
 }
-.card:nth-child(odd) {
+.timeline-horizontal .card:nth-child(odd) {
   transform: translateY(140px);
 }
 
-.card:nth-child(even):hover {
+.timeline-horizontal .card:nth-child(even):hover {
   transform: translateY(-148px) scale(1.04);
 }
-.card:nth-child(odd):hover {
+.timeline-horizontal .card:nth-child(odd):hover {
   transform: translateY(148px) scale(1.04);
 }
 
 /* Conector vertical até a linha */
-.card::before {
+.timeline-horizontal .card::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -322,17 +490,17 @@ body {
   transform: translateX(-50%);
 }
 
-.card:nth-child(even)::before {
+.timeline-horizontal .card:nth-child(even)::before {
   top: 100%;
   height: 120px;
 }
-.card:nth-child(odd)::before {
+.timeline-horizontal .card:nth-child(odd)::before {
   bottom: 100%;
   height: 120px;
 }
 
 /* Ponto na linha */
-.card::after {
+.timeline-horizontal .card::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -345,13 +513,164 @@ body {
   box-shadow: 0 0 10px var(--card-era-color, transparent);
 }
 
-.card:nth-child(even)::after {
+.timeline-horizontal .card:nth-child(even)::after {
   top: calc(100% + 120px - 6px);
 }
-.card:nth-child(odd)::after {
+.timeline-horizontal .card:nth-child(odd)::after {
   bottom: calc(100% + 120px - 6px);
 }
 
+/* ===== MODO VERTICAL ===== */
+/* Lista vertical com a linha à esquerda — muito mais adequada para
+   centenas de cards, já que permite scroll natural da página em vez
+   de scroll horizontal forçado. */
+.timeline-vertical .timeline-track-wrapper {
+  position: relative;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.timeline-vertical .timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2.4rem;
+  width: 2px;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    var(--border) 4%,
+    var(--border) 96%,
+    transparent 100%
+  );
+}
+
+@media (min-width: 640px) {
+  .timeline-vertical .timeline-line { left: 50%; transform: translateX(-50%); }
+}
+
+.timeline-vertical .timeline-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  padding: 1rem 0;
+}
+
+/* --- CARD (modo vertical) --- */
+.timeline-vertical .card {
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  margin-left: 4.5rem;
+  cursor: pointer;
+  transition: transform 0.25s ease, opacity 0.25s ease, filter 0.25s ease;
+}
+
+@media (min-width: 640px) {
+  /* Cards alternam esquerda/direita da linha central, estilo "zigue-zague vertical" */
+  .timeline-vertical .card:nth-child(odd) {
+    margin-left: 0;
+    margin-right: calc(50% + 2.5rem);
+    text-align: right;
+  }
+  .timeline-vertical .card:nth-child(even) {
+    margin-left: calc(50% + 2.5rem);
+    margin-right: 0;
+  }
+}
+
+.timeline-vertical .card:hover {
+  transform: scale(1.02);
+}
+
+/* Conector horizontal até a linha central */
+.timeline-vertical .card::before {
+  content: '';
+  position: absolute;
+  top: 2.2rem;
+  height: 2px;
+  width: 2.5rem;
+  background: var(--card-era-color, var(--border));
+  opacity: 0.5;
+}
+
+.timeline-vertical .card {
+  left: 0;
+}
+.timeline-vertical .card::before {
+  left: -2.5rem;
+}
+
+@media (min-width: 640px) {
+  .timeline-vertical .card:nth-child(odd)::before {
+    left: auto;
+    right: -2.5rem;
+  }
+  .timeline-vertical .card:nth-child(even)::before {
+    left: -2.5rem;
+  }
+}
+
+/* Ponto na linha */
+.timeline-vertical .card::after {
+  content: '';
+  position: absolute;
+  top: 2.2rem;
+  width: 12px;
+  height: 12px;
+  background: var(--card-era-color, var(--border));
+  border: 2px solid var(--bg);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--card-era-color, transparent);
+  left: -2.93rem;
+}
+
+@media (min-width: 640px) {
+  .timeline-vertical .card:nth-child(odd)::after {
+    left: auto;
+    right: -2.93rem;
+  }
+  .timeline-vertical .card:nth-child(even)::after {
+    left: -2.93rem;
+  }
+}
+
+/* No modo vertical o card é horizontal internamente: capa ao lado do texto */
+.timeline-vertical .card-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (min-width: 640px) {
+  .timeline-vertical .card:nth-child(odd) .card-inner {
+    flex-direction: row-reverse;
+  }
+}
+
+.timeline-vertical .card-cover {
+  width: 110px;
+  height: auto;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.timeline-vertical .card-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.timeline-vertical .card-branches {
+  justify-content: flex-start;
+}
+
+@media (min-width: 640px) {
+  .timeline-vertical .card:nth-child(odd) .card-branches {
+    justify-content: flex-end;
+  }
+}
+
+/* --- CARD (compartilhado entre os dois modos) --- */
 .card-inner {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -657,9 +976,30 @@ body {
 /* --- RESPONSIVIDADE --- */
 @media (max-width: 768px) {
   .hero-title { font-size: clamp(4rem, 20vw, 7rem); }
-  .timeline-cards { gap: 1.5rem; }
-  .card { width: 180px; }
+  .timeline-horizontal .timeline-cards { gap: 1.5rem; }
+  .timeline-horizontal .card { width: 180px; }
   .modal { padding: 2rem 1.25rem 1.5rem; }
+
+  .branches-nav {
+    padding: 0.6rem 1rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .orientation-toggle {
+    justify-content: center;
+  }
+
+  .timeline-vertical .card {
+    margin-left: 3.2rem;
+    max-width: none;
+  }
+
+  .timeline-vertical .timeline-line { left: 1.7rem; }
+  .timeline-vertical .card::before { left: -1.9rem; width: 1.7rem; }
+  .timeline-vertical .card::after { left: -2.33rem; }
+  .timeline-vertical .card-inner { flex-direction: column; }
+  .timeline-vertical .card-cover { width: 100%; height: 120px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
