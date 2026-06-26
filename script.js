@@ -599,7 +599,24 @@ const sagas = [
     writers: "Marv Wolfman (roteiro) & George Pérez (arte) — Tales of the Teen Titans #42–44 e Annual #3, 1984"
   },
   {
-    id: 38, year: "1985", era: "modern", eraLabel: "Era Moderna",
+    id: 38, year: "1984", era: "bronze", eraLabel: "Era de Bronze",
+    title: "Monstro do Pântano de Alan Moore",
+    branches: ["swamp-thing"],
+    wikiSlugs: ["Swamp_Thing_(comic_book)"],
+    fallbackIcon: "🌿",
+    summary: "Quando a série estava à beira do cancelamento por baixas vendas, a DC contratou o até então desconhecido escritor britânico Alan Moore para assumir o título a partir da edição #20. Sua primeira grande reviravolta, em 'A Lição de Anatomia' (#21), revelou que Alec Holland nunca havia se transformado em Monstro do Pântano — na verdade, Holland morreu, e o Monstro é uma criatura vegetal senciente que apenas acredita ser humana por ter absorvido as memórias do cientista. Essa reformulação radicalmente existencial abriu caminho para histórias sobre ecologia, amor impossível e horror americano que redefiniriam completamente o que os quadrinhos de super-heróis podiam tratar.",
+    events: [
+      "Alan Moore assume a série na edição #20 e imediatamente encerra as tramas anteriores",
+      "'A Lição de Anatomia' (#21) revela que Alec Holland morreu e o Monstro é apenas uma planta senciente com suas memórias",
+      "O Monstro aceita sua verdadeira natureza como Elemental da Terra, guardião do chamado 'O Verde'",
+      "Introdução de John Constantine (#37), ocultista britânico que se tornaria um dos personagens mais icônicos da DC",
+      "A série abandona o Código de Ética dos Quadrinhos, tornando-se a primeira publicação mainstream a fazê-lo"
+    ],
+    consequences: "O run de Alan Moore no Monstro do Pântano é amplamente considerado o ponto de partida da 'invasão britânica' dos quadrinhos americanos, preparando o terreno para Watchmen, Batman: A Piada Mortal e toda a era adulta que se seguiu. A introdução de John Constantine gerou uma das franquias mais duradouras da DC (Hellblazer), e a decisão de abandonar o Código de Ética abriu permanentemente o caminho para o selo Vertigo, que publicaria Sandman, Preacher e Garth Ennis.",
+    writers: "Alan Moore (roteiro), Stephen Bissette & John Totleben (arte) — The Saga of the Swamp Thing #20–64, 1984–1987"
+  },
+  {
+    id: 39, year: "1985", era: "modern", eraLabel: "Era Moderna",
     title: "Crise nas Infinitas Terras",
     branches: ["multiverso"],
     wikiSlugs: ["Crisis_on_Infinite_Earths"],
@@ -616,7 +633,7 @@ const sagas = [
     writers: "Marv Wolfman (roteiro) & George Pérez (arte) — Crisis on Infinite Earths #1–12, 1985–1986"
   },
   {
-    id: 39, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 40, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Wally West se Torna o Novo Flash",
     branches: ["flash"],
     wikiSlugs: ["Wally_West"],
@@ -633,7 +650,7 @@ const sagas = [
     writers: "Mike Baron (roteiro) & Jackson Guice (arte) — The Flash Vol. 2 #1, 1987"
   },
   {
-    id: 40, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 41, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "O Homem de Aço",
     branches: ["superman"],
     wikiSlugs: ["The_Man_of_Steel_(comics)"],
@@ -650,7 +667,7 @@ const sagas = [
     writers: "John Byrne (roteiro e arte) & Dick Giordano (arte-final) — The Man of Steel #1–6, 1986"
   },
   {
-    id: 41, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 42, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: O Cavaleiro das Trevas",
     branches: ["batman"],
     wikiSlugs: ["Batman:_The_Dark_Knight_Returns"],
@@ -667,7 +684,7 @@ const sagas = [
     writers: "Frank Miller (roteiro e arte) com Lynn Varley (cores) — Batman: The Dark Knight Returns #1–4, 1986"
   },
   {
-    id: 42, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 43, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Watchmen",
     branches: ["multiverso"],
     wikiSlugs: ["Watchmen"],
@@ -684,7 +701,7 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Dave Gibbons (arte) — Watchmen #1–12, 1986–1987"
   },
   {
-    id: 43, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 44, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "O Que Aconteceu com o Homem do Amanhã?",
     branches: ["superman"],
     wikiSlugs: ["Whatever_Happened_to_the_Man_of_Tomorrow"],
@@ -701,7 +718,7 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Curt Swan (arte) — Superman #423 e Action Comics #583, 1986"
   },
   {
-    id: 44, year: "1986", era: "modern", eraLabel: "Era Moderna",
+    id: 45, year: "1986", era: "modern", eraLabel: "Era Moderna",
     title: "Lendas",
     branches: ["liga"],
     wikiSlugs: ["Legends_(comics)"],
@@ -718,7 +735,7 @@ const sagas = [
     writers: "John Ostrander & Len Wein (roteiro), John Byrne (arte) — Legends #1–6, 1986–1987"
   },
   {
-    id: 45, year: "1987", era: "modern", eraLabel: "Era Moderna",
+    id: 46, year: "1987", era: "modern", eraLabel: "Era Moderna",
     title: "Shazam!: O Novo Começo",
     branches: ["shazam"],
     wikiSlugs: ["Shazam!:_The_New_Beginning"],
@@ -735,7 +752,7 @@ const sagas = [
     writers: "Roy Thomas & Dann Thomas (roteiro), Tom Mandrake (arte) — Shazam!: The New Beginning #1–4, 1987"
   },
   {
-    id: 46, year: "1987", era: "modern", eraLabel: "Era Moderna",
+    id: 47, year: "1987", era: "modern", eraLabel: "Era Moderna",
     title: "Esquadrão Suicida: A Formação Moderna",
     branches: ["esquadrao-suicida", "batman"],
     wikiSlugs: ["Suicide_Squad"],
@@ -752,7 +769,7 @@ const sagas = [
     writers: "John Ostrander (roteiro) & Luke McDonnell (arte) — Suicide Squad Vol. 1 #1, 1987"
   },
   {
-    id: 47, year: "1987", era: "modern", eraLabel: "Era Moderna",
+    id: 48, year: "1987", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: Ano Um",
     branches: ["batman"],
     wikiSlugs: ["Batman:_Year_One"],
@@ -769,7 +786,7 @@ const sagas = [
     writers: "Frank Miller (roteiro) & David Mazzucchelli (arte) — Batman #404–407, 1987"
   },
   {
-    id: 48, year: "1987", era: "modern", eraLabel: "Era Moderna",
+    id: 49, year: "1987", era: "modern", eraLabel: "Era Moderna",
     title: "Mulher-Maravilha: Deuses e Mortais",
     branches: ["mulher-maravilha"],
     wikiSlugs: ["Wonder_Woman:_Gods_and_Mortals"],
@@ -786,7 +803,7 @@ const sagas = [
     writers: "George Pérez (roteiro e arte), Greg Potter & Len Wein (roteiro) — Wonder Woman Vol. 2 #1–7, 1987"
   },
   {
-    id: 49, year: "1987", era: "modern", eraLabel: "Era Moderna",
+    id: 50, year: "1987", era: "modern", eraLabel: "Era Moderna",
     title: "Liga da Justiça Internacional",
     branches: ["liga"],
     wikiSlugs: ["Justice_League_International"],
@@ -803,7 +820,7 @@ const sagas = [
     writers: "Keith Giffen & J.M. DeMatteis (roteiro), Kevin Maguire (arte) — Justice League #1–6 e Justice League International #7+, 1987"
   },
   {
-    id: 50, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 51, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: A Piada Mortal",
     branches: ["batman"],
     wikiSlugs: ["Batman:_The_Killing_Joke"],
@@ -820,7 +837,7 @@ const sagas = [
     writers: "Alan Moore (roteiro) & Brian Bolland (arte) — Batman: The Killing Joke, 1988"
   },
   {
-    id: 51, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 52, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Animal Man de Grant Morrison",
     branches: ["animal-man"],
     wikiSlugs: ["Animal_Man_(comic_book)"],
@@ -837,7 +854,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Chas Truog (arte) — Animal Man Vol. 1 #1–26, 1988–1990"
   },
   {
-    id: 52, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 53, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Milênio",
     branches: ["liga"],
     wikiSlugs: ["Millennium_(comics)"],
@@ -854,7 +871,7 @@ const sagas = [
     writers: "Steve Englehart (roteiro) & Joe Staton (arte) — Millennium #1–8, 1988"
   },
   {
-    id: 53, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 54, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Odisseia Cósmica",
     branches: ["liga"],
     wikiSlugs: ["Cosmic_Odyssey_(comics)"],
@@ -871,7 +888,7 @@ const sagas = [
     writers: "Jim Starlin (roteiro) & Mike Mignola (arte) — Cosmic Odyssey #1–4, 1988–1989"
   },
   {
-    id: 54, year: "1988", era: "modern", eraLabel: "Era Moderna",
+    id: 55, year: "1988", era: "modern", eraLabel: "Era Moderna",
     title: "Morte em Família: A Morte de Jason Todd",
     branches: ["batman"],
     wikiSlugs: ["A_Death_in_the_Family_(comics)"],
@@ -888,7 +905,7 @@ const sagas = [
     writers: "Jim Starlin (roteiro) & Jim Aparo (arte) — Batman #426–429, 1988"
   },
   {
-    id: 55, year: "1989", era: "modern", eraLabel: "Era Moderna",
+    id: 56, year: "1989", era: "modern", eraLabel: "Era Moderna",
     title: "Patrulha do Destino de Grant Morrison",
     branches: ["patrulha-destino"],
     wikiSlugs: ["Doom_Patrol"],
@@ -905,7 +922,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Richard Case (arte) — Doom Patrol Vol. 2 #19–63, 1989–1993"
   },
   {
-    id: 56, year: "1989", era: "modern", eraLabel: "Era Moderna",
+    id: 57, year: "1989", era: "modern", eraLabel: "Era Moderna",
     title: "Sandman de Neil Gaiman",
     branches: ["sandman"],
     wikiSlugs: ["The_Sandman_(comic_book)"],
@@ -922,7 +939,7 @@ const sagas = [
     writers: "Neil Gaiman (roteiro), múltiplos artistas incluindo Sam Kieth e Mike Dringenberg — The Sandman #1–75, 1989–1996"
   },
   {
-    id: 57, year: "1989", era: "modern", eraLabel: "Era Moderna",
+    id: 58, year: "1989", era: "modern", eraLabel: "Era Moderna",
     title: "Arkham Asylum",
     branches: ["batman"],
     wikiSlugs: ["Arkham_Asylum:_A_Serious_House_on_Serious_Earth"],
@@ -939,7 +956,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Dave McKean (arte) — Arkham Asylum, 1989"
   },
   {
-    id: 58, year: "1991", era: "modern", eraLabel: "Era Moderna",
+    id: 59, year: "1991", era: "modern", eraLabel: "Era Moderna",
     title: "Guerra dos Deuses",
     branches: ["mulher-maravilha"],
     wikiSlugs: ["War_of_the_Gods_(comics)"],
@@ -956,7 +973,7 @@ const sagas = [
     writers: "George Pérez (roteiro e arte), Cynthia Martin & Russell Braun (arte) — War of the Gods #1–4, 1991"
   },
   {
-    id: 59, year: "1992", era: "modern", eraLabel: "Era Moderna",
+    id: 60, year: "1992", era: "modern", eraLabel: "Era Moderna",
     title: "A Morte do Superman",
     branches: ["superman"],
     wikiSlugs: ["The_Death_of_Superman"],
@@ -973,7 +990,7 @@ const sagas = [
     writers: "Dan Jurgens, Roger Stern, Karl Kesel, Jerry Ordway, Louise Simonson — Superman #75, 1992"
   },
   {
-    id: 60, year: "1993", era: "modern", eraLabel: "Era Moderna",
+    id: 61, year: "1993", era: "modern", eraLabel: "Era Moderna",
     title: "Reino dos Supermens",
     branches: ["superman"],
     wikiSlugs: ["Reign_of_the_Supermen_(film)", "Hank_Henshaw"],
@@ -990,7 +1007,7 @@ const sagas = [
     writers: "Dan Jurgens, Louise Simonson, Karl Kesel, Jerry Ordway, Roger Stern (roteiro) — Action Comics, Superman, Adventures of Superman, Superman: The Man of Steel, 1993"
   },
   {
-    id: 61, year: "1993", era: "modern", eraLabel: "Era Moderna",
+    id: 62, year: "1993", era: "modern", eraLabel: "Era Moderna",
     title: "Knightfall: A Queda do Batman",
     branches: ["batman"],
     wikiSlugs: ["Batman:_Knightfall"],
@@ -1007,7 +1024,7 @@ const sagas = [
     writers: "Doug Moench, Chuck Dixon e outros — Batman #492–500 e conexões, 1993"
   },
   {
-    id: 62, year: "1993", era: "modern", eraLabel: "Era Moderna",
+    id: 63, year: "1993", era: "modern", eraLabel: "Era Moderna",
     title: "Flash: O Retorno de Barry Allen",
     branches: ["flash"],
     wikiSlugs: ["The_Flash_(comic_book)"],
@@ -1024,7 +1041,7 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Greg LaRocque (arte) — The Flash Vol. 2 #74–79, 1993"
   },
   {
-    id: 63, year: "1994", era: "modern", eraLabel: "Era Moderna",
+    id: 64, year: "1994", era: "modern", eraLabel: "Era Moderna",
     title: "Zero Hour: Crise no Tempo",
     branches: ["lanterna-verde", "multiverso"],
     wikiSlugs: ["Zero_Hour:_Crisis_in_Time!"],
@@ -1041,7 +1058,7 @@ const sagas = [
     writers: "Dan Jurgens (roteiro e arte), Jerry Ordway — Zero Hour #4–0, 1994"
   },
   {
-    id: 64, year: "1994", era: "modern", eraLabel: "Era Moderna",
+    id: 65, year: "1994", era: "modern", eraLabel: "Era Moderna",
     title: "Aquaman: A Transformação de Peter David",
     branches: ["aquaman"],
     wikiSlugs: ["Aquaman_(comic_book)", "Aquaman"],
@@ -1058,7 +1075,7 @@ const sagas = [
     writers: "Peter David (roteiro) & Martin Egeland (arte) — Aquaman Vol. 5 #0–2, 1994"
   },
   {
-    id: 65, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    id: 66, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Kingdom Come",
     branches: ["liga", "superman"],
     wikiSlugs: ["Kingdom_Come_(comics)"],
@@ -1075,7 +1092,7 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Alex Ross (arte aquarelada) — Kingdom Come #1–4, 1996"
   },
   {
-    id: 66, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    id: 67, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: O Longo Dia das Bruxas",
     branches: ["batman"],
     wikiSlugs: ["Batman:_The_Long_Halloween"],
@@ -1092,7 +1109,7 @@ const sagas = [
     writers: "Jeph Loeb (roteiro) & Tim Sale (arte) — Batman: The Long Halloween #1–13, 1996–1997"
   },
   {
-    id: 67, year: "1996", era: "modern", eraLabel: "Era Moderna",
+    id: 68, year: "1996", era: "modern", eraLabel: "Era Moderna",
     title: "Noite Final",
     branches: ["lanterna-verde"],
     wikiSlugs: ["The_Final_Night"],
@@ -1109,7 +1126,7 @@ const sagas = [
     writers: "Karl Kesel (roteiro) & Stuart Immonen (arte) — The Final Night #1–4, 1996"
   },
   {
-    id: 68, year: "1997", era: "modern", eraLabel: "Era Moderna",
+    id: 69, year: "1997", era: "modern", eraLabel: "Era Moderna",
     title: "LJA: Nova Ordem Mundial",
     branches: ["liga"],
     wikiSlugs: ["JLA:_New_World_Order"],
@@ -1126,7 +1143,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Howard Porter (arte) — JLA #1–4, 1997"
   },
   {
-    id: 69, year: "1998", era: "modern", eraLabel: "Era Moderna",
+    id: 70, year: "1998", era: "modern", eraLabel: "Era Moderna",
     title: "DC Um Milhão",
     branches: ["superman"],
     wikiSlugs: ["DC_One_Million"],
@@ -1143,7 +1160,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Val Semeiks (arte) — DC One Million #1–4, 1998"
   },
   {
-    id: 70, year: "1999", era: "modern", eraLabel: "Era Moderna",
+    id: 71, year: "1999", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: Terra de Ninguém",
     branches: ["batman"],
     wikiSlugs: ["Batman:_No_Man's_Land"],
@@ -1160,7 +1177,7 @@ const sagas = [
     writers: "Jordan B. Gorfinkel (arquitetura editorial) & múltiplos roteiristas e artistas — Batman, Detective Comics, Batman: Shadow of the Bat e outros títulos, 1999"
   },
   {
-    id: 71, year: "2000", era: "modern", eraLabel: "Era Moderna",
+    id: 72, year: "2000", era: "modern", eraLabel: "Era Moderna",
     title: "JLA: Torre de Babel",
     branches: ["liga", "batman"],
     wikiSlugs: ["JLA:_Tower_of_Babel"],
@@ -1177,7 +1194,7 @@ const sagas = [
     writers: "Mark Waid (roteiro) & Howard Porter (arte) — JLA #43–46, 2000"
   },
   {
-    id: 72, year: "2000", era: "modern", eraLabel: "Era Moderna",
+    id: 73, year: "2000", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Imperador Coringa",
     branches: ["superman", "batman"],
     wikiSlugs: ["Superman:_Emperor_Joker"],
@@ -1194,7 +1211,7 @@ const sagas = [
     writers: "Jeph Loeb, Joe Kelly, Mark Schultz & J.M. DeMatteis (roteiro) — Superman/Action Comics/Superman: The Man of Steel, 2000"
   },
   {
-    id: 73, year: "2000", era: "modern", eraLabel: "Era Moderna",
+    id: 74, year: "2000", era: "modern", eraLabel: "Era Moderna",
     title: "A Presidência de Lex Luthor",
     branches: ["superman", "lex-luthor"],
     wikiSlugs: ["Lex_Luthor"],
@@ -1211,7 +1228,7 @@ const sagas = [
     writers: "Jeph Loeb & Greg Rucka (roteiro), múltiplos artistas — Superman: Lex 2000 #1 e títulos relacionados, 2000–2001"
   },
   {
-    id: 74, year: "2001", era: "modern", eraLabel: "Era Moderna",
+    id: 75, year: "2001", era: "modern", eraLabel: "Era Moderna",
     title: "Nossos Mundos em Guerra",
     branches: ["superman", "mulher-maravilha"],
     wikiSlugs: ["Our_Worlds_at_War"],
@@ -1228,7 +1245,7 @@ const sagas = [
     writers: "Jeph Loeb, Joe Casey, Mark Schultz, Joe Kelly, Phil Jimenez & Peter David (roteiro) — Superman e títulos relacionados, 2001"
   },
   {
-    id: 75, year: "2001", era: "modern", eraLabel: "Era Moderna",
+    id: 76, year: "2001", era: "modern", eraLabel: "Era Moderna",
     title: "Coringa: A Última Risada",
     branches: ["batman"],
     wikiSlugs: ["Last_Laugh_(comics)"],
@@ -1245,7 +1262,7 @@ const sagas = [
     writers: "Chuck Dixon & Scott Beatty (roteiro) — Joker: Last Laugh #1–6, 2001"
   },
   {
-    id: 76, year: "2003", era: "modern", eraLabel: "Era Moderna",
+    id: 77, year: "2003", era: "modern", eraLabel: "Era Moderna",
     title: "Batman: Hush",
     branches: ["batman"],
     wikiSlugs: ["Batman:_Hush"],
@@ -1262,7 +1279,7 @@ const sagas = [
     writers: "Jeph Loeb (roteiro) & Jim Lee (arte) — Batman #608–619, 2002–2003"
   },
   {
-    id: 77, year: "2004", era: "modern", eraLabel: "Era Moderna",
+    id: 78, year: "2004", era: "modern", eraLabel: "Era Moderna",
     title: "Identidade Secreta",
     branches: ["liga"],
     wikiSlugs: ["Identity_Crisis_(DC_Comics)"],
@@ -1279,7 +1296,7 @@ const sagas = [
     writers: "Brad Meltzer (roteiro) & Rags Morales (arte) — Identity Crisis #1–7, 2004"
   },
   {
-    id: 78, year: "2004", era: "modern", eraLabel: "Era Moderna",
+    id: 79, year: "2004", era: "modern", eraLabel: "Era Moderna",
     title: "Lanterna Verde: Renascimento",
     branches: ["lanterna-verde"],
     wikiSlugs: ["Green_Lantern:_Rebirth"],
@@ -1296,7 +1313,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ethan Van Sciver (arte) — Green Lantern: Rebirth #1–6, 2004–2005"
   },
   {
-    id: 79, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 80, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Lex Luthor: O Homem de Aço",
     branches: ["superman", "lex-luthor"],
     wikiSlugs: ["Lex_Luthor:_Man_of_Steel"],
@@ -1313,7 +1330,7 @@ const sagas = [
     writers: "Brian Azzarello (roteiro) & Lee Bermejo (arte) — Lex Luthor: Man of Steel #1–5, 2005"
   },
   {
-    id: 80, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 81, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Contagem Regressiva Para Crise Infinita",
     branches: ["liga"],
     wikiSlugs: ["Countdown_to_Infinite_Crisis"],
@@ -1330,7 +1347,7 @@ const sagas = [
     writers: "Geoff Johns, Greg Rucka, Judd Winick (roteiro) — Countdown to Infinite Crisis e minisséries relacionadas, 2005"
   },
   {
-    id: 81, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 82, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Crise Infinita",
     branches: ["multiverso"],
     wikiSlugs: ["Infinite_Crisis"],
@@ -1347,7 +1364,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Phil Jimenez, George Pérez e outros — Infinite Crisis #1–7, 2005–2006"
   },
   {
-    id: 82, year: "2005", era: "modern", eraLabel: "Era Moderna",
+    id: 83, year: "2005", era: "modern", eraLabel: "Era Moderna",
     title: "Sob o Capuz: O Retorno de Jason Todd",
     branches: ["batman"],
     wikiSlugs: ["Batman:_Under_the_Hood"],
@@ -1364,7 +1381,7 @@ const sagas = [
     writers: "Judd Winick (roteiro) & Doug Mahnke (arte) — Batman #635–641, 645–650, 2005–2006"
   },
   {
-    id: 83, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 84, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Filho Vermelho",
     branches: ["superman"],
     wikiSlugs: ["Superman:_Red_Son"],
@@ -1381,7 +1398,7 @@ const sagas = [
     writers: "Mark Millar (roteiro) & Dave Johnson e Kilian Plunkett (arte) — Superman: Red Son #1–3, 2003"
   },
   {
-    id: 84, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 85, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "All-Star Superman",
     branches: ["superman"],
     wikiSlugs: ["All-Star_Superman"],
@@ -1398,7 +1415,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & Frank Quitely (arte) — All-Star Superman #1–12, 2005–2008"
   },
   {
-    id: 85, year: "2006", era: "modern", eraLabel: "Era Moderna",
+    id: 86, year: "2006", era: "modern", eraLabel: "Era Moderna",
     title: "52 Semanas",
     branches: ["liga", "multiverso"],
     wikiSlugs: ["52_(comics)"],
@@ -1415,7 +1432,7 @@ const sagas = [
     writers: "Geoff Johns, Grant Morrison, Greg Rucka & Mark Waid (roteiro) — 52 #1–52, 2006–2007"
   },
   {
-    id: 86, year: "2007", era: "modern", eraLabel: "Era Moderna",
+    id: 87, year: "2007", era: "modern", eraLabel: "Era Moderna",
     title: "A Guerra dos Sinestro Corps",
     branches: ["lanterna-verde"],
     wikiSlugs: ["Sinestro_Corps_War"],
@@ -1432,7 +1449,7 @@ const sagas = [
     writers: "Geoff Johns & Dave Gibbons (roteiro), Ivan Reis, Patrick Gleason & Ethan Van Sciver (arte) — 2007"
   },
   {
-    id: 87, year: "2008", era: "modern", eraLabel: "Era Moderna",
+    id: 88, year: "2008", era: "modern", eraLabel: "Era Moderna",
     title: "Final Crisis",
     branches: ["liga", "batman"],
     wikiSlugs: ["Final_Crisis"],
@@ -1449,7 +1466,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & J.G. Jones, Carlos Pacheco, Doug Mahnke — Final Crisis #1–7, 2008–2009"
   },
   {
-    id: 88, year: "2008", era: "modern", eraLabel: "Era Moderna",
+    id: 89, year: "2008", era: "modern", eraLabel: "Era Moderna",
     title: "Superman: Fase Novo Krypton",
     branches: ["superman"],
     wikiSlugs: ["Superman:_New_Krypton"],
@@ -1466,7 +1483,7 @@ const sagas = [
     writers: "Geoff Johns, James Robinson & Sterling Gates (roteiro), Gary Frank e outros (arte) — Superman: New Krypton, 2008–2009"
   },
   {
-    id: 89, year: "2009", era: "modern", eraLabel: "Era Moderna",
+    id: 90, year: "2009", era: "modern", eraLabel: "Era Moderna",
     title: "Lanterna Verde: Blackest Night",
     branches: ["lanterna-verde"],
     wikiSlugs: ["Blackest_Night"],
@@ -1483,7 +1500,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis (arte) — Blackest Night #0–8 + tie-ins, 2009–2010"
   },
   {
-    id: 90, year: "2009", era: "modern", eraLabel: "Era Moderna",
+    id: 91, year: "2009", era: "modern", eraLabel: "Era Moderna",
     title: "Flash: Renascido",
     branches: ["flash"],
     wikiSlugs: ["The_Flash:_Rebirth"],
@@ -1500,7 +1517,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ethan Van Sciver (arte) — The Flash: Rebirth #1–6, 2009–2010"
   },
   {
-    id: 91, year: "2010", era: "modern", eraLabel: "Era Moderna",
+    id: 92, year: "2010", era: "modern", eraLabel: "Era Moderna",
     title: "O Dia Mais Claro",
     branches: ["liga"],
     wikiSlugs: ["Brightest_Day"],
@@ -1517,7 +1534,7 @@ const sagas = [
     writers: "Geoff Johns & Peter Tomasi (roteiro), Ivan Reis & Patrick Gleason (arte) — Brightest Day #0–24, 2010–2011"
   },
   {
-    id: 92, year: "2011", era: "modern", eraLabel: "Era Moderna",
+    id: 93, year: "2011", era: "modern", eraLabel: "Era Moderna",
     title: "Flashpoint",
     branches: ["flash", "multiverso"],
     wikiSlugs: ["Flashpoint_(comics)"],
@@ -1534,7 +1551,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Andy Kubert (arte) — Flashpoint #1–5, 2011"
   },
   {
-    id: 93, year: "2011", era: "new52", eraLabel: "New 52",
+    id: 94, year: "2011", era: "new52", eraLabel: "New 52",
     title: "New 52: Reinício do Universo DC",
     branches: ["multiverso"],
     wikiSlugs: ["The_New_52"],
@@ -1551,7 +1568,7 @@ const sagas = [
     writers: "Múltiplos autores, coordenação de Geoff Johns e Dan DiDio — Setembro de 2011"
   },
   {
-    id: 94, year: "2011", era: "new52", eraLabel: "New 52",
+    id: 95, year: "2011", era: "new52", eraLabel: "New 52",
     title: "Liga da Justiça: Origem (Novos 52)",
     branches: ["liga"],
     wikiSlugs: ["Justice_League:_Origin", "Justice_League_(2011_comic_book)"],
@@ -1568,7 +1585,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Jim Lee (arte) — Justice League Vol. 2 #1–6, 2011–2012"
   },
   {
-    id: 95, year: "2011", era: "new52", eraLabel: "New 52",
+    id: 96, year: "2011", era: "new52", eraLabel: "New 52",
     title: "Mulher-Maravilha: Sangue (New 52)",
     branches: ["mulher-maravilha"],
     wikiSlugs: ["Wonder_Woman_(comic_book)", "Brian_Azzarello"],
@@ -1585,7 +1602,7 @@ const sagas = [
     writers: "Brian Azzarello (roteiro) & Cliff Chiang (arte) — Wonder Woman Vol. 4 #1–6, 2011–2012"
   },
   {
-    id: 96, year: "2012", era: "new52", eraLabel: "New 52",
+    id: 97, year: "2012", era: "new52", eraLabel: "New 52",
     title: "Batman: Corte da Coruja",
     branches: ["batman"],
     wikiSlugs: ["Batman_(comic_book)", "Court_of_Owls", "Scott_Snyder"],
@@ -1602,7 +1619,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Batman Vol. 2 #1–11, 2011–2012"
   },
   {
-    id: 97, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 98, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Trono de Atlântida",
     branches: ["aquaman", "liga"],
     wikiSlugs: ["Throne_of_Atlantis"],
@@ -1619,7 +1636,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis (arte) — Justice League #15–17 / Aquaman #15–16, 2012–2013"
   },
   {
-    id: 98, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 99, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Guerra da Trindade",
     branches: ["liga"],
     wikiSlugs: ["Trinity_War"],
@@ -1636,7 +1653,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Ivan Reis, David Finch (arte) — Justice League #22 / Justice League of America #6 / Justice League Dark #22, 2013"
   },
   {
-    id: 99, year: "2013", era: "new52", eraLabel: "New 52",
+    id: 100, year: "2013", era: "new52", eraLabel: "New 52",
     title: "Vilania Eterna",
     branches: ["liga"],
     wikiSlugs: ["Forever_Evil"],
@@ -1653,7 +1670,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & David Finch (arte) — Forever Evil #1–7, 2013–2014"
   },
   {
-    id: 100, year: "2014", era: "new52", eraLabel: "New 52",
+    id: 101, year: "2014", era: "new52", eraLabel: "New 52",
     title: "Fim dos Tempos",
     branches: ["liga"],
     wikiSlugs: ["The_New_52:_Futures_End"],
@@ -1670,7 +1687,7 @@ const sagas = [
     writers: "Brian Azzarello, Keith Giffen, Dan Jurgens & Jeff Lemire (roteiro) — The New 52: Futures End #0–48, 2014–2015"
   },
   {
-    id: 101, year: "2014", era: "new52", eraLabel: "New 52",
+    id: 102, year: "2014", era: "new52", eraLabel: "New 52",
     title: "The Multiversity",
     branches: ["multiverso"],
     wikiSlugs: ["The_Multiversity"],
@@ -1687,7 +1704,7 @@ const sagas = [
     writers: "Grant Morrison (roteiro) & múltiplos artistas — The Multiversity #1–2 + one-shots, 2014–2015"
   },
   {
-    id: 102, year: "2015", era: "new52", eraLabel: "New 52",
+    id: 103, year: "2015", era: "new52", eraLabel: "New 52",
     title: "A Guerra de Darkseid",
     branches: ["liga"],
     wikiSlugs: ["Darkseid_War"],
@@ -1704,7 +1721,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Jason Fabok (arte) — Justice League #40–50, 2015–2016"
   },
   {
-    id: 103, year: "2015", era: "new52", eraLabel: "New 52",
+    id: 104, year: "2015", era: "new52", eraLabel: "New 52",
     title: "Convergência",
     branches: ["multiverso"],
     wikiSlugs: ["Convergence_(comics)"],
@@ -1721,7 +1738,7 @@ const sagas = [
     writers: "Jeff King, Scott Lobdell & Dan Jurgens (roteiro), múltiplos artistas — Convergence #0–8 + tie-ins, 2015"
   },
   {
-    id: 104, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 105, year: "2016", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC Rebirth: O Universo Volta",
     branches: ["flash", "multiverso"],
     wikiSlugs: ["DC_Rebirth"],
@@ -1738,7 +1755,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Gary Frank, Ethan Van Sciver e outros — DC Universe: Rebirth #1, 2016"
   },
   {
-    id: 105, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 106, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Batman: A Maldição do Barão Branco",
     branches: ["batman"],
     wikiSlugs: ["Batman:_White_Knight"],
@@ -1755,7 +1772,7 @@ const sagas = [
     writers: "Sean Murphy (roteiro e arte) — Batman: White Knight #1–8, 2017–2018"
   },
   {
-    id: 106, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 107, year: "2017", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Doomsday Clock",
     branches: ["multiverso"],
     wikiSlugs: ["Doomsday_Clock_(comics)"],
@@ -1772,7 +1789,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Gary Frank (arte) — Doomsday Clock #1–12, 2017–2019"
   },
   {
-    id: 107, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 108, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Metal",
     branches: ["batman", "liga"],
     wikiSlugs: ["Dark_Nights:_Metal"],
@@ -1789,7 +1806,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Dark Nights: Metal #1–6, 2017–2018"
   },
   {
-    id: 108, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 109, year: "2018", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Liga da Justiça: Sem Justiça",
     branches: ["liga"],
     wikiSlugs: ["Justice_League_(comic_book)", "Scott_Snyder"],
@@ -1806,7 +1823,7 @@ const sagas = [
     writers: "Scott Snyder, James Tynion IV & Joshua Williamson (roteiro), Francis Manapul (arte) — Justice League: No Justice #1–4, 2018"
   },
   {
-    id: 109, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 110, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Batman: Os Três Coringas",
     branches: ["batman"],
     wikiSlugs: ["Batman:_Three_Jokers"],
@@ -1823,7 +1840,7 @@ const sagas = [
     writers: "Geoff Johns (roteiro) & Jason Fabok (arte) — Batman: Three Jokers #1–3, 2020"
   },
   {
-    id: 110, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 111, year: "2020", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "Dark Nights: Death Metal",
     branches: ["liga", "batman"],
     wikiSlugs: ["Dark_Nights:_Death_Metal"],
@@ -1840,7 +1857,7 @@ const sagas = [
     writers: "Scott Snyder (roteiro) & Greg Capullo (arte) — Dark Nights: Death Metal #1–7, 2020–2021"
   },
   {
-    id: 111, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
+    id: 112, year: "2024", era: "rebirth", eraLabel: "Rebirth / Dawn",
     title: "DC K.O.: Absolute Power",
     branches: ["liga"],
     wikiSlugs: ["DC_K.O.", "Absolute_Power_(comics)", "Amanda_Waller"],
@@ -1887,11 +1904,12 @@ const branchInfo = {
   "lex-luthor":       { label: "Lex Luthor",           color: "#5B8C3E", icon: "🧪" },
   "patrulha-destino": { label: "Patrulha do Destino",   color: "#B83280", icon: "🌀" },
   "animal-man":       { label: "Animal Man",            color: "#E07A1F", icon: "🐾" },
-  "sandman":          { label: "Sandman",                color: "#2B2B40", icon: "🌙" }
+  "sandman":          { label: "Sandman",                color: "#2B2B40", icon: "🌙" },
+  "swamp-thing":      { label: "Monstro do Pântano",     color: "#2D6A4F", icon: "🌿" }
 };
 
 // Ordem de exibição dos ramos no seletor
-const branchOrder = ["batman", "superman", "mulher-maravilha", "flash", "lanterna-verde", "aquaman", "liga", "shazam", "esquadrao-suicida", "titas", "lex-luthor", "patrulha-destino", "animal-man", "sandman"];
+const branchOrder = ["batman", "superman", "mulher-maravilha", "flash", "lanterna-verde", "aquaman", "liga", "shazam", "esquadrao-suicida", "titas", "lex-luthor", "patrulha-destino", "animal-man", "sandman", "swamp-thing"];
 
 // Estado atual do "modo expandir": null = trilha principal completa, ou um id de branch
 let activeBranch = null;
